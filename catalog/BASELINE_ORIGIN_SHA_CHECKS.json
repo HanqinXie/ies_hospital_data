@@ -1,0 +1,223 @@
+{
+  "status": "passed",
+  "historical_aliases": 12,
+  "file_hash_checks": 24,
+  "checks": [
+    {
+      "label": "A_T01_U_e7ecca7104",
+      "kind": "segments",
+      "file_id": "f002190",
+      "expected_sha256": "db8a29a89ac4ee3e60f254cb0e1827fde4d3e9f61fb0ca1d636fc77d92c4a03b",
+      "actual_sha256": "db8a29a89ac4ee3e60f254cb0e1827fde4d3e9f61fb0ca1d636fc77d92c4a03b",
+      "match": true,
+      "logical_path": "raw/hospital_ies_cooling_dynamics_20261104_u_fix01/runs/T01_U_attempt02/SEGMENTS.jsonl"
+    },
+    {
+      "label": "A_T01_U_e7ecca7104",
+      "kind": "result",
+      "file_id": "f002189",
+      "expected_sha256": "4305a39daffa03f7ffc42efe1e09294eba5ac7114f3ea58ee42efd4da2863fb8",
+      "actual_sha256": "4305a39daffa03f7ffc42efe1e09294eba5ac7114f3ea58ee42efd4da2863fb8",
+      "match": true,
+      "logical_path": "raw/hospital_ies_cooling_dynamics_20261104_u_fix01/runs/T01_U_attempt02/RESULT.json"
+    },
+    {
+      "label": "A_T01_R_17c2df2012",
+      "kind": "segments",
+      "file_id": "f002129",
+      "expected_sha256": "55bddb32e99176b9fd1a517629294ae023fe5c14d34b17451c5a285245f2f5df",
+      "actual_sha256": "55bddb32e99176b9fd1a517629294ae023fe5c14d34b17451c5a285245f2f5df",
+      "match": true,
+      "logical_path": "raw/hospital_ies_cooling_dynamics_20261104_run01/runs/T01_R_attempt05/SEGMENTS.jsonl"
+    },
+    {
+      "label": "A_T01_R_17c2df2012",
+      "kind": "result",
+      "file_id": "f002128",
+      "expected_sha256": "6c9db2d18c6b40a0c77076a8e41f8fe8cb35bb1b40f6121077e50af2558845b2",
+      "actual_sha256": "6c9db2d18c6b40a0c77076a8e41f8fe8cb35bb1b40f6121077e50af2558845b2",
+      "match": true,
+      "logical_path": "raw/hospital_ies_cooling_dynamics_20261104_run01/runs/T01_R_attempt05/RESULT.json"
+    },
+    {
+      "label": "A_T02_U_11c29a9dad",
+      "kind": "segments",
+      "file_id": "f002201",
+      "expected_sha256": "6ce261d018e5ad32fd799dbb2abf3433f9b314446682ae81a121d9d177af2ec9",
+      "actual_sha256": "6ce261d018e5ad32fd799dbb2abf3433f9b314446682ae81a121d9d177af2ec9",
+      "match": true,
+      "logical_path": "raw/hospital_ies_cooling_dynamics_20261104_u_fix01/runs/T02_U_attempt02/SEGMENTS.jsonl"
+    },
+    {
+      "label": "A_T02_U_11c29a9dad",
+      "kind": "result",
+      "file_id": "f002200",
+      "expected_sha256": "51544b73c90e266c828fc991f6b52fec8aeb9a17497157cb4f45ea0c6953b2a3",
+      "actual_sha256": "51544b73c90e266c828fc991f6b52fec8aeb9a17497157cb4f45ea0c6953b2a3",
+      "match": true,
+      "logical_path": "raw/hospital_ies_cooling_dynamics_20261104_u_fix01/runs/T02_U_attempt02/RESULT.json"
+    },
+    {
+      "label": "A_T02_R_65ff478e03",
+      "kind": "segments",
+      "file_id": "f002140",
+      "expected_sha256": "d6ef81945e00d9232b986015542a927125aa5feca1cf68329a6375c256bcf4ee",
+      "actual_sha256": "d6ef81945e00d9232b986015542a927125aa5feca1cf68329a6375c256bcf4ee",
+      "match": true,
+      "logical_path": "raw/hospital_ies_cooling_dynamics_20261104_run01/runs/T02_R_attempt02/SEGMENTS.jsonl"
+    },
+    {
+      "label": "A_T02_R_65ff478e03",
+      "kind": "result",
+      "file_id": "f002139",
+      "expected_sha256": "e82919672efa8aaa6967fa92b13768107e87f74fccf880eaed5bb57216611c4d",
+      "actual_sha256": "e82919672efa8aaa6967fa92b13768107e87f74fccf880eaed5bb57216611c4d",
+      "match": true,
+      "logical_path": "raw/hospital_ies_cooling_dynamics_20261104_run01/runs/T02_R_attempt02/RESULT.json"
+    },
+    {
+      "label": "A_T03_U_afabb38092",
+      "kind": "segments",
+      "file_id": "f002212",
+      "expected_sha256": "6b06cb85310bcb34eac0e1da1f951f1735ce2930264b344519bed344f226603c",
+      "actual_sha256": "6b06cb85310bcb34eac0e1da1f951f1735ce2930264b344519bed344f226603c",
+      "match": true,
+      "logical_path": "raw/hospital_ies_cooling_dynamics_20261104_u_fix01/runs/T03_U_attempt01/SEGMENTS.jsonl"
+    },
+    {
+      "label": "A_T03_U_afabb38092",
+      "kind": "result",
+      "file_id": "f002211",
+      "expected_sha256": "e36d125a9311e7a8243df5532b3c57d117eb23641df73e2fc0e3732fdb494b7d",
+      "actual_sha256": "e36d125a9311e7a8243df5532b3c57d117eb23641df73e2fc0e3732fdb494b7d",
+      "match": true,
+      "logical_path": "raw/hospital_ies_cooling_dynamics_20261104_u_fix01/runs/T03_U_attempt01/RESULT.json"
+    },
+    {
+      "label": "A_T03_R_98cf0e8102",
+      "kind": "segments",
+      "file_id": "f002151",
+      "expected_sha256": "946292d9acf435e319ce3c0771504260d40603666e6dc36b03b57bf55e750fbc",
+      "actual_sha256": "946292d9acf435e319ce3c0771504260d40603666e6dc36b03b57bf55e750fbc",
+      "match": true,
+      "logical_path": "raw/hospital_ies_cooling_dynamics_20261104_run01/runs/T03_R_attempt02/SEGMENTS.jsonl"
+    },
+    {
+      "label": "A_T03_R_98cf0e8102",
+      "kind": "result",
+      "file_id": "f002150",
+      "expected_sha256": "d901bddf07e69f970ecc061cf9952b1c59893a9d46b934c7e65162e4110525fa",
+      "actual_sha256": "d901bddf07e69f970ecc061cf9952b1c59893a9d46b934c7e65162e4110525fa",
+      "match": true,
+      "logical_path": "raw/hospital_ies_cooling_dynamics_20261104_run01/runs/T03_R_attempt02/RESULT.json"
+    },
+    {
+      "label": "A_T04_U_35d9f83048",
+      "kind": "segments",
+      "file_id": "f002223",
+      "expected_sha256": "8c2ad3bb18c3e50fe824cfd26279048f08870ffe9280a1678f7d072552843133",
+      "actual_sha256": "8c2ad3bb18c3e50fe824cfd26279048f08870ffe9280a1678f7d072552843133",
+      "match": true,
+      "logical_path": "raw/hospital_ies_cooling_dynamics_20261104_u_fix01/runs/T04_U_attempt01/SEGMENTS.jsonl"
+    },
+    {
+      "label": "A_T04_U_35d9f83048",
+      "kind": "result",
+      "file_id": "f002222",
+      "expected_sha256": "42cfba57f21eeeed335d9aa5c5d23d48dcc15b3e457d0741fa6a14e65d946e66",
+      "actual_sha256": "42cfba57f21eeeed335d9aa5c5d23d48dcc15b3e457d0741fa6a14e65d946e66",
+      "match": true,
+      "logical_path": "raw/hospital_ies_cooling_dynamics_20261104_u_fix01/runs/T04_U_attempt01/RESULT.json"
+    },
+    {
+      "label": "A_T04_R_a1deb0ff4c",
+      "kind": "segments",
+      "file_id": "f002162",
+      "expected_sha256": "0ba885a6285d68d753f175ee7ad0d5d5eee994156dea87ec12f4744f5fbe155d",
+      "actual_sha256": "0ba885a6285d68d753f175ee7ad0d5d5eee994156dea87ec12f4744f5fbe155d",
+      "match": true,
+      "logical_path": "raw/hospital_ies_cooling_dynamics_20261104_run01/runs/T04_R_attempt01/SEGMENTS.jsonl"
+    },
+    {
+      "label": "A_T04_R_a1deb0ff4c",
+      "kind": "result",
+      "file_id": "f002161",
+      "expected_sha256": "9039a9b7e7b165d6e594b9ce5c85ce9e6347a4390fd0f8fea811460d9724f7b4",
+      "actual_sha256": "9039a9b7e7b165d6e594b9ce5c85ce9e6347a4390fd0f8fea811460d9724f7b4",
+      "match": true,
+      "logical_path": "raw/hospital_ies_cooling_dynamics_20261104_run01/runs/T04_R_attempt01/RESULT.json"
+    },
+    {
+      "label": "A_T05_U_27ba84f3f1",
+      "kind": "segments",
+      "file_id": "f000540",
+      "expected_sha256": "80cfda6e27d028e6ae23a3d62aa2f1dcd07d416549293e8b80fc0445a09c2592",
+      "actual_sha256": "80cfda6e27d028e6ae23a3d62aa2f1dcd07d416549293e8b80fc0445a09c2592",
+      "match": true,
+      "logical_path": "raw/hospital_ies_single_unit_20261104_run01/runs/TOWER_U_attempt01/SEGMENTS.jsonl"
+    },
+    {
+      "label": "A_T05_U_27ba84f3f1",
+      "kind": "result",
+      "file_id": "f000539",
+      "expected_sha256": "483888aa3508834431c2edf179e7c463c28dee86bb02d0eb9d21ea367dd8954a",
+      "actual_sha256": "483888aa3508834431c2edf179e7c463c28dee86bb02d0eb9d21ea367dd8954a",
+      "match": true,
+      "logical_path": "raw/hospital_ies_single_unit_20261104_run01/runs/TOWER_U_attempt01/RESULT.json"
+    },
+    {
+      "label": "A_T05_R_bb1c3943b8",
+      "kind": "segments",
+      "file_id": "f000516",
+      "expected_sha256": "f8abd4d436dd65fc3e9165ef093ccdf5be5f63aef11fc70c8c0218495ca2889a",
+      "actual_sha256": "f8abd4d436dd65fc3e9165ef093ccdf5be5f63aef11fc70c8c0218495ca2889a",
+      "match": true,
+      "logical_path": "raw/hospital_ies_single_unit_20261104_run01/runs/TOWER_R_attempt01/SEGMENTS.jsonl"
+    },
+    {
+      "label": "A_T05_R_bb1c3943b8",
+      "kind": "result",
+      "file_id": "f000515",
+      "expected_sha256": "444b9f2d99a6e92a7e467a3784a287891252a01b27d1a9b8169020185f64e7a0",
+      "actual_sha256": "444b9f2d99a6e92a7e467a3784a287891252a01b27d1a9b8169020185f64e7a0",
+      "match": true,
+      "logical_path": "raw/hospital_ies_single_unit_20261104_run01/runs/TOWER_R_attempt01/RESULT.json"
+    },
+    {
+      "label": "A_T07_U_70f2c48e07",
+      "kind": "segments",
+      "file_id": "f002234",
+      "expected_sha256": "284bd2dc3a356302d73c3b1f4e3e0efbc8ab76055abc3edf77dfa05f35419d4e",
+      "actual_sha256": "284bd2dc3a356302d73c3b1f4e3e0efbc8ab76055abc3edf77dfa05f35419d4e",
+      "match": true,
+      "logical_path": "raw/hospital_ies_cooling_dynamics_20261104_u_fix01/runs/T07_U_attempt01/SEGMENTS.jsonl"
+    },
+    {
+      "label": "A_T07_U_70f2c48e07",
+      "kind": "result",
+      "file_id": "f002233",
+      "expected_sha256": "6d1594ceaf08e7ec41f4d0c9e4b2f08efc5bcc84925c26839a4400db681fffbd",
+      "actual_sha256": "6d1594ceaf08e7ec41f4d0c9e4b2f08efc5bcc84925c26839a4400db681fffbd",
+      "match": true,
+      "logical_path": "raw/hospital_ies_cooling_dynamics_20261104_u_fix01/runs/T07_U_attempt01/RESULT.json"
+    },
+    {
+      "label": "A_T07_R_0766cf6474",
+      "kind": "segments",
+      "file_id": "f002173",
+      "expected_sha256": "338651c312991c466569ecba80156d99d50378b35a22c2dadcc6b18e25fea9b8",
+      "actual_sha256": "338651c312991c466569ecba80156d99d50378b35a22c2dadcc6b18e25fea9b8",
+      "match": true,
+      "logical_path": "raw/hospital_ies_cooling_dynamics_20261104_run01/runs/T07_R_attempt01/SEGMENTS.jsonl"
+    },
+    {
+      "label": "A_T07_R_0766cf6474",
+      "kind": "result",
+      "file_id": "f002172",
+      "expected_sha256": "1856e7f7aecc7f4396c8778684cdf08dfce0dc530f717b7b3365af8172e691f9",
+      "actual_sha256": "1856e7f7aecc7f4396c8778684cdf08dfce0dc530f717b7b3365af8172e691f9",
+      "match": true,
+      "logical_path": "raw/hospital_ies_cooling_dynamics_20261104_run01/runs/T07_R_attempt01/RESULT.json"
+    }
+  ]
+}

@@ -1,0 +1,868 @@
+{
+  "schema": "ies_hospital_data.scope_core_selection.v1",
+  "created_utc": "2026-11-09T16:49:48.487597+00:00",
+  "scope": "Exact existing raw files, stopped prefixes, finite-window CASE and source/attempt/audit metadata for groups A B C E F H only. No remote actions, copies, model/test execution or large-file hashing.",
+  "file_list": "E:\\ies_hospital_data_upload_20261110\\scope_core_files.json",
+  "file_count": 822,
+  "unique_source_paths": 822,
+  "total_bytes": 36980885723,
+  "group_counts_nonadditive": {
+    "A": {
+      "files": 185,
+      "bytes": 5179871189,
+      "count_includes_shared_source_paths": true
+    },
+    "B": {
+      "files": 139,
+      "bytes": 15190701128,
+      "count_includes_shared_source_paths": true
+    },
+    "C": {
+      "files": 108,
+      "bytes": 4368858097,
+      "count_includes_shared_source_paths": true
+    },
+    "E": {
+      "files": 112,
+      "bytes": 5233543768,
+      "count_includes_shared_source_paths": true
+    },
+    "F": {
+      "files": 263,
+      "bytes": 13836439445,
+      "count_includes_shared_source_paths": true
+    },
+    "H": {
+      "files": 95,
+      "bytes": 1911023125,
+      "count_includes_shared_source_paths": true
+    }
+  },
+  "physical_roots": {
+    "hospital_ies_cooling_dynamics_20261104_run01": {
+      "files": 59,
+      "bytes": 6451150099
+    },
+    "hospital_ies_fixed_branch_replot_20261105_run03": {
+      "files": 263,
+      "bytes": 13836439445
+    },
+    "hospital_ies_recovery_dispatch_20261104_run01": {
+      "files": 74,
+      "bytes": 3479870401
+    },
+    "hospital_ies_recovery_steam_20261104_run01": {
+      "files": 38,
+      "bytes": 1753673367
+    },
+    "hospital_ies_single_unit_20261104_run01": {
+      "files": 108,
+      "bytes": 4368858097
+    },
+    "hospital_ies_source_partition_fix_20261105_run01": {
+      "files": 280,
+      "bytes": 7090894314
+    }
+  },
+  "selected_attempts": [
+    {
+      "group": "A",
+      "topic": "T01",
+      "run_path": "E:\\hospital_ies_source_partition_fix_20261105_run01\\campaign03\\runs\\T01_attempt01"
+    },
+    {
+      "group": "A",
+      "topic": "T02",
+      "run_path": "E:\\hospital_ies_source_partition_fix_20261105_run01\\campaign03\\runs\\T02_attempt01"
+    },
+    {
+      "group": "A",
+      "topic": "T03",
+      "run_path": "E:\\hospital_ies_source_partition_fix_20261105_run01\\campaign03\\runs\\T03_attempt01"
+    },
+    {
+      "group": "A",
+      "topic": "T04",
+      "run_path": "E:\\hospital_ies_source_partition_fix_20261105_run01\\campaign03\\runs\\T04_attempt01"
+    },
+    {
+      "group": "A",
+      "topic": "T05",
+      "run_path": "E:\\hospital_ies_source_partition_fix_20261105_run01\\campaign03\\runs\\T05_attempt01"
+    },
+    {
+      "group": "A",
+      "topic": "T06",
+      "run_path": "E:\\hospital_ies_source_partition_fix_20261105_run01\\campaign03\\runs\\T06_attempt01"
+    },
+    {
+      "group": "A",
+      "topic": "T07",
+      "run_path": "E:\\hospital_ies_source_partition_fix_20261105_run01\\campaign03\\runs\\T07_attempt01"
+    },
+    {
+      "group": "A",
+      "topic": "T08",
+      "run_path": "E:\\hospital_ies_source_partition_fix_20261105_run01\\campaign03\\runs\\T08_attempt01"
+    },
+    {
+      "group": "B",
+      "role": "normal",
+      "run_path": "E:\\hospital_ies_cooling_dynamics_20261104_run01\\runs\\T01_N_attempt05",
+      "logical_topics": [
+        "T01"
+      ]
+    },
+    {
+      "group": "B",
+      "role": "normal",
+      "run_path": "E:\\hospital_ies_cooling_dynamics_20261104_run01\\runs\\T02_N_attempt05",
+      "logical_topics": [
+        "T02"
+      ]
+    },
+    {
+      "group": "B",
+      "role": "normal",
+      "run_path": "E:\\hospital_ies_cooling_dynamics_20261104_run01\\runs\\T03_N_attempt02",
+      "logical_topics": [
+        "T03",
+        "T04",
+        "T05",
+        "T08"
+      ]
+    },
+    {
+      "group": "B",
+      "role": "normal",
+      "run_path": "E:\\hospital_ies_cooling_dynamics_20261104_run01\\runs\\T06_N_attempt01",
+      "logical_topics": [
+        "T06"
+      ]
+    },
+    {
+      "group": "B",
+      "role": "normal",
+      "run_path": "E:\\hospital_ies_cooling_dynamics_20261104_run01\\runs\\T07_N_attempt01",
+      "logical_topics": [
+        "T07"
+      ]
+    },
+    {
+      "group": "F",
+      "topic": "T01",
+      "run_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T01_attempt01"
+    },
+    {
+      "group": "F",
+      "topic": "T02",
+      "run_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T02_attempt01"
+    },
+    {
+      "group": "F",
+      "topic": "T03",
+      "run_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T03_attempt01"
+    },
+    {
+      "group": "F",
+      "topic": "T04",
+      "run_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T04_attempt01"
+    },
+    {
+      "group": "F",
+      "topic": "T05",
+      "run_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T05_attempt01"
+    },
+    {
+      "group": "F",
+      "topic": "T06",
+      "run_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T06_attempt01"
+    },
+    {
+      "group": "F",
+      "topic": "T07",
+      "run_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T07_attempt01"
+    },
+    {
+      "group": "F",
+      "topic": "T08",
+      "run_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T08_attempt01"
+    },
+    {
+      "group": "C",
+      "run_path": "E:\\hospital_ies_single_unit_20261104_run01\\runs\\PUMP_R_attempt01"
+    },
+    {
+      "group": "C",
+      "run_path": "E:\\hospital_ies_single_unit_20261104_run01\\runs\\PUMP_U0_attempt01"
+    },
+    {
+      "group": "C",
+      "run_path": "E:\\hospital_ies_single_unit_20261104_run01\\runs\\PUMP_U_attempt01"
+    },
+    {
+      "group": "C",
+      "run_path": "E:\\hospital_ies_single_unit_20261104_run01\\runs\\TOWER_R_attempt01"
+    },
+    {
+      "group": "C",
+      "run_path": "E:\\hospital_ies_single_unit_20261104_run01\\runs\\TOWER_U0_attempt01"
+    },
+    {
+      "group": "C",
+      "run_path": "E:\\hospital_ies_single_unit_20261104_run01\\runs\\TOWER_U_attempt01"
+    },
+    {
+      "group": "E",
+      "run_path": "E:\\hospital_ies_recovery_dispatch_20261104_run01\\runs\\T05_R1_attempt01"
+    },
+    {
+      "group": "E",
+      "run_path": "E:\\hospital_ies_recovery_dispatch_20261104_run01\\runs\\T05_R1_attempt02"
+    },
+    {
+      "group": "E",
+      "run_path": "E:\\hospital_ies_recovery_dispatch_20261104_run01\\runs\\T06_R1_attempt01"
+    },
+    {
+      "group": "E",
+      "run_path": "E:\\hospital_ies_recovery_steam_20261104_run01\\runs\\T05_R2_attempt01"
+    },
+    {
+      "group": "H",
+      "run_path": "E:\\hospital_ies_source_partition_fix_20261105_run01\\campaign\\runs\\T01_attempt01"
+    },
+    {
+      "group": "H",
+      "run_path": "E:\\hospital_ies_source_partition_fix_20261105_run01\\campaign\\runs\\T02_attempt01"
+    },
+    {
+      "group": "H",
+      "run_path": "E:\\hospital_ies_source_partition_fix_20261105_run01\\campaign\\runs\\T03_attempt01"
+    },
+    {
+      "group": "H",
+      "run_path": "E:\\hospital_ies_source_partition_fix_20261105_run01\\campaign02\\runs\\T01_attempt01"
+    },
+    {
+      "group": "H",
+      "run_path": "E:\\hospital_ies_source_partition_fix_20261105_run01\\campaign02\\runs\\T02_attempt01"
+    },
+    {
+      "group": "H",
+      "run_path": "E:\\hospital_ies_source_partition_fix_20261105_run01\\campaign02\\runs\\T03_attempt01"
+    },
+    {
+      "group": "H",
+      "run_path": "E:\\hospital_ies_source_partition_fix_20261105_run01\\campaign02\\runs\\T04_attempt01"
+    }
+  ],
+  "source_path_reuse": [
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T01_attempt01\\R\\DECISIONS.jsonl",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T01_attempt01\\R\\ENGINEERING_AUDIT.json",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T01_attempt01\\R\\EVENTS.jsonl",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T01_attempt01\\R\\INITIAL_STATE.json",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T01_attempt01\\R\\PROGRESS.json",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T01_attempt01\\R\\RESOLVED_CASE.json",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T01_attempt01\\R\\RESULT.json",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T01_attempt01\\R\\SEGMENTS.jsonl",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T01_attempt01\\R\\SOLVER_LOG.jsonl",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T01_attempt01\\R\\STATES.jsonl",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T02_attempt01\\R\\DECISIONS.jsonl",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T02_attempt01\\R\\ENGINEERING_AUDIT.json",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T02_attempt01\\R\\EVENTS.jsonl",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T02_attempt01\\R\\INITIAL_STATE.json",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T02_attempt01\\R\\PROGRESS.json",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T02_attempt01\\R\\RESOLVED_CASE.json",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T02_attempt01\\R\\RESULT.json",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T02_attempt01\\R\\SEGMENTS.jsonl",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T02_attempt01\\R\\SOLVER_LOG.jsonl",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T02_attempt01\\R\\STATES.jsonl",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T03_attempt01\\R\\DECISIONS.jsonl",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T03_attempt01\\R\\ENGINEERING_AUDIT.json",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T03_attempt01\\R\\EVENTS.jsonl",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T03_attempt01\\R\\INITIAL_STATE.json",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T03_attempt01\\R\\PROGRESS.json",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T03_attempt01\\R\\RESOLVED_CASE.json",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T03_attempt01\\R\\RESULT.json",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T03_attempt01\\R\\SEGMENTS.jsonl",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T03_attempt01\\R\\SOLVER_LOG.jsonl",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T03_attempt01\\R\\STATES.jsonl",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T04_attempt01\\R\\DECISIONS.jsonl",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T04_attempt01\\R\\ENGINEERING_AUDIT.json",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T04_attempt01\\R\\EVENTS.jsonl",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T04_attempt01\\R\\INITIAL_STATE.json",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T04_attempt01\\R\\PROGRESS.json",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T04_attempt01\\R\\RESOLVED_CASE.json",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T04_attempt01\\R\\RESULT.json",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T04_attempt01\\R\\SEGMENTS.jsonl",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T04_attempt01\\R\\SOLVER_LOG.jsonl",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T04_attempt01\\R\\STATES.jsonl",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T05_attempt01\\R\\DECISIONS.jsonl",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T05_attempt01\\R\\ENGINEERING_AUDIT.json",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T05_attempt01\\R\\EVENTS.jsonl",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T05_attempt01\\R\\INITIAL_STATE.json",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T05_attempt01\\R\\PROGRESS.json",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T05_attempt01\\R\\RESOLVED_CASE.json",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T05_attempt01\\R\\RESULT.json",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T05_attempt01\\R\\SEGMENTS.jsonl",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T05_attempt01\\R\\SOLVER_LOG.jsonl",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T05_attempt01\\R\\STATES.jsonl",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T06_attempt01\\R\\DECISIONS.jsonl",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T06_attempt01\\R\\ENGINEERING_AUDIT.json",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T06_attempt01\\R\\EVENTS.jsonl",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T06_attempt01\\R\\INITIAL_STATE.json",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T06_attempt01\\R\\PROGRESS.json",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T06_attempt01\\R\\RESOLVED_CASE.json",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T06_attempt01\\R\\RESULT.json",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T06_attempt01\\R\\SEGMENTS.jsonl",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T06_attempt01\\R\\SOLVER_LOG.jsonl",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T06_attempt01\\R\\STATES.jsonl",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T07_attempt01\\R\\DECISIONS.jsonl",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T07_attempt01\\R\\ENGINEERING_AUDIT.json",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T07_attempt01\\R\\EVENTS.jsonl",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T07_attempt01\\R\\INITIAL_STATE.json",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T07_attempt01\\R\\PROGRESS.json",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T07_attempt01\\R\\RESOLVED_CASE.json",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T07_attempt01\\R\\RESULT.json",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T07_attempt01\\R\\SEGMENTS.jsonl",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T07_attempt01\\R\\SOLVER_LOG.jsonl",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T07_attempt01\\R\\STATES.jsonl",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T08_attempt01\\R\\DECISIONS.jsonl",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T08_attempt01\\R\\ENGINEERING_AUDIT.json",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T08_attempt01\\R\\EVENTS.jsonl",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T08_attempt01\\R\\INITIAL_STATE.json",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T08_attempt01\\R\\PROGRESS.json",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T08_attempt01\\R\\RESOLVED_CASE.json",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T08_attempt01\\R\\RESULT.json",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T08_attempt01\\R\\SEGMENTS.jsonl",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T08_attempt01\\R\\SOLVER_LOG.jsonl",
+      "groups": [
+        "B",
+        "F"
+      ]
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T08_attempt01\\R\\STATES.jsonl",
+      "groups": [
+        "B",
+        "F"
+      ]
+    }
+  ],
+  "missing_paths": [],
+  "excluded_non_raw_files": [],
+  "exclusions": [
+    "All images, figures, Markdown, FIG, model source trees, full CODE_SNAPSHOT.zip, ORIGINAL_POWER_FIGURES.zip, EnergyPlus, annual/8760 inputs, temp, LP/MPS",
+    "No hashes were computed; all byte counts use current file metadata."
+  ],
+  "deduplication": "One entry per same resolved source path. R references B/F mark reuse. N5 sources included once despite eight logical topic references. Distinct original paths retained regardless of apparent same bytes.",
+  "normal_sources": {
+    "E:\\hospital_ies_cooling_dynamics_20261104_run01\\runs\\T01_N_attempt05": [
+      "T01"
+    ],
+    "E:\\hospital_ies_cooling_dynamics_20261104_run01\\runs\\T02_N_attempt05": [
+      "T02"
+    ],
+    "E:\\hospital_ies_cooling_dynamics_20261104_run01\\runs\\T03_N_attempt02": [
+      "T03",
+      "T04",
+      "T05",
+      "T08"
+    ],
+    "E:\\hospital_ies_cooling_dynamics_20261104_run01\\runs\\T06_N_attempt01": [
+      "T06"
+    ],
+    "E:\\hospital_ies_cooling_dynamics_20261104_run01\\runs\\T07_N_attempt01": [
+      "T07"
+    ]
+  },
+  "scope_item_counts": {
+    "A_final_U_and_common_topics": 8,
+    "B_matched_R_original_topics": 8,
+    "B_unique_reused_normal_producers": 5,
+    "C_single_unit_attempts": 6,
+    "E_dispatch_attempts_including_failed": 3,
+    "E_steam_attempts": 1,
+    "F_prior_replot_common_U_R_topics": 8,
+    "H_stopped_campaign_prefix_topic_attempts": 7
+  },
+  "selection_verification": {
+    "source_paths_unique": true,
+    "archive_paths_unique": true,
+    "all_selected_source_files_exist": true,
+    "forbidden_extension_or_directory_matches": [],
+    "large_files_copied": false,
+    "large_files_hashed": false,
+    "remote_actions_performed": false
+  }
+}

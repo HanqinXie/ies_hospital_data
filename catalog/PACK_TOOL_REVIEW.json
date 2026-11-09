@@ -1,0 +1,344 @@
+{
+  "schema": "ies_hospital_data.pack_tool_independent_readonly_review.v1",
+  "reviewed_utc": "2026-11-09T17:07:40.252614+00:00",
+  "status": "resolved_static_full_verification_pending",
+  "review_method": "Read-only source and actual RED/GREEN/command logs. No tool edits, model/test execution, raw-data writes, payload hash reruns or remote operations by reviewer.",
+  "current_code_pins": [
+    {
+      "path": "E:\\ies_hospital_data_upload_20261110\\repo\\tools\\package_raw.py",
+      "bytes": 16012,
+      "sha256": "ae2bcf8fc24e906e1c4161f9c7c71763025427b1aa61e31d88e5b222fc7a614e"
+    },
+    {
+      "path": "E:\\ies_hospital_data_upload_20261110\\repo\\tools\\restore_raw.py",
+      "bytes": 17958,
+      "sha256": "98a53c5c20cf8be56d055b91d5fd0671600149393b7eaa20bfe8ed0b28b8d842"
+    },
+    {
+      "path": "E:\\ies_hospital_data_upload_20261110\\repo\\tools\\test_raw_tools.py",
+      "bytes": 10109,
+      "sha256": "56bedd41072fd0c94f9580ef8276c0df9879fa6e5b8641cb692e45897df820e3"
+    }
+  ],
+  "findings": [
+    {
+      "id": "R1_posix_no_clobber_race",
+      "severity": "medium",
+      "blocks_current_Windows_pack_or_verify": false,
+      "file": "repo/tools/restore_raw.py",
+      "lines": [
+        329,
+        331
+      ],
+      "problem": "Existing-target refusal uses exists() then Path.rename(). POSIX rename can overwrite a file created between the check and rename, so an unconditional cross-platform no-overwrite promise is too strong. Current Windows rename refuses existing targets.",
+      "recommendation": "Before claiming cross-platform no-clobber, use an atomic no-overwrite publish mechanism and add a concurrent-target regression. Do not alter the running pack implementation in place.",
+      "final_resolution": {
+        "status": "resolved_by_frozen_code_and_current_platform_regression",
+        "file": "repo/tools/restore_raw.py",
+        "lines": [
+          214,
+          225,
+          346
+        ],
+        "resolution": "publish_no_clobber uses Windows os.rename refusing existing destination or POSIX os.link(...,follow_symlinks=False) atomically creating the target before unlinking its temporary name. Restore now invokes this helper. Existing-target contents and temporary bytes are asserted unchanged on refusal.",
+        "platform_limit": "Observed14-test run was on Windows; POSIX hard-link branch was independently read but not executed by reviewer."
+      }
+    },
+    {
+      "id": "R2_tool_version_changed_during_review",
+      "severity": "provenance_limit",
+      "blocks_current_data_verification": false,
+      "observed_initial_sizes": {
+        "package_raw.py": 16955,
+        "restore_raw.py": 15789
+      },
+      "observed_later_sizes": {
+        "package_raw.py": 15920,
+        "restore_raw.py": 17138
+      },
+      "reviewer_modified_tools": false,
+      "problem": "The files on disk changed while a packaging process was already running. Startup nine-test GREEN is not proof that the later edited implementation passed the expanded test file.",
+      "recommendation": "Bind final distributed tools to current hashes and fresh helper-test evidence. Distinguish loaded pack-start code from the later verifier. A successful full verification with the final verifier can validate payload bytes independently of this code drift.",
+      "final_resolution": {
+        "status": "resolved_with_explicit_provenance_disclosure",
+        "resolution": "TOOL_VERSION_RECEIPT.json honestly preserves unknown launch-time SHA as null, records later changes and final tool hashes. Frozen verifier hashes its own implementation at run entry and exit, refuses drift, and reports verifier_tool_sha256. No original pack-start SHA was invented.",
+        "historical_limit_retained": "The initial loaded pack implementation remains not SHA-pinned; final full payload verification must use the frozen verifier."
+      }
+    },
+    {
+      "id": "R3_zero_length_test_gap",
+      "severity": "test_coverage_gap",
+      "zero_length_sources_in_real_scope": 38,
+      "blocks_on_static_logic": false,
+      "problem": "The observed initial nine-test suite has no explicit empty-file regression. The source scope does contain zero-byte files.",
+      "static_assessment": "Package creates one zero-byte fragment and SHA256(empty); verifier hashes it and restore creates/renames an empty file. No loss detected by code reading.",
+      "recommendation": "Add an isolated empty-source round-trip regression and require real full verification to count and validate all zero-byte sources.",
+      "final_resolution": {
+        "status": "resolved_by_real_zero_length_regression",
+        "resolution": "test_zero_length_source_roundtrip checks SHA256(empty), one zero-byte fragment, verify-only and restored byte equality. Included in14/14 frozen GREEN. All38 real zero-length originals must still pass the full manifest verification."
+      }
+    },
+    {
+      "id": "R4_nested_original_zip_secret_scan_limit",
+      "severity": "disclosed_limit",
+      "blocks_current_approved_scope": false,
+      "problem": "Original ZIP bytes are preserved and scanned as compressed bytes; their nested raw member bodies are not decompressed for secret scanning. Central-directory exclusion does not establish all compressed member content is credential-free.",
+      "recommendation": "Keep the existing explicit scan limitation; do not advertise complete nested-content secret clearance. No credential file or nested snapshot was found by the independent scope/central-directory review.",
+      "final_resolution": {
+        "status": "accepted_disclosed_limit_not_a_new_payload_clearance",
+        "resolution": "Original compressed ZIP bodies remain byte-preserved without nested decompression. The stated scan limitation remains accurate; no claim of complete compressed-body secret screening is made."
+      }
+    }
+  ],
+  "positive_assessments": {
+    "lossless_fragment_mapping": "Sequential offsets, bounded reads, per-fragment SHA, original-file streaming SHA, exact source lengths and scope metadata are recorded. Raw original ZIP byte streams are STORED; text streams are DEFLATE1.",
+    "zero_length_logic": "Exactly one zero-byte fragment per empty original; empty file SHA and restore creation are supported.",
+    "decimal_400MB_cap": "MAX_ASSET_BYTES=400000000, CLI bounds, sealed-asset actual-size checks and verifier manifest/actual size checks. Oversize .building fails rather than entering the sealed asset list. Default350MB raw target provides overhead margin.",
+    "zip_traversal": "Canonical PurePosix paths reject absolute, parent, backslash, colon, reserved Windows names and trailing dot/space; destination symlink/reparse checks and containment; fragment assets are validated before any restore writes.",
+    "scope_dedup": "Same normalized source path stores once with logical aliases/groups/roles; destination collision and parent-file conflicts are rejected. Independent scope review found0 collisions for2115 selected inputs.",
+    "failure_behavior": "Packaging records PACKAGING_FAILURE and rethrows. CLI returns nonzero; runner stops before verification on nonzero pack. Partial .building/sealed progress is not represented as final successful catalog.",
+    "verify_only": "Checks every asset SHA/central directory, reads every fragment body and recomputes fragment SHA plus the SHA of the entire reconstructed original file. It does not merely trust fragment lists. Final verifier also streams the plaintext secret scanner.",
+    "source_immutability": "Source files opened rb; lstat/fstat and before/after/end size+mtime checks, no source write/utime/delete path. This is not a defense against an adversary changing content while preserving size and mtime."
+  },
+  "actual_test_evidence": {
+    "red_initial": {
+      "path": "E:\\ies_hospital_data_upload_20261110\\tests_red.log",
+      "tests": 9,
+      "result": "9FAIL because required implementation files were initially absent; observed log only"
+    },
+    "green_initial": {
+      "path": "E:\\ies_hospital_data_upload_20261110\\tests_green_01.log",
+      "tests": 9,
+      "result": "OK; observed log only"
+    },
+    "green_pack_start": {
+      "path": "E:\\ies_hospital_data_upload_20261110\\logs\\tests_green_final.log",
+      "tests": 9,
+      "result": "OK",
+      "recorded_exit_code": 0
+    },
+    "short_wls_red": {
+      "path": "E:\\ies_hospital_data_upload_20261110\\logs\\tests_wls_red.log",
+      "tests": 1,
+      "result": "FAIL: prior scanner accepted a short nonempty WLSSECRET. Latest code moves a stronger scanner into restore_raw and verify-only, but no later GREEN was yet observed by reviewer.",
+      "followup": "Resolved by stronger shared scanner; test_short_nonempty_wlssecret_is_refused and empty/null cases pass in frozen14-test GREEN."
+    },
+    "current_test_file_contains": {
+      "short_nonempty_wlssecret_test": true,
+      "empty_null_wlssecret_test": true,
+      "explicit_zero_byte_roundtrip_test": true
+    },
+    "reviewer_ran_tests": false,
+    "final_frozen": {
+      "path": "E:\\ies_hospital_data_upload_20261110\\logs\\tests_green_frozen.log",
+      "tests": 14,
+      "result": "OK",
+      "recorded_exit_code": 0,
+      "source_of_exit_code": "TOOL_VERSION_RECEIPT.json",
+      "reviewer_ran_tests": false
+    }
+  },
+  "real_pack_observation": {
+    "status": "PACKING",
+    "sealed_asset_count_at_observation": 104,
+    "latest_max_sealed_asset_bytes": 36615768,
+    "pack_record": {
+      "name": "pack",
+      "argv": [
+        "C:\\Users\\HanqinXie\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+        "-u",
+        "E:\\ies_hospital_data_upload_20261110\\repo\\tools\\package_raw.py",
+        "--work-root",
+        "E:\\ies_hospital_data_upload_20261110",
+        "--scope",
+        "E:\\ies_hospital_data_upload_20261110\\scope_core_files.json",
+        "--scope",
+        "E:\\ies_hospital_data_upload_20261110\\scope_d_files.json",
+        "--scope",
+        "E:\\ies_hospital_data_upload_20261110\\scope_g_files.json"
+      ],
+      "started_utc": "2026-11-09T16:58:32.220739+00:00",
+      "exit_code": null
+    },
+    "full_verification_receipt_present": false,
+    "conclusion": "No claim of completed package or full-data verification made while packing is active."
+  },
+  "required_completion_gates": [
+    "Frozen helper14-test GREEN and exact requested code pins are now observed and resolved.",
+    "Pack exit0 and final manifest count/bytes equal approved2115source paths and56149811365bytes unless an explicitly reviewed scope revision occurs.",
+    "Final verify-only exit0 from frozen restore SHA98a53c5c20cf8be56d055b91d5fd0671600149393b7eaa20bfe8ed0b28b8d842, recording matching verifier_tool_sha256, all asset/fragment/reconstructed-file SHA and plaintext scan checks.",
+    "Keep release draft until full verification passes; preserve the unknown historical pack-launch SHA disclosure."
+  ],
+  "zero_length_scope_records": [
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T01_attempt01\\U\\SOLVER_LOG.jsonl",
+      "archive_path": "raw/hospital_ies_fixed_branch_replot_20261105_run03/runs/T01_attempt01/U/SOLVER_LOG.jsonl"
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T02_attempt01\\U\\SOLVER_LOG.jsonl",
+      "archive_path": "raw/hospital_ies_fixed_branch_replot_20261105_run03/runs/T02_attempt01/U/SOLVER_LOG.jsonl"
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T03_attempt01\\U\\SOLVER_LOG.jsonl",
+      "archive_path": "raw/hospital_ies_fixed_branch_replot_20261105_run03/runs/T03_attempt01/U/SOLVER_LOG.jsonl"
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T04_attempt01\\U\\SOLVER_LOG.jsonl",
+      "archive_path": "raw/hospital_ies_fixed_branch_replot_20261105_run03/runs/T04_attempt01/U/SOLVER_LOG.jsonl"
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T05_attempt01\\U\\SOLVER_LOG.jsonl",
+      "archive_path": "raw/hospital_ies_fixed_branch_replot_20261105_run03/runs/T05_attempt01/U/SOLVER_LOG.jsonl"
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T06_attempt01\\U\\SOLVER_LOG.jsonl",
+      "archive_path": "raw/hospital_ies_fixed_branch_replot_20261105_run03/runs/T06_attempt01/U/SOLVER_LOG.jsonl"
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T07_attempt01\\U\\SOLVER_LOG.jsonl",
+      "archive_path": "raw/hospital_ies_fixed_branch_replot_20261105_run03/runs/T07_attempt01/U/SOLVER_LOG.jsonl"
+    },
+    {
+      "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T08_attempt01\\U\\SOLVER_LOG.jsonl",
+      "archive_path": "raw/hospital_ies_fixed_branch_replot_20261105_run03/runs/T08_attempt01/U/SOLVER_LOG.jsonl"
+    },
+    {
+      "source_path": "E:\\hospital_ies_recovery_dispatch_20261104_run01\\control\\external_worker_compile.log",
+      "archive_path": "raw/hospital_ies_recovery_dispatch_20261104_run01/control/external_worker_compile.log"
+    },
+    {
+      "source_path": "E:\\hospital_ies_recovery_steam_20261104_run01\\control\\report_compiler_compile.log",
+      "archive_path": "raw/hospital_ies_recovery_steam_20261104_run01/control/report_compiler_compile.log"
+    },
+    {
+      "source_path": "E:\\hospital_ies_recovery_steam_20261104_run01\\control\\runner_compile.log",
+      "archive_path": "raw/hospital_ies_recovery_steam_20261104_run01/control/runner_compile.log"
+    },
+    {
+      "source_path": "E:\\hospital_ies_source_partition_fix_20261105_run01\\campaign03\\runs\\T01_attempt01\\U\\SOLVER_LOG.jsonl",
+      "archive_path": "raw/hospital_ies_source_partition_fix_20261105_run01/campaign03/runs/T01_attempt01/U/SOLVER_LOG.jsonl"
+    },
+    {
+      "source_path": "E:\\hospital_ies_source_partition_fix_20261105_run01\\campaign03\\runs\\T02_attempt01\\U\\SOLVER_LOG.jsonl",
+      "archive_path": "raw/hospital_ies_source_partition_fix_20261105_run01/campaign03/runs/T02_attempt01/U/SOLVER_LOG.jsonl"
+    },
+    {
+      "source_path": "E:\\hospital_ies_source_partition_fix_20261105_run01\\campaign03\\runs\\T03_attempt01\\U\\SOLVER_LOG.jsonl",
+      "archive_path": "raw/hospital_ies_source_partition_fix_20261105_run01/campaign03/runs/T03_attempt01/U/SOLVER_LOG.jsonl"
+    },
+    {
+      "source_path": "E:\\hospital_ies_source_partition_fix_20261105_run01\\campaign03\\runs\\T04_attempt01\\U\\SOLVER_LOG.jsonl",
+      "archive_path": "raw/hospital_ies_source_partition_fix_20261105_run01/campaign03/runs/T04_attempt01/U/SOLVER_LOG.jsonl"
+    },
+    {
+      "source_path": "E:\\hospital_ies_source_partition_fix_20261105_run01\\campaign03\\runs\\T05_attempt01\\U\\SOLVER_LOG.jsonl",
+      "archive_path": "raw/hospital_ies_source_partition_fix_20261105_run01/campaign03/runs/T05_attempt01/U/SOLVER_LOG.jsonl"
+    },
+    {
+      "source_path": "E:\\hospital_ies_source_partition_fix_20261105_run01\\campaign03\\runs\\T06_attempt01\\U\\SOLVER_LOG.jsonl",
+      "archive_path": "raw/hospital_ies_source_partition_fix_20261105_run01/campaign03/runs/T06_attempt01/U/SOLVER_LOG.jsonl"
+    },
+    {
+      "source_path": "E:\\hospital_ies_source_partition_fix_20261105_run01\\campaign03\\runs\\T07_attempt01\\U\\SOLVER_LOG.jsonl",
+      "archive_path": "raw/hospital_ies_source_partition_fix_20261105_run01/campaign03/runs/T07_attempt01/U/SOLVER_LOG.jsonl"
+    },
+    {
+      "source_path": "E:\\hospital_ies_source_partition_fix_20261105_run01\\campaign03\\runs\\T08_attempt01\\U\\SOLVER_LOG.jsonl",
+      "archive_path": "raw/hospital_ies_source_partition_fix_20261105_run01/campaign03/runs/T08_attempt01/U/SOLVER_LOG.jsonl"
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\data\\qualification_recovery_r05\\launches\\R05_WRAPPER_T06_U_60s\\STDERR.log",
+      "archive_path": "G/sensitivity_analysis/literature_window_model_consistency_20261108_v4/data/qualification_recovery_r05/launches/R05_WRAPPER_T06_U_60s/STDERR.log"
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\data\\qualification_recovery_r06\\launches\\R06_NATIVE_T06_R_60s\\STDERR.log",
+      "archive_path": "G/sensitivity_analysis/literature_window_model_consistency_20261108_v4/data/qualification_recovery_r06/launches/R06_NATIVE_T06_R_60s/STDERR.log"
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\data\\qualification_recovery_r06\\launches\\R06_WRAPPER_T06_R_60s\\STDERR.log",
+      "archive_path": "G/sensitivity_analysis/literature_window_model_consistency_20261108_v4/data/qualification_recovery_r06/launches/R06_WRAPPER_T06_R_60s/STDERR.log"
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\data\\qualification_recovery_r06\\launches\\R06_WRAPPER_T06_U_3p75s\\STDERR.log",
+      "archive_path": "G/sensitivity_analysis/literature_window_model_consistency_20261108_v4/data/qualification_recovery_r06/launches/R06_WRAPPER_T06_U_3p75s/STDERR.log"
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\data\\qualification_recovery_r06\\launches\\R06_WRAPPER_T06_U_60s\\STDERR.log",
+      "archive_path": "G/sensitivity_analysis/literature_window_model_consistency_20261108_v4/data/qualification_recovery_r06/launches/R06_WRAPPER_T06_U_60s/STDERR.log"
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\data\\qualification_recovery_r06\\launches\\R06_WRAPPER_T06_U_7p5s\\STDERR.log",
+      "archive_path": "G/sensitivity_analysis/literature_window_model_consistency_20261108_v4/data/qualification_recovery_r06/launches/R06_WRAPPER_T06_U_7p5s/STDERR.log"
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\data\\qualification_v4\\launches\\V4_NATIVE_T06_U_60s\\STDERR.log",
+      "archive_path": "G/sensitivity_analysis/literature_window_model_consistency_20261108_v4/data/qualification_v4/launches/V4_NATIVE_T06_U_60s/STDERR.log"
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\data\\qualification_v4\\launches\\V4_NATIVE_T06_U_60s\\STDOUT.log",
+      "archive_path": "G/sensitivity_analysis/literature_window_model_consistency_20261108_v4/data/qualification_v4/launches/V4_NATIVE_T06_U_60s/STDOUT.log"
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\data\\qualification_v4_r02\\launches\\V4R2_NATIVE_T06_U_60s\\STDERR.log",
+      "archive_path": "G/sensitivity_analysis/literature_window_model_consistency_20261108_v4/data/qualification_v4_r02/launches/V4R2_NATIVE_T06_U_60s/STDERR.log"
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\data\\qualification_v4_r04\\launches\\V4R4_NATIVE_T06_U_60s\\STDERR.log",
+      "archive_path": "G/sensitivity_analysis/literature_window_model_consistency_20261108_v4/data/qualification_v4_r04/launches/V4R4_NATIVE_T06_U_60s/STDERR.log"
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_resolution_20261107_v3\\data\\finer_reference_v1\\launches\\FR1_WRAPPER_T06_U_3p75s\\STDERR.log",
+      "archive_path": "G/sensitivity_analysis/literature_window_resolution_20261107_v3/data/finer_reference_v1/launches/FR1_WRAPPER_T06_U_3p75s/STDERR.log"
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_resolution_20261107_v3\\data\\qualification\\launches\\V3_NATIVE_T06_U_60s\\STDERR.log",
+      "archive_path": "G/sensitivity_analysis/literature_window_resolution_20261107_v3/data/qualification/launches/V3_NATIVE_T06_U_60s/STDERR.log"
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_resolution_20261107_v3\\data\\qualification\\launches\\V3_WRAPPER_T06_U_15s\\STDERR.log",
+      "archive_path": "G/sensitivity_analysis/literature_window_resolution_20261107_v3/data/qualification/launches/V3_WRAPPER_T06_U_15s/STDERR.log"
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_resolution_20261107_v3\\data\\qualification\\launches\\V3_WRAPPER_T06_U_60s\\STDERR.log",
+      "archive_path": "G/sensitivity_analysis/literature_window_resolution_20261107_v3/data/qualification/launches/V3_WRAPPER_T06_U_60s/STDERR.log"
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_resolution_20261107_v3\\data\\qualification\\launches\\V3_WRAPPER_T06_U_7p5s\\STDERR.log",
+      "archive_path": "G/sensitivity_analysis/literature_window_resolution_20261107_v3/data/qualification/launches/V3_WRAPPER_T06_U_7p5s/STDERR.log"
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_revision_20261107_v2\\candidates\\c1_c3c\\data\\qualification\\launches\\V2_NATIVE_T06_U_60s\\STDERR.log",
+      "archive_path": "G/sensitivity_analysis/literature_window_revision_20261107_v2/candidates/c1_c3c/data/qualification/launches/V2_NATIVE_T06_U_60s/STDERR.log"
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_revision_20261107_v2\\candidates\\c1_c3c\\data\\qualification\\launches\\V2_WRAPPER_T06_U_15s\\STDERR.log",
+      "archive_path": "G/sensitivity_analysis/literature_window_revision_20261107_v2/candidates/c1_c3c/data/qualification/launches/V2_WRAPPER_T06_U_15s/STDERR.log"
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_revision_20261107_v2\\candidates\\c1_c3c\\data\\qualification\\launches\\V2_WRAPPER_T06_U_30s\\STDERR.log",
+      "archive_path": "G/sensitivity_analysis/literature_window_revision_20261107_v2/candidates/c1_c3c/data/qualification/launches/V2_WRAPPER_T06_U_30s/STDERR.log"
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_revision_20261107_v2\\candidates\\c1_c3c\\data\\qualification\\launches\\V2_WRAPPER_T06_U_60s\\STDERR.log",
+      "archive_path": "G/sensitivity_analysis/literature_window_revision_20261107_v2/candidates/c1_c3c/data/qualification/launches/V2_WRAPPER_T06_U_60s/STDERR.log"
+    }
+  ],
+  "source_originals_modified_by_reviewer": false,
+  "tools_modified_by_reviewer": false,
+  "remote_operations": false,
+  "final_difference_recheck": {
+    "frozen_hashes_match_requested": true,
+    "test_green_log": "E:\\ies_hospital_data_upload_20261110\\logs\\tests_green_frozen.log",
+    "observed_test_count": 14,
+    "observed_log_result": "OK",
+    "recorded_exit_code": 0,
+    "red_log": "E:\\ies_hospital_data_upload_20261110\\logs\\tests_noclobber_red.log",
+    "red_log_result": "Atomic publication regression failed before helper; zero-length test already passed.",
+    "tests_not_rerun_by_reviewer": true,
+    "tool_version_receipt": "E:\\ies_hospital_data_upload_20261110\\TOOL_VERSION_RECEIPT.json",
+    "pack_start_SHA_honestly_unknown": true,
+    "verifier_entry_exit_SHA_guard": true,
+    "full_verification_receipt_present_at_recheck": false,
+    "original_sources_or_tools_modified_by_reviewer": false
+  }
+}

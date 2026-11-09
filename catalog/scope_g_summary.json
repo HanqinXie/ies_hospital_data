@@ -1,0 +1,4989 @@
+{
+  "schema": "hospital_ies.public_upload.scope_g_readonly_inventory.v1",
+  "scope": "G numerical-step and model-consistency actual attempts only",
+  "source_ledger": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_resolution_20261107_v3\\data\\qualification\\GLOBAL_ACTUAL_ATTEMPT_LEDGER.json",
+  "actual_attempt_count": 38,
+  "unique_actual_indices": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38
+  ],
+  "expected_actual_count": 38,
+  "all_38_accounted": true,
+  "failed_spawn_records_not_counted": [
+    {
+      "reused_reserved_index": 31,
+      "state": "failed_spawn_not_counted_as_actual",
+      "launch_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\data\\qualification_v4\\launches\\V4_NATIVE_T06_U_60s",
+      "reason": null,
+      "record": {
+        "claim_id": "5ba5f4a0fb744baa87d1a445e121b02f",
+        "state": "failed_spawn",
+        "producer_key": "qualification_v4:V4_NATIVE_T06_U_60s",
+        "reservation_id": "qualification_v4:V4_NATIVE_T06_U_60s",
+        "attempt_ordinal": 1,
+        "actual_index": 31,
+        "registration_sha256": "9733052f0ca5749853f685456e181bebaa609bb1809c184ba60215da13a52bb1",
+        "command": [
+          "C:\\Users\\HanqinXie\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+          "-B",
+          "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\code\\qualification_native_worker_v4.py",
+          "--master",
+          "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\registration\\QUALIFICATION_LAUNCH.json",
+          "--master-sha256",
+          "9733052f0ca5749853f685456e181bebaa609bb1809c184ba60215da13a52bb1",
+          "--producer-id",
+          "V4_NATIVE_T06_U_60s",
+          "--attempt",
+          "1",
+          "--admission",
+          "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\receipts\\ROOT_V4_QUALIFICATION_NATIVE_PAIR_ADMISSION.json",
+          "--admission-sha256",
+          "1c057e0d0c54c84efd58489889d886cac25ddc203662e40bafe66ea559885053"
+        ],
+        "command_sha256": "d21518a71c64e698f6add4539d4487fe37b1ef23917d23d8a8604c87143490ca",
+        "launch_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\data\\qualification_v4\\launches\\V4_NATIVE_T06_U_60s",
+        "claimed_utc": "2026-11-08T06:54:32.473641+00:00",
+        "failure_reason": "ValueError: Complete physical binding entry5 code pins absent/different",
+        "proved_popen_not_invoked": true
+      }
+    }
+  ],
+  "file_count": 674,
+  "total_source_bytes": 11616277963,
+  "archive_bytes": 2098239311,
+  "plain_bytes": 9518038652,
+  "result_status_counts": {
+    "completed": 36,
+    "failed": 2
+  },
+  "attempts_with_no_segment_payload": [
+    33
+  ],
+  "missing_references": [],
+  "excluded": [],
+  "zip_inspections": [
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T06_U_60s_attempt01.zip",
+      "status": "safe_allowed_extensions_central_directory_only",
+      "member_count": 16,
+      "uncompressed_bytes": 376518307,
+      "prohibited_members": [],
+      "members": [
+        {
+          "name": "CASE.json",
+          "bytes": 44053,
+          "compressed_bytes": 9279,
+          "crc32": "53ca7487"
+        },
+        {
+          "name": "DECISIONS.jsonl",
+          "bytes": 11497888,
+          "compressed_bytes": 1964748,
+          "crc32": "ce4de158"
+        },
+        {
+          "name": "ENGINEERING_AUDIT.json",
+          "bytes": 8293,
+          "compressed_bytes": 2049,
+          "crc32": "6aaa8894"
+        },
+        {
+          "name": "EVENTS.jsonl",
+          "bytes": 56167773,
+          "compressed_bytes": 5327029,
+          "crc32": "9f2734cb"
+        },
+        {
+          "name": "FAULT_ONSET_STATE.json",
+          "bytes": 2532782,
+          "compressed_bytes": 349075,
+          "crc32": "196dd80c"
+        },
+        {
+          "name": "FINAL_STATE.json",
+          "bytes": 2532797,
+          "compressed_bytes": 349044,
+          "crc32": "29fd121e"
+        },
+        {
+          "name": "INITIAL_STATE.json",
+          "bytes": 3614,
+          "compressed_bytes": 1169,
+          "crc32": "0d2a9f0e"
+        },
+        {
+          "name": "LAUNCH.json",
+          "bytes": 1088,
+          "compressed_bytes": 579,
+          "crc32": "d3e118b6"
+        },
+        {
+          "name": "PHYSICAL_COST_RECEIPT.json",
+          "bytes": 232,
+          "compressed_bytes": 176,
+          "crc32": "aae66c5b"
+        },
+        {
+          "name": "PROGRESS.json",
+          "bytes": 377,
+          "compressed_bytes": 241,
+          "crc32": "2bd82df6"
+        },
+        {
+          "name": "RESOLVED_CASE.json",
+          "bytes": 18876,
+          "compressed_bytes": 5606,
+          "crc32": "e412bd55"
+        },
+        {
+          "name": "RESULT.json",
+          "bytes": 6880,
+          "compressed_bytes": 2275,
+          "crc32": "46a38cb3"
+        },
+        {
+          "name": "SEGMENTS.jsonl",
+          "bytes": 14281057,
+          "compressed_bytes": 2322307,
+          "crc32": "81ef9718"
+        },
+        {
+          "name": "SOLVER_LOG.jsonl",
+          "bytes": 120035142,
+          "compressed_bytes": 7604822,
+          "crc32": "00701526"
+        },
+        {
+          "name": "STATES.jsonl",
+          "bytes": 169387302,
+          "compressed_bytes": 15540227,
+          "crc32": "672e6735"
+        },
+        {
+          "name": "stdout_stderr.log",
+          "bytes": 153,
+          "compressed_bytes": 133,
+          "crc32": "e24f4f03"
+        }
+      ]
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T06_R_60s_attempt01.zip",
+      "status": "safe_allowed_extensions_central_directory_only",
+      "member_count": 16,
+      "uncompressed_bytes": 832843774,
+      "prohibited_members": [],
+      "members": [
+        {
+          "name": "CASE.json",
+          "bytes": 44033,
+          "compressed_bytes": 9262,
+          "crc32": "16132af8"
+        },
+        {
+          "name": "DECISIONS.jsonl",
+          "bytes": 12970106,
+          "compressed_bytes": 2218549,
+          "crc32": "59ac3187"
+        },
+        {
+          "name": "ENGINEERING_AUDIT.json",
+          "bytes": 8592,
+          "compressed_bytes": 2380,
+          "crc32": "6e1696b7"
+        },
+        {
+          "name": "EVENTS.jsonl",
+          "bytes": 169757927,
+          "compressed_bytes": 16937842,
+          "crc32": "3fbafa66"
+        },
+        {
+          "name": "FAULT_ONSET_STATE.json",
+          "bytes": 2532817,
+          "compressed_bytes": 349015,
+          "crc32": "60a85bcb"
+        },
+        {
+          "name": "FINAL_STATE.json",
+          "bytes": 2469050,
+          "compressed_bytes": 342026,
+          "crc32": "92bbc5c4"
+        },
+        {
+          "name": "INITIAL_STATE.json",
+          "bytes": 3614,
+          "compressed_bytes": 1169,
+          "crc32": "0d2a9f0e"
+        },
+        {
+          "name": "LAUNCH.json",
+          "bytes": 1088,
+          "compressed_bytes": 578,
+          "crc32": "cac6c70c"
+        },
+        {
+          "name": "PHYSICAL_COST_RECEIPT.json",
+          "bytes": 231,
+          "compressed_bytes": 175,
+          "crc32": "029f5a34"
+        },
+        {
+          "name": "PROGRESS.json",
+          "bytes": 376,
+          "compressed_bytes": 239,
+          "crc32": "328544cb"
+        },
+        {
+          "name": "RESOLVED_CASE.json",
+          "bytes": 18876,
+          "compressed_bytes": 5607,
+          "crc32": "839b7168"
+        },
+        {
+          "name": "RESULT.json",
+          "bytes": 6910,
+          "compressed_bytes": 2300,
+          "crc32": "43492189"
+        },
+        {
+          "name": "SEGMENTS.jsonl",
+          "bytes": 27551861,
+          "compressed_bytes": 3443884,
+          "crc32": "291955d9"
+        },
+        {
+          "name": "SOLVER_LOG.jsonl",
+          "bytes": 342772759,
+          "compressed_bytes": 23258410,
+          "crc32": "cbe2903c"
+        },
+        {
+          "name": "STATES.jsonl",
+          "bytes": 274705381,
+          "compressed_bytes": 29018822,
+          "crc32": "6415f8a5"
+        },
+        {
+          "name": "stdout_stderr.log",
+          "bytes": 153,
+          "compressed_bytes": 132,
+          "crc32": "d4789982"
+        }
+      ]
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T01_U_60s_attempt01.zip",
+      "status": "safe_allowed_extensions_central_directory_only",
+      "member_count": 16,
+      "uncompressed_bytes": 472256591,
+      "prohibited_members": [],
+      "members": [
+        {
+          "name": "CASE.json",
+          "bytes": 18502,
+          "compressed_bytes": 5543,
+          "crc32": "36f573bb"
+        },
+        {
+          "name": "DECISIONS.jsonl",
+          "bytes": 11506192,
+          "compressed_bytes": 1955728,
+          "crc32": "51ef52c9"
+        },
+        {
+          "name": "ENGINEERING_AUDIT.json",
+          "bytes": 8345,
+          "compressed_bytes": 1992,
+          "crc32": "8767cd3a"
+        },
+        {
+          "name": "EVENTS.jsonl",
+          "bytes": 54619429,
+          "compressed_bytes": 5085779,
+          "crc32": "c9019da2"
+        },
+        {
+          "name": "FAULT_ONSET_STATE.json",
+          "bytes": 2496075,
+          "compressed_bytes": 354554,
+          "crc32": "fb4f7db3"
+        },
+        {
+          "name": "FINAL_STATE.json",
+          "bytes": 2495999,
+          "compressed_bytes": 354487,
+          "crc32": "bb0f501c"
+        },
+        {
+          "name": "INITIAL_STATE.json",
+          "bytes": 3768,
+          "compressed_bytes": 1282,
+          "crc32": "e7400bf7"
+        },
+        {
+          "name": "LAUNCH.json",
+          "bytes": 1088,
+          "compressed_bytes": 579,
+          "crc32": "5210e925"
+        },
+        {
+          "name": "PHYSICAL_COST_RECEIPT.json",
+          "bytes": 232,
+          "compressed_bytes": 176,
+          "crc32": "4abd52a4"
+        },
+        {
+          "name": "PROGRESS.json",
+          "bytes": 376,
+          "compressed_bytes": 241,
+          "crc32": "99a478cb"
+        },
+        {
+          "name": "RESOLVED_CASE.json",
+          "bytes": 18852,
+          "compressed_bytes": 5574,
+          "crc32": "42861768"
+        },
+        {
+          "name": "RESULT.json",
+          "bytes": 6880,
+          "compressed_bytes": 2273,
+          "crc32": "a54bc18a"
+        },
+        {
+          "name": "SEGMENTS.jsonl",
+          "bytes": 31568275,
+          "compressed_bytes": 4575143,
+          "crc32": "880575a4"
+        },
+        {
+          "name": "SOLVER_LOG.jsonl",
+          "bytes": 206778924,
+          "compressed_bytes": 13134446,
+          "crc32": "e56b9563"
+        },
+        {
+          "name": "STATES.jsonl",
+          "bytes": 162733501,
+          "compressed_bytes": 15401054,
+          "crc32": "4f8dca17"
+        },
+        {
+          "name": "stdout_stderr.log",
+          "bytes": 153,
+          "compressed_bytes": 133,
+          "crc32": "c7722c39"
+        }
+      ]
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T01_R_60s_attempt01.zip",
+      "status": "safe_allowed_extensions_central_directory_only",
+      "member_count": 16,
+      "uncompressed_bytes": 1244046167,
+      "prohibited_members": [],
+      "members": [
+        {
+          "name": "CASE.json",
+          "bytes": 18490,
+          "compressed_bytes": 5550,
+          "crc32": "69d22fc4"
+        },
+        {
+          "name": "DECISIONS.jsonl",
+          "bytes": 12980614,
+          "compressed_bytes": 2209761,
+          "crc32": "b23f7cc6"
+        },
+        {
+          "name": "ENGINEERING_AUDIT.json",
+          "bytes": 8554,
+          "compressed_bytes": 2356,
+          "crc32": "716c73ea"
+        },
+        {
+          "name": "EVENTS.jsonl",
+          "bytes": 168947189,
+          "compressed_bytes": 16326339,
+          "crc32": "e06732ff"
+        },
+        {
+          "name": "FAULT_ONSET_STATE.json",
+          "bytes": 2496104,
+          "compressed_bytes": 354417,
+          "crc32": "3a9cea6f"
+        },
+        {
+          "name": "FINAL_STATE.json",
+          "bytes": 2397723,
+          "compressed_bytes": 346302,
+          "crc32": "53ff3c66"
+        },
+        {
+          "name": "INITIAL_STATE.json",
+          "bytes": 3768,
+          "compressed_bytes": 1282,
+          "crc32": "e7400bf7"
+        },
+        {
+          "name": "LAUNCH.json",
+          "bytes": 1088,
+          "compressed_bytes": 580,
+          "crc32": "0afe386e"
+        },
+        {
+          "name": "PHYSICAL_COST_RECEIPT.json",
+          "bytes": 232,
+          "compressed_bytes": 176,
+          "crc32": "e364518f"
+        },
+        {
+          "name": "PROGRESS.json",
+          "bytes": 376,
+          "compressed_bytes": 239,
+          "crc32": "dcbda3b5"
+        },
+        {
+          "name": "RESOLVED_CASE.json",
+          "bytes": 18850,
+          "compressed_bytes": 5581,
+          "crc32": "ce7b3b4e"
+        },
+        {
+          "name": "RESULT.json",
+          "bytes": 6910,
+          "compressed_bytes": 2290,
+          "crc32": "f5610b9a"
+        },
+        {
+          "name": "SEGMENTS.jsonl",
+          "bytes": 94255357,
+          "compressed_bytes": 12221194,
+          "crc32": "d52a6828"
+        },
+        {
+          "name": "SOLVER_LOG.jsonl",
+          "bytes": 690781644,
+          "compressed_bytes": 44073836,
+          "crc32": "bad54f4d"
+        },
+        {
+          "name": "STATES.jsonl",
+          "bytes": 272129116,
+          "compressed_bytes": 27264822,
+          "crc32": "e858fae8"
+        },
+        {
+          "name": "stdout_stderr.log",
+          "bytes": 152,
+          "compressed_bytes": 132,
+          "crc32": "81175be5"
+        }
+      ]
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T07_U_60s_attempt01.zip",
+      "status": "safe_allowed_extensions_central_directory_only",
+      "member_count": 16,
+      "uncompressed_bytes": 732436057,
+      "prohibited_members": [],
+      "members": [
+        {
+          "name": "CASE.json",
+          "bytes": 18551,
+          "compressed_bytes": 5542,
+          "crc32": "23494c61"
+        },
+        {
+          "name": "DECISIONS.jsonl",
+          "bytes": 15245934,
+          "compressed_bytes": 2612364,
+          "crc32": "d26b63bd"
+        },
+        {
+          "name": "ENGINEERING_AUDIT.json",
+          "bytes": 8497,
+          "compressed_bytes": 2199,
+          "crc32": "e9ff075e"
+        },
+        {
+          "name": "EVENTS.jsonl",
+          "bytes": 56162781,
+          "compressed_bytes": 5044162,
+          "crc32": "bbb0a951"
+        },
+        {
+          "name": "FAULT_ONSET_STATE.json",
+          "bytes": 2610296,
+          "compressed_bytes": 348575,
+          "crc32": "2bf05bc9"
+        },
+        {
+          "name": "FINAL_STATE.json",
+          "bytes": 2610283,
+          "compressed_bytes": 348589,
+          "crc32": "d44cadda"
+        },
+        {
+          "name": "INITIAL_STATE.json",
+          "bytes": 3839,
+          "compressed_bytes": 1335,
+          "crc32": "a9056349"
+        },
+        {
+          "name": "LAUNCH.json",
+          "bytes": 1089,
+          "compressed_bytes": 582,
+          "crc32": "263c3d9b"
+        },
+        {
+          "name": "PHYSICAL_COST_RECEIPT.json",
+          "bytes": 232,
+          "compressed_bytes": 176,
+          "crc32": "ec9807c9"
+        },
+        {
+          "name": "PROGRESS.json",
+          "bytes": 376,
+          "compressed_bytes": 238,
+          "crc32": "4e6abd00"
+        },
+        {
+          "name": "RESOLVED_CASE.json",
+          "bytes": 18864,
+          "compressed_bytes": 5602,
+          "crc32": "4d9b527c"
+        },
+        {
+          "name": "RESULT.json",
+          "bytes": 6880,
+          "compressed_bytes": 2277,
+          "crc32": "7088bc48"
+        },
+        {
+          "name": "SEGMENTS.jsonl",
+          "bytes": 59914710,
+          "compressed_bytes": 8963710,
+          "crc32": "97192a9d"
+        },
+        {
+          "name": "SOLVER_LOG.jsonl",
+          "bytes": 361062466,
+          "compressed_bytes": 20068376,
+          "crc32": "b5d1f3ac"
+        },
+        {
+          "name": "STATES.jsonl",
+          "bytes": 234771106,
+          "compressed_bytes": 23302832,
+          "crc32": "0a2d0cbc"
+        },
+        {
+          "name": "stdout_stderr.log",
+          "bytes": 153,
+          "compressed_bytes": 133,
+          "crc32": "0eb840d9"
+        }
+      ]
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T07_R_60s_attempt01.zip",
+      "status": "safe_allowed_extensions_central_directory_only",
+      "member_count": 16,
+      "uncompressed_bytes": 1895082402,
+      "prohibited_members": [],
+      "members": [
+        {
+          "name": "CASE.json",
+          "bytes": 18539,
+          "compressed_bytes": 5544,
+          "crc32": "5111575e"
+        },
+        {
+          "name": "DECISIONS.jsonl",
+          "bytes": 17326565,
+          "compressed_bytes": 2978145,
+          "crc32": "c669188f"
+        },
+        {
+          "name": "ENGINEERING_AUDIT.json",
+          "bytes": 8570,
+          "compressed_bytes": 2338,
+          "crc32": "33d35a52"
+        },
+        {
+          "name": "EVENTS.jsonl",
+          "bytes": 219366465,
+          "compressed_bytes": 21514507,
+          "crc32": "3f138095"
+        },
+        {
+          "name": "FAULT_ONSET_STATE.json",
+          "bytes": 2610302,
+          "compressed_bytes": 348409,
+          "crc32": "58bcf3c2"
+        },
+        {
+          "name": "FINAL_STATE.json",
+          "bytes": 2341839,
+          "compressed_bytes": 336952,
+          "crc32": "1af5fba5"
+        },
+        {
+          "name": "INITIAL_STATE.json",
+          "bytes": 3839,
+          "compressed_bytes": 1335,
+          "crc32": "a9056349"
+        },
+        {
+          "name": "LAUNCH.json",
+          "bytes": 1088,
+          "compressed_bytes": 579,
+          "crc32": "a769dcad"
+        },
+        {
+          "name": "PHYSICAL_COST_RECEIPT.json",
+          "bytes": 231,
+          "compressed_bytes": 175,
+          "crc32": "e465d063"
+        },
+        {
+          "name": "PROGRESS.json",
+          "bytes": 376,
+          "compressed_bytes": 239,
+          "crc32": "442ab5b4"
+        },
+        {
+          "name": "RESOLVED_CASE.json",
+          "bytes": 18862,
+          "compressed_bytes": 5600,
+          "crc32": "3b4bad64"
+        },
+        {
+          "name": "RESULT.json",
+          "bytes": 6912,
+          "compressed_bytes": 2293,
+          "crc32": "d81b5161"
+        },
+        {
+          "name": "SEGMENTS.jsonl",
+          "bytes": 138743564,
+          "compressed_bytes": 15934309,
+          "crc32": "9cec7d6e"
+        },
+        {
+          "name": "SOLVER_LOG.jsonl",
+          "bytes": 1198267628,
+          "compressed_bytes": 68078315,
+          "crc32": "323c2363"
+        },
+        {
+          "name": "STATES.jsonl",
+          "bytes": 316367469,
+          "compressed_bytes": 33360930,
+          "crc32": "c3fc6043"
+        },
+        {
+          "name": "stdout_stderr.log",
+          "bytes": 153,
+          "compressed_bytes": 131,
+          "crc32": "6efa4f45"
+        }
+      ]
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T06_U_30s_attempt01.zip",
+      "status": "safe_allowed_extensions_central_directory_only",
+      "member_count": 16,
+      "uncompressed_bytes": 436740508,
+      "prohibited_members": [],
+      "members": [
+        {
+          "name": "CASE.json",
+          "bytes": 44053,
+          "compressed_bytes": 9279,
+          "crc32": "0952f783"
+        },
+        {
+          "name": "DECISIONS.jsonl",
+          "bytes": 11497623,
+          "compressed_bytes": 1964766,
+          "crc32": "a1577727"
+        },
+        {
+          "name": "ENGINEERING_AUDIT.json",
+          "bytes": 8307,
+          "compressed_bytes": 2069,
+          "crc32": "b74f9689"
+        },
+        {
+          "name": "EVENTS.jsonl",
+          "bytes": 56169072,
+          "compressed_bytes": 5332731,
+          "crc32": "9548c654"
+        },
+        {
+          "name": "FAULT_ONSET_STATE.json",
+          "bytes": 2533021,
+          "compressed_bytes": 349167,
+          "crc32": "c8050f2c"
+        },
+        {
+          "name": "FINAL_STATE.json",
+          "bytes": 2533023,
+          "compressed_bytes": 349158,
+          "crc32": "2889f76a"
+        },
+        {
+          "name": "INITIAL_STATE.json",
+          "bytes": 3614,
+          "compressed_bytes": 1169,
+          "crc32": "0d2a9f0e"
+        },
+        {
+          "name": "LAUNCH.json",
+          "bytes": 1089,
+          "compressed_bytes": 577,
+          "crc32": "01276c71"
+        },
+        {
+          "name": "PHYSICAL_COST_RECEIPT.json",
+          "bytes": 232,
+          "compressed_bytes": 176,
+          "crc32": "f1084f7b"
+        },
+        {
+          "name": "PROGRESS.json",
+          "bytes": 377,
+          "compressed_bytes": 241,
+          "crc32": "4145494b"
+        },
+        {
+          "name": "RESOLVED_CASE.json",
+          "bytes": 18876,
+          "compressed_bytes": 5608,
+          "crc32": "32e3a2cd"
+        },
+        {
+          "name": "RESULT.json",
+          "bytes": 6878,
+          "compressed_bytes": 2272,
+          "crc32": "bb460208"
+        },
+        {
+          "name": "SEGMENTS.jsonl",
+          "bytes": 28481205,
+          "compressed_bytes": 4596197,
+          "crc32": "c7d346f8"
+        },
+        {
+          "name": "SOLVER_LOG.jsonl",
+          "bytes": 166026329,
+          "compressed_bytes": 10013339,
+          "crc32": "c7af55b4"
+        },
+        {
+          "name": "STATES.jsonl",
+          "bytes": 169416657,
+          "compressed_bytes": 15326393,
+          "crc32": "18da68b5"
+        },
+        {
+          "name": "stdout_stderr.log",
+          "bytes": 152,
+          "compressed_bytes": 133,
+          "crc32": "8cbd35df"
+        }
+      ]
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T06_R_30s_attempt01.zip",
+      "status": "safe_allowed_extensions_central_directory_only",
+      "member_count": 16,
+      "uncompressed_bytes": 976152646,
+      "prohibited_members": [],
+      "members": [
+        {
+          "name": "CASE.json",
+          "bytes": 44033,
+          "compressed_bytes": 9262,
+          "crc32": "6d46d78f"
+        },
+        {
+          "name": "DECISIONS.jsonl",
+          "bytes": 12969513,
+          "compressed_bytes": 2218962,
+          "crc32": "9d38788c"
+        },
+        {
+          "name": "ENGINEERING_AUDIT.json",
+          "bytes": 8593,
+          "compressed_bytes": 2412,
+          "crc32": "88815708"
+        },
+        {
+          "name": "EVENTS.jsonl",
+          "bytes": 169758044,
+          "compressed_bytes": 16952100,
+          "crc32": "38c3a923"
+        },
+        {
+          "name": "FAULT_ONSET_STATE.json",
+          "bytes": 2533046,
+          "compressed_bytes": 348923,
+          "crc32": "ac3fc18b"
+        },
+        {
+          "name": "FINAL_STATE.json",
+          "bytes": 2468883,
+          "compressed_bytes": 341106,
+          "crc32": "1e7ef0c8"
+        },
+        {
+          "name": "INITIAL_STATE.json",
+          "bytes": 3614,
+          "compressed_bytes": 1169,
+          "crc32": "0d2a9f0e"
+        },
+        {
+          "name": "LAUNCH.json",
+          "bytes": 1088,
+          "compressed_bytes": 579,
+          "crc32": "638e3d87"
+        },
+        {
+          "name": "PHYSICAL_COST_RECEIPT.json",
+          "bytes": 232,
+          "compressed_bytes": 176,
+          "crc32": "dda75516"
+        },
+        {
+          "name": "PROGRESS.json",
+          "bytes": 376,
+          "compressed_bytes": 241,
+          "crc32": "b619c0f6"
+        },
+        {
+          "name": "RESOLVED_CASE.json",
+          "bytes": 18876,
+          "compressed_bytes": 5609,
+          "crc32": "556a6ef0"
+        },
+        {
+          "name": "RESULT.json",
+          "bytes": 6909,
+          "compressed_bytes": 2292,
+          "crc32": "292a4fdd"
+        },
+        {
+          "name": "SEGMENTS.jsonl",
+          "bytes": 54844303,
+          "compressed_bytes": 6810647,
+          "crc32": "413fd159"
+        },
+        {
+          "name": "SOLVER_LOG.jsonl",
+          "bytes": 458785079,
+          "compressed_bytes": 29605377,
+          "crc32": "5571f12d"
+        },
+        {
+          "name": "STATES.jsonl",
+          "bytes": 274709905,
+          "compressed_bytes": 28946202,
+          "crc32": "c9448057"
+        },
+        {
+          "name": "stdout_stderr.log",
+          "bytes": 152,
+          "compressed_bytes": 132,
+          "crc32": "5481d682"
+        }
+      ]
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T06_R_15s_attempt01.zip",
+      "status": "safe_allowed_extensions_central_directory_only",
+      "member_count": 16,
+      "uncompressed_bytes": 1262842436,
+      "prohibited_members": [],
+      "members": [
+        {
+          "name": "CASE.json",
+          "bytes": 44033,
+          "compressed_bytes": 9262,
+          "crc32": "d5fdc266"
+        },
+        {
+          "name": "DECISIONS.jsonl",
+          "bytes": 12973009,
+          "compressed_bytes": 2220842,
+          "crc32": "991b8c64"
+        },
+        {
+          "name": "ENGINEERING_AUDIT.json",
+          "bytes": 8587,
+          "compressed_bytes": 2389,
+          "crc32": "9e4b6235"
+        },
+        {
+          "name": "EVENTS.jsonl",
+          "bytes": 169790019,
+          "compressed_bytes": 16953229,
+          "crc32": "124f44c9"
+        },
+        {
+          "name": "FAULT_ONSET_STATE.json",
+          "bytes": 2533091,
+          "compressed_bytes": 349548,
+          "crc32": "801d1217"
+        },
+        {
+          "name": "FINAL_STATE.json",
+          "bytes": 2468992,
+          "compressed_bytes": 341658,
+          "crc32": "1af40b07"
+        },
+        {
+          "name": "INITIAL_STATE.json",
+          "bytes": 3614,
+          "compressed_bytes": 1169,
+          "crc32": "0d2a9f0e"
+        },
+        {
+          "name": "LAUNCH.json",
+          "bytes": 1087,
+          "compressed_bytes": 578,
+          "crc32": "8210629c"
+        },
+        {
+          "name": "PHYSICAL_COST_RECEIPT.json",
+          "bytes": 231,
+          "compressed_bytes": 175,
+          "crc32": "9fefcac5"
+        },
+        {
+          "name": "PROGRESS.json",
+          "bytes": 376,
+          "compressed_bytes": 241,
+          "crc32": "b228ddd0"
+        },
+        {
+          "name": "RESOLVED_CASE.json",
+          "bytes": 18879,
+          "compressed_bytes": 5609,
+          "crc32": "e7133708"
+        },
+        {
+          "name": "RESULT.json",
+          "bytes": 6910,
+          "compressed_bytes": 2289,
+          "crc32": "1c071107"
+        },
+        {
+          "name": "SEGMENTS.jsonl",
+          "bytes": 109415344,
+          "compressed_bytes": 13545783,
+          "crc32": "03e1af5c"
+        },
+        {
+          "name": "SOLVER_LOG.jsonl",
+          "bytes": 690837093,
+          "compressed_bytes": 42242420,
+          "crc32": "a74d6366"
+        },
+        {
+          "name": "STATES.jsonl",
+          "bytes": 274741019,
+          "compressed_bytes": 28961885,
+          "crc32": "15b4dec2"
+        },
+        {
+          "name": "stdout_stderr.log",
+          "bytes": 152,
+          "compressed_bytes": 132,
+          "crc32": "08c68bf8"
+        }
+      ]
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T01_U_30s_attempt01.zip",
+      "status": "safe_allowed_extensions_central_directory_only",
+      "member_count": 16,
+      "uncompressed_bytes": 495980791,
+      "prohibited_members": [],
+      "members": [
+        {
+          "name": "CASE.json",
+          "bytes": 18502,
+          "compressed_bytes": 5544,
+          "crc32": "f325bc05"
+        },
+        {
+          "name": "DECISIONS.jsonl",
+          "bytes": 11507152,
+          "compressed_bytes": 1957101,
+          "crc32": "4c7ef6e9"
+        },
+        {
+          "name": "ENGINEERING_AUDIT.json",
+          "bytes": 8319,
+          "compressed_bytes": 1981,
+          "crc32": "045c59a6"
+        },
+        {
+          "name": "EVENTS.jsonl",
+          "bytes": 54619363,
+          "compressed_bytes": 5105145,
+          "crc32": "8f8dadaf"
+        },
+        {
+          "name": "FAULT_ONSET_STATE.json",
+          "bytes": 2496369,
+          "compressed_bytes": 355559,
+          "crc32": "d73f18c6"
+        },
+        {
+          "name": "FINAL_STATE.json",
+          "bytes": 2496314,
+          "compressed_bytes": 355553,
+          "crc32": "0daac6aa"
+        },
+        {
+          "name": "INITIAL_STATE.json",
+          "bytes": 3768,
+          "compressed_bytes": 1282,
+          "crc32": "e7400bf7"
+        },
+        {
+          "name": "LAUNCH.json",
+          "bytes": 1089,
+          "compressed_bytes": 580,
+          "crc32": "89facd88"
+        },
+        {
+          "name": "PHYSICAL_COST_RECEIPT.json",
+          "bytes": 231,
+          "compressed_bytes": 175,
+          "crc32": "fdf4484e"
+        },
+        {
+          "name": "PROGRESS.json",
+          "bytes": 376,
+          "compressed_bytes": 239,
+          "crc32": "d82c7e00"
+        },
+        {
+          "name": "RESOLVED_CASE.json",
+          "bytes": 18852,
+          "compressed_bytes": 5576,
+          "crc32": "a409ac77"
+        },
+        {
+          "name": "RESULT.json",
+          "bytes": 6877,
+          "compressed_bytes": 2268,
+          "crc32": "15dcb072"
+        },
+        {
+          "name": "SEGMENTS.jsonl",
+          "bytes": 40557490,
+          "compressed_bytes": 6227859,
+          "crc32": "fd937477"
+        },
+        {
+          "name": "SOLVER_LOG.jsonl",
+          "bytes": 221475299,
+          "compressed_bytes": 14037741,
+          "crc32": "6f241ff6"
+        },
+        {
+          "name": "STATES.jsonl",
+          "bytes": 162770638,
+          "compressed_bytes": 15408461,
+          "crc32": "50a46844"
+        },
+        {
+          "name": "stdout_stderr.log",
+          "bytes": 152,
+          "compressed_bytes": 130,
+          "crc32": "5feac25a"
+        }
+      ]
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T01_R_30s_attempt01.zip",
+      "status": "safe_allowed_extensions_central_directory_only",
+      "member_count": 16,
+      "uncompressed_bytes": 1282298928,
+      "prohibited_members": [],
+      "members": [
+        {
+          "name": "CASE.json",
+          "bytes": 18490,
+          "compressed_bytes": 5550,
+          "crc32": "788f7d4b"
+        },
+        {
+          "name": "DECISIONS.jsonl",
+          "bytes": 12980594,
+          "compressed_bytes": 2208461,
+          "crc32": "801fda23"
+        },
+        {
+          "name": "ENGINEERING_AUDIT.json",
+          "bytes": 8545,
+          "compressed_bytes": 2349,
+          "crc32": "28adf1ad"
+        },
+        {
+          "name": "EVENTS.jsonl",
+          "bytes": 168946868,
+          "compressed_bytes": 16307859,
+          "crc32": "1a8617d9"
+        },
+        {
+          "name": "FAULT_ONSET_STATE.json",
+          "bytes": 2496380,
+          "compressed_bytes": 355708,
+          "crc32": "78bf9095"
+        },
+        {
+          "name": "FINAL_STATE.json",
+          "bytes": 2397573,
+          "compressed_bytes": 345888,
+          "crc32": "598d38b0"
+        },
+        {
+          "name": "INITIAL_STATE.json",
+          "bytes": 3768,
+          "compressed_bytes": 1282,
+          "crc32": "e7400bf7"
+        },
+        {
+          "name": "LAUNCH.json",
+          "bytes": 1089,
+          "compressed_bytes": 581,
+          "crc32": "87058264"
+        },
+        {
+          "name": "PHYSICAL_COST_RECEIPT.json",
+          "bytes": 231,
+          "compressed_bytes": 176,
+          "crc32": "74d015db"
+        },
+        {
+          "name": "PROGRESS.json",
+          "bytes": 376,
+          "compressed_bytes": 240,
+          "crc32": "1dddb96f"
+        },
+        {
+          "name": "RESOLVED_CASE.json",
+          "bytes": 18850,
+          "compressed_bytes": 5583,
+          "crc32": "4a97528f"
+        },
+        {
+          "name": "RESULT.json",
+          "bytes": 6909,
+          "compressed_bytes": 2292,
+          "crc32": "2dbb7d77"
+        },
+        {
+          "name": "SEGMENTS.jsonl",
+          "bytes": 102806125,
+          "compressed_bytes": 13319431,
+          "crc32": "e3d90ea1"
+        },
+        {
+          "name": "SOLVER_LOG.jsonl",
+          "bytes": 720483898,
+          "compressed_bytes": 45979666,
+          "crc32": "5c546972"
+        },
+        {
+          "name": "STATES.jsonl",
+          "bytes": 272129080,
+          "compressed_bytes": 27193300,
+          "crc32": "8c689a68"
+        },
+        {
+          "name": "stdout_stderr.log",
+          "bytes": 152,
+          "compressed_bytes": 132,
+          "crc32": "d01048bc"
+        }
+      ]
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T07_U_30s_attempt01.zip",
+      "status": "safe_allowed_extensions_central_directory_only",
+      "member_count": 16,
+      "uncompressed_bytes": 739904519,
+      "prohibited_members": [],
+      "members": [
+        {
+          "name": "CASE.json",
+          "bytes": 18551,
+          "compressed_bytes": 5542,
+          "crc32": "d3b1f1b7"
+        },
+        {
+          "name": "DECISIONS.jsonl",
+          "bytes": 15261119,
+          "compressed_bytes": 2619549,
+          "crc32": "07fd4545"
+        },
+        {
+          "name": "ENGINEERING_AUDIT.json",
+          "bytes": 8508,
+          "compressed_bytes": 2205,
+          "crc32": "16a4accb"
+        },
+        {
+          "name": "EVENTS.jsonl",
+          "bytes": 56164587,
+          "compressed_bytes": 5023419,
+          "crc32": "d3d7a66a"
+        },
+        {
+          "name": "FAULT_ONSET_STATE.json",
+          "bytes": 2610296,
+          "compressed_bytes": 348190,
+          "crc32": "cd337d00"
+        },
+        {
+          "name": "FINAL_STATE.json",
+          "bytes": 2610296,
+          "compressed_bytes": 348193,
+          "crc32": "13e27974"
+        },
+        {
+          "name": "INITIAL_STATE.json",
+          "bytes": 3839,
+          "compressed_bytes": 1335,
+          "crc32": "a9056349"
+        },
+        {
+          "name": "LAUNCH.json",
+          "bytes": 1089,
+          "compressed_bytes": 579,
+          "crc32": "7939bf5e"
+        },
+        {
+          "name": "PHYSICAL_COST_RECEIPT.json",
+          "bytes": 231,
+          "compressed_bytes": 174,
+          "crc32": "23eb27dd"
+        },
+        {
+          "name": "PROGRESS.json",
+          "bytes": 376,
+          "compressed_bytes": 241,
+          "crc32": "d4eebdd4"
+        },
+        {
+          "name": "RESOLVED_CASE.json",
+          "bytes": 18864,
+          "compressed_bytes": 5605,
+          "crc32": "119f73db"
+        },
+        {
+          "name": "RESULT.json",
+          "bytes": 6878,
+          "compressed_bytes": 2278,
+          "crc32": "e66c2b27"
+        },
+        {
+          "name": "SEGMENTS.jsonl",
+          "bytes": 67346426,
+          "compressed_bytes": 10749370,
+          "crc32": "fe0c146b"
+        },
+        {
+          "name": "SOLVER_LOG.jsonl",
+          "bytes": 361081032,
+          "compressed_bytes": 20018618,
+          "crc32": "7092c97c"
+        },
+        {
+          "name": "STATES.jsonl",
+          "bytes": 234772275,
+          "compressed_bytes": 23308655,
+          "crc32": "964fe9ae"
+        },
+        {
+          "name": "stdout_stderr.log",
+          "bytes": 152,
+          "compressed_bytes": 133,
+          "crc32": "9eb65c3e"
+        }
+      ]
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T07_R_30s_attempt01.zip",
+      "status": "safe_allowed_extensions_central_directory_only",
+      "member_count": 16,
+      "uncompressed_bytes": 1951026829,
+      "prohibited_members": [],
+      "members": [
+        {
+          "name": "CASE.json",
+          "bytes": 18539,
+          "compressed_bytes": 5544,
+          "crc32": "6c3ffa19"
+        },
+        {
+          "name": "DECISIONS.jsonl",
+          "bytes": 17326537,
+          "compressed_bytes": 2976916,
+          "crc32": "e5af315d"
+        },
+        {
+          "name": "ENGINEERING_AUDIT.json",
+          "bytes": 8557,
+          "compressed_bytes": 2335,
+          "crc32": "3919b7ad"
+        },
+        {
+          "name": "EVENTS.jsonl",
+          "bytes": 219376136,
+          "compressed_bytes": 21514404,
+          "crc32": "3e85f4a4"
+        },
+        {
+          "name": "FAULT_ONSET_STATE.json",
+          "bytes": 2610303,
+          "compressed_bytes": 348237,
+          "crc32": "510c203d"
+        },
+        {
+          "name": "FINAL_STATE.json",
+          "bytes": 2341846,
+          "compressed_bytes": 336591,
+          "crc32": "db800bf2"
+        },
+        {
+          "name": "INITIAL_STATE.json",
+          "bytes": 3839,
+          "compressed_bytes": 1335,
+          "crc32": "a9056349"
+        },
+        {
+          "name": "LAUNCH.json",
+          "bytes": 1089,
+          "compressed_bytes": 579,
+          "crc32": "e750bba5"
+        },
+        {
+          "name": "PHYSICAL_COST_RECEIPT.json",
+          "bytes": 232,
+          "compressed_bytes": 176,
+          "crc32": "d807c6df"
+        },
+        {
+          "name": "PROGRESS.json",
+          "bytes": 377,
+          "compressed_bytes": 241,
+          "crc32": "681de356"
+        },
+        {
+          "name": "RESOLVED_CASE.json",
+          "bytes": 18862,
+          "compressed_bytes": 5604,
+          "crc32": "cdb42d1a"
+        },
+        {
+          "name": "RESULT.json",
+          "bytes": 6913,
+          "compressed_bytes": 2297,
+          "crc32": "299ef9f1"
+        },
+        {
+          "name": "SEGMENTS.jsonl",
+          "bytes": 147791148,
+          "compressed_bytes": 17089393,
+          "crc32": "33cad295"
+        },
+        {
+          "name": "SOLVER_LOG.jsonl",
+          "bytes": 1245108421,
+          "compressed_bytes": 70745464,
+          "crc32": "1f8e5ce1"
+        },
+        {
+          "name": "STATES.jsonl",
+          "bytes": 316413877,
+          "compressed_bytes": 33341753,
+          "crc32": "34f0f6b8"
+        },
+        {
+          "name": "stdout_stderr.log",
+          "bytes": 153,
+          "compressed_bytes": 133,
+          "crc32": "2005bcb4"
+        }
+      ]
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T06_U_15s_attempt01.zip",
+      "status": "safe_allowed_extensions_central_directory_only",
+      "member_count": 16,
+      "uncompressed_bytes": 557270793,
+      "prohibited_members": [],
+      "members": [
+        {
+          "name": "CASE.json",
+          "bytes": 44053,
+          "compressed_bytes": 9279,
+          "crc32": "dde442c0"
+        },
+        {
+          "name": "DECISIONS.jsonl",
+          "bytes": 11501229,
+          "compressed_bytes": 1967765,
+          "crc32": "62e6ba23"
+        },
+        {
+          "name": "ENGINEERING_AUDIT.json",
+          "bytes": 8300,
+          "compressed_bytes": 2068,
+          "crc32": "b815e898"
+        },
+        {
+          "name": "EVENTS.jsonl",
+          "bytes": 56199315,
+          "compressed_bytes": 5357104,
+          "crc32": "5c215e59"
+        },
+        {
+          "name": "FAULT_ONSET_STATE.json",
+          "bytes": 2533075,
+          "compressed_bytes": 349465,
+          "crc32": "f728068c"
+        },
+        {
+          "name": "FINAL_STATE.json",
+          "bytes": 2533081,
+          "compressed_bytes": 349471,
+          "crc32": "c0a1539a"
+        },
+        {
+          "name": "INITIAL_STATE.json",
+          "bytes": 3614,
+          "compressed_bytes": 1169,
+          "crc32": "0d2a9f0e"
+        },
+        {
+          "name": "LAUNCH.json",
+          "bytes": 1088,
+          "compressed_bytes": 579,
+          "crc32": "0832374e"
+        },
+        {
+          "name": "PHYSICAL_COST_RECEIPT.json",
+          "bytes": 231,
+          "compressed_bytes": 175,
+          "crc32": "ca804a3f"
+        },
+        {
+          "name": "PROGRESS.json",
+          "bytes": 377,
+          "compressed_bytes": 240,
+          "crc32": "28cd6d2d"
+        },
+        {
+          "name": "RESOLVED_CASE.json",
+          "bytes": 18879,
+          "compressed_bytes": 5608,
+          "crc32": "809afb35"
+        },
+        {
+          "name": "RESULT.json",
+          "bytes": 6879,
+          "compressed_bytes": 2278,
+          "crc32": "8c8a63f8"
+        },
+        {
+          "name": "SEGMENTS.jsonl",
+          "bytes": 56828455,
+          "compressed_bytes": 9153098,
+          "crc32": "09b67f7a"
+        },
+        {
+          "name": "SOLVER_LOG.jsonl",
+          "bytes": 258137996,
+          "compressed_bytes": 14867078,
+          "crc32": "80353bd5"
+        },
+        {
+          "name": "STATES.jsonl",
+          "bytes": 169454068,
+          "compressed_bytes": 15707780,
+          "crc32": "6116e235"
+        },
+        {
+          "name": "stdout_stderr.log",
+          "bytes": 153,
+          "compressed_bytes": 133,
+          "crc32": "6f2d0c90"
+        }
+      ]
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T01_U_15s_attempt01.zip",
+      "status": "safe_allowed_extensions_central_directory_only",
+      "member_count": 16,
+      "uncompressed_bytes": 541088421,
+      "prohibited_members": [],
+      "members": [
+        {
+          "name": "CASE.json",
+          "bytes": 18502,
+          "compressed_bytes": 5544,
+          "crc32": "3f3bc6db"
+        },
+        {
+          "name": "DECISIONS.jsonl",
+          "bytes": 11506779,
+          "compressed_bytes": 1955851,
+          "crc32": "9dc03336"
+        },
+        {
+          "name": "ENGINEERING_AUDIT.json",
+          "bytes": 8322,
+          "compressed_bytes": 1980,
+          "crc32": "7f392a2c"
+        },
+        {
+          "name": "EVENTS.jsonl",
+          "bytes": 54618864,
+          "compressed_bytes": 5090935,
+          "crc32": "6846cd1f"
+        },
+        {
+          "name": "FAULT_ONSET_STATE.json",
+          "bytes": 2496250,
+          "compressed_bytes": 355122,
+          "crc32": "7860b046"
+        },
+        {
+          "name": "FINAL_STATE.json",
+          "bytes": 2496171,
+          "compressed_bytes": 355065,
+          "crc32": "6d5d5f35"
+        },
+        {
+          "name": "INITIAL_STATE.json",
+          "bytes": 3768,
+          "compressed_bytes": 1282,
+          "crc32": "e7400bf7"
+        },
+        {
+          "name": "LAUNCH.json",
+          "bytes": 1088,
+          "compressed_bytes": 578,
+          "crc32": "3e9b0b24"
+        },
+        {
+          "name": "PHYSICAL_COST_RECEIPT.json",
+          "bytes": 231,
+          "compressed_bytes": 176,
+          "crc32": "88367c96"
+        },
+        {
+          "name": "PROGRESS.json",
+          "bytes": 391,
+          "compressed_bytes": 249,
+          "crc32": "c944738b"
+        },
+        {
+          "name": "RESOLVED_CASE.json",
+          "bytes": 18855,
+          "compressed_bytes": 5576,
+          "crc32": "f55aec94"
+        },
+        {
+          "name": "RESULT.json",
+          "bytes": 6892,
+          "compressed_bytes": 2278,
+          "crc32": "471c0035"
+        },
+        {
+          "name": "SEGMENTS.jsonl",
+          "bytes": 61187959,
+          "compressed_bytes": 9850408,
+          "crc32": "15b11d1e"
+        },
+        {
+          "name": "SOLVER_LOG.jsonl",
+          "bytes": 245969707,
+          "compressed_bytes": 15577512,
+          "crc32": "0534d0c0"
+        },
+        {
+          "name": "STATES.jsonl",
+          "bytes": 162754489,
+          "compressed_bytes": 15477745,
+          "crc32": "002e35ff"
+        },
+        {
+          "name": "stdout_stderr.log",
+          "bytes": 153,
+          "compressed_bytes": 131,
+          "crc32": "743fb49c"
+        }
+      ]
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T01_R_15s_attempt01.zip",
+      "status": "safe_allowed_extensions_central_directory_only",
+      "member_count": 16,
+      "uncompressed_bytes": 1387235671,
+      "prohibited_members": [],
+      "members": [
+        {
+          "name": "CASE.json",
+          "bytes": 18490,
+          "compressed_bytes": 5550,
+          "crc32": "f59173bc"
+        },
+        {
+          "name": "DECISIONS.jsonl",
+          "bytes": 12982003,
+          "compressed_bytes": 2209591,
+          "crc32": "16b158b0"
+        },
+        {
+          "name": "ENGINEERING_AUDIT.json",
+          "bytes": 8549,
+          "compressed_bytes": 2341,
+          "crc32": "9429a867"
+        },
+        {
+          "name": "EVENTS.jsonl",
+          "bytes": 168948663,
+          "compressed_bytes": 16301817,
+          "crc32": "3df8e90e"
+        },
+        {
+          "name": "FAULT_ONSET_STATE.json",
+          "bytes": 2496270,
+          "compressed_bytes": 355268,
+          "crc32": "4231df8e"
+        },
+        {
+          "name": "FINAL_STATE.json",
+          "bytes": 2397718,
+          "compressed_bytes": 346757,
+          "crc32": "3ee7188b"
+        },
+        {
+          "name": "INITIAL_STATE.json",
+          "bytes": 3768,
+          "compressed_bytes": 1282,
+          "crc32": "e7400bf7"
+        },
+        {
+          "name": "LAUNCH.json",
+          "bytes": 1088,
+          "compressed_bytes": 579,
+          "crc32": "1ba5d50b"
+        },
+        {
+          "name": "PHYSICAL_COST_RECEIPT.json",
+          "bytes": 231,
+          "compressed_bytes": 176,
+          "crc32": "233c71ce"
+        },
+        {
+          "name": "PROGRESS.json",
+          "bytes": 376,
+          "compressed_bytes": 239,
+          "crc32": "6ce7a7c8"
+        },
+        {
+          "name": "RESOLVED_CASE.json",
+          "bytes": 18853,
+          "compressed_bytes": 5583,
+          "crc32": "02439690"
+        },
+        {
+          "name": "RESULT.json",
+          "bytes": 6909,
+          "compressed_bytes": 2297,
+          "crc32": "53f67562"
+        },
+        {
+          "name": "SEGMENTS.jsonl",
+          "bytes": 138371056,
+          "compressed_bytes": 17869553,
+          "crc32": "39a7c77a"
+        },
+        {
+          "name": "SOLVER_LOG.jsonl",
+          "bytes": 789846507,
+          "compressed_bytes": 50115607,
+          "crc32": "66ec6794"
+        },
+        {
+          "name": "STATES.jsonl",
+          "bytes": 272135038,
+          "compressed_bytes": 27190907,
+          "crc32": "94397eb8"
+        },
+        {
+          "name": "stdout_stderr.log",
+          "bytes": 152,
+          "compressed_bytes": 132,
+          "crc32": "06fbd254"
+        }
+      ]
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T07_U_15s_attempt01.zip",
+      "status": "safe_allowed_extensions_central_directory_only",
+      "member_count": 16,
+      "uncompressed_bytes": 761132519,
+      "prohibited_members": [],
+      "members": [
+        {
+          "name": "CASE.json",
+          "bytes": 18551,
+          "compressed_bytes": 5542,
+          "crc32": "44fa7bfb"
+        },
+        {
+          "name": "DECISIONS.jsonl",
+          "bytes": 15261594,
+          "compressed_bytes": 2620333,
+          "crc32": "dbedcd5d"
+        },
+        {
+          "name": "ENGINEERING_AUDIT.json",
+          "bytes": 8500,
+          "compressed_bytes": 2168,
+          "crc32": "b8bef52c"
+        },
+        {
+          "name": "EVENTS.jsonl",
+          "bytes": 56165122,
+          "compressed_bytes": 5057380,
+          "crc32": "dff2c0f6"
+        },
+        {
+          "name": "FAULT_ONSET_STATE.json",
+          "bytes": 2610516,
+          "compressed_bytes": 349382,
+          "crc32": "023ef4d6"
+        },
+        {
+          "name": "FINAL_STATE.json",
+          "bytes": 2610512,
+          "compressed_bytes": 349415,
+          "crc32": "9790b475"
+        },
+        {
+          "name": "INITIAL_STATE.json",
+          "bytes": 3839,
+          "compressed_bytes": 1335,
+          "crc32": "a9056349"
+        },
+        {
+          "name": "LAUNCH.json",
+          "bytes": 1087,
+          "compressed_bytes": 577,
+          "crc32": "1a9989bb"
+        },
+        {
+          "name": "PHYSICAL_COST_RECEIPT.json",
+          "bytes": 231,
+          "compressed_bytes": 174,
+          "crc32": "7ae0c57a"
+        },
+        {
+          "name": "PROGRESS.json",
+          "bytes": 375,
+          "compressed_bytes": 239,
+          "crc32": "7560c38d"
+        },
+        {
+          "name": "RESOLVED_CASE.json",
+          "bytes": 18867,
+          "compressed_bytes": 5604,
+          "crc32": "cfd6d352"
+        },
+        {
+          "name": "RESULT.json",
+          "bytes": 6879,
+          "compressed_bytes": 2270,
+          "crc32": "c290dbc1"
+        },
+        {
+          "name": "SEGMENTS.jsonl",
+          "bytes": 84769482,
+          "compressed_bytes": 13927528,
+          "crc32": "2dc2f7c6"
+        },
+        {
+          "name": "SOLVER_LOG.jsonl",
+          "bytes": 364845056,
+          "compressed_bytes": 20255499,
+          "crc32": "3e90b3b6"
+        },
+        {
+          "name": "STATES.jsonl",
+          "bytes": 234811756,
+          "compressed_bytes": 23422869,
+          "crc32": "037bcc48"
+        },
+        {
+          "name": "stdout_stderr.log",
+          "bytes": 152,
+          "compressed_bytes": 133,
+          "crc32": "a025e513"
+        }
+      ]
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T07_R_15s_attempt01.zip",
+      "status": "safe_allowed_extensions_central_directory_only",
+      "member_count": 16,
+      "uncompressed_bytes": 2108053734,
+      "prohibited_members": [],
+      "members": [
+        {
+          "name": "CASE.json",
+          "bytes": 18539,
+          "compressed_bytes": 5544,
+          "crc32": "346e8595"
+        },
+        {
+          "name": "DECISIONS.jsonl",
+          "bytes": 17327821,
+          "compressed_bytes": 2976732,
+          "crc32": "2a4d2f9b"
+        },
+        {
+          "name": "ENGINEERING_AUDIT.json",
+          "bytes": 8563,
+          "compressed_bytes": 2337,
+          "crc32": "8329fda9"
+        },
+        {
+          "name": "EVENTS.jsonl",
+          "bytes": 219366405,
+          "compressed_bytes": 21512771,
+          "crc32": "606f5e3f"
+        },
+        {
+          "name": "FAULT_ONSET_STATE.json",
+          "bytes": 2610533,
+          "compressed_bytes": 349384,
+          "crc32": "9fa09a55"
+        },
+        {
+          "name": "FINAL_STATE.json",
+          "bytes": 2342113,
+          "compressed_bytes": 336673,
+          "crc32": "3fe67651"
+        },
+        {
+          "name": "INITIAL_STATE.json",
+          "bytes": 3839,
+          "compressed_bytes": 1335,
+          "crc32": "a9056349"
+        },
+        {
+          "name": "LAUNCH.json",
+          "bytes": 1088,
+          "compressed_bytes": 579,
+          "crc32": "3ffa4566"
+        },
+        {
+          "name": "PHYSICAL_COST_RECEIPT.json",
+          "bytes": 232,
+          "compressed_bytes": 176,
+          "crc32": "482b4fcc"
+        },
+        {
+          "name": "PROGRESS.json",
+          "bytes": 377,
+          "compressed_bytes": 241,
+          "crc32": "49d27519"
+        },
+        {
+          "name": "RESOLVED_CASE.json",
+          "bytes": 18865,
+          "compressed_bytes": 5604,
+          "crc32": "91f88e49"
+        },
+        {
+          "name": "RESULT.json",
+          "bytes": 6914,
+          "compressed_bytes": 2295,
+          "crc32": "27bf604d"
+        },
+        {
+          "name": "SEGMENTS.jsonl",
+          "bytes": 191637356,
+          "compressed_bytes": 22281421,
+          "crc32": "540a3209"
+        },
+        {
+          "name": "SOLVER_LOG.jsonl",
+          "bytes": 1358315726,
+          "compressed_bytes": 76812092,
+          "crc32": "4125f261"
+        },
+        {
+          "name": "STATES.jsonl",
+          "bytes": 316395210,
+          "compressed_bytes": 33303805,
+          "crc32": "b72b9469"
+        },
+        {
+          "name": "stdout_stderr.log",
+          "bytes": 153,
+          "compressed_bytes": 133,
+          "crc32": "c0c965f0"
+        }
+      ]
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_revision_20261107_v2\\candidates\\c1\\data\\pilot\\archives\\STEP_T07_U_60s_attempt01.zip",
+      "status": "safe_allowed_extensions_central_directory_only",
+      "member_count": 16,
+      "uncompressed_bytes": 733576228,
+      "prohibited_members": [],
+      "members": [
+        {
+          "name": "CASE.json",
+          "bytes": 18551,
+          "compressed_bytes": 5542,
+          "crc32": "23494c61"
+        },
+        {
+          "name": "DECISIONS.jsonl",
+          "bytes": 15241792,
+          "compressed_bytes": 2608236,
+          "crc32": "15bea9e0"
+        },
+        {
+          "name": "ENGINEERING_AUDIT.json",
+          "bytes": 8441,
+          "compressed_bytes": 2102,
+          "crc32": "bd888d5b"
+        },
+        {
+          "name": "EVENTS.jsonl",
+          "bytes": 56164442,
+          "compressed_bytes": 5022589,
+          "crc32": "bfad5a13"
+        },
+        {
+          "name": "FAULT_ONSET_STATE.json",
+          "bytes": 2610288,
+          "compressed_bytes": 348476,
+          "crc32": "1eed86d5"
+        },
+        {
+          "name": "FINAL_STATE.json",
+          "bytes": 2610273,
+          "compressed_bytes": 348470,
+          "crc32": "f2195bc0"
+        },
+        {
+          "name": "INITIAL_STATE.json",
+          "bytes": 3839,
+          "compressed_bytes": 1335,
+          "crc32": "a9056349"
+        },
+        {
+          "name": "LAUNCH.json",
+          "bytes": 1114,
+          "compressed_bytes": 590,
+          "crc32": "c68d6de3"
+        },
+        {
+          "name": "PHYSICAL_COST_RECEIPT.json",
+          "bytes": 232,
+          "compressed_bytes": 176,
+          "crc32": "e9b60a22"
+        },
+        {
+          "name": "PROGRESS.json",
+          "bytes": 376,
+          "compressed_bytes": 240,
+          "crc32": "ac109cd7"
+        },
+        {
+          "name": "RESOLVED_CASE.json",
+          "bytes": 21531,
+          "compressed_bytes": 6283,
+          "crc32": "6847114b"
+        },
+        {
+          "name": "RESULT.json",
+          "bytes": 7207,
+          "compressed_bytes": 2417,
+          "crc32": "cad8c507"
+        },
+        {
+          "name": "SEGMENTS.jsonl",
+          "bytes": 61054452,
+          "compressed_bytes": 9162148,
+          "crc32": "f439d46e"
+        },
+        {
+          "name": "SOLVER_LOG.jsonl",
+          "bytes": 361064624,
+          "compressed_bytes": 20053631,
+          "crc32": "2715c622"
+        },
+        {
+          "name": "STATES.jsonl",
+          "bytes": 234768914,
+          "compressed_bytes": 23315129,
+          "crc32": "f84bf8cf"
+        },
+        {
+          "name": "stdout_stderr.log",
+          "bytes": 152,
+          "compressed_bytes": 131,
+          "crc32": "9e37a865"
+        }
+      ]
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_revision_20261107_v2\\candidates\\c1\\data\\pilot\\archives\\STEP_T07_U_30s_attempt01.zip",
+      "status": "safe_allowed_extensions_central_directory_only",
+      "member_count": 16,
+      "uncompressed_bytes": 741069628,
+      "prohibited_members": [],
+      "members": [
+        {
+          "name": "CASE.json",
+          "bytes": 18551,
+          "compressed_bytes": 5542,
+          "crc32": "d3b1f1b7"
+        },
+        {
+          "name": "DECISIONS.jsonl",
+          "bytes": 15241765,
+          "compressed_bytes": 2608003,
+          "crc32": "71fc9fc2"
+        },
+        {
+          "name": "ENGINEERING_AUDIT.json",
+          "bytes": 8441,
+          "compressed_bytes": 2150,
+          "crc32": "a1d6711e"
+        },
+        {
+          "name": "EVENTS.jsonl",
+          "bytes": 56164555,
+          "compressed_bytes": 5015422,
+          "crc32": "cfe1a49c"
+        },
+        {
+          "name": "FAULT_ONSET_STATE.json",
+          "bytes": 2610287,
+          "compressed_bytes": 348318,
+          "crc32": "56a80b7b"
+        },
+        {
+          "name": "FINAL_STATE.json",
+          "bytes": 2610272,
+          "compressed_bytes": 348315,
+          "crc32": "e7b569c5"
+        },
+        {
+          "name": "INITIAL_STATE.json",
+          "bytes": 3839,
+          "compressed_bytes": 1335,
+          "crc32": "a9056349"
+        },
+        {
+          "name": "LAUNCH.json",
+          "bytes": 1113,
+          "compressed_bytes": 587,
+          "crc32": "40ff41b8"
+        },
+        {
+          "name": "PHYSICAL_COST_RECEIPT.json",
+          "bytes": 232,
+          "compressed_bytes": 176,
+          "crc32": "e9b60a22"
+        },
+        {
+          "name": "PROGRESS.json",
+          "bytes": 376,
+          "compressed_bytes": 240,
+          "crc32": "4fdf575c"
+        },
+        {
+          "name": "RESOLVED_CASE.json",
+          "bytes": 21531,
+          "compressed_bytes": 6285,
+          "crc32": "407a4a8e"
+        },
+        {
+          "name": "RESULT.json",
+          "bytes": 7207,
+          "compressed_bytes": 2427,
+          "crc32": "3336f18d"
+        },
+        {
+          "name": "SEGMENTS.jsonl",
+          "bytes": 68530896,
+          "compressed_bytes": 10924359,
+          "crc32": "5d140ab0"
+        },
+        {
+          "name": "SOLVER_LOG.jsonl",
+          "bytes": 361081569,
+          "compressed_bytes": 20027009,
+          "crc32": "e26abff7"
+        },
+        {
+          "name": "STATES.jsonl",
+          "bytes": 234768842,
+          "compressed_bytes": 23398381,
+          "crc32": "62a417c9"
+        },
+        {
+          "name": "stdout_stderr.log",
+          "bytes": 152,
+          "compressed_bytes": 132,
+          "crc32": "5ee06e86"
+        }
+      ]
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_revision_20261107_v2\\candidates\\c1\\data\\pilot\\archives\\STEP_T07_U_15s_attempt01.zip",
+      "status": "safe_allowed_extensions_central_directory_only",
+      "member_count": 16,
+      "uncompressed_bytes": 762702247,
+      "prohibited_members": [],
+      "members": [
+        {
+          "name": "CASE.json",
+          "bytes": 18551,
+          "compressed_bytes": 5542,
+          "crc32": "44fa7bfb"
+        },
+        {
+          "name": "DECISIONS.jsonl",
+          "bytes": 15242282,
+          "compressed_bytes": 2608717,
+          "crc32": "690a5767"
+        },
+        {
+          "name": "ENGINEERING_AUDIT.json",
+          "bytes": 8451,
+          "compressed_bytes": 2137,
+          "crc32": "2069593e"
+        },
+        {
+          "name": "EVENTS.jsonl",
+          "bytes": 56165103,
+          "compressed_bytes": 5013881,
+          "crc32": "e66fa05a"
+        },
+        {
+          "name": "FAULT_ONSET_STATE.json",
+          "bytes": 2610513,
+          "compressed_bytes": 349324,
+          "crc32": "230da15d"
+        },
+        {
+          "name": "FINAL_STATE.json",
+          "bytes": 2610491,
+          "compressed_bytes": 349351,
+          "crc32": "9ea3b9eb"
+        },
+        {
+          "name": "INITIAL_STATE.json",
+          "bytes": 3839,
+          "compressed_bytes": 1335,
+          "crc32": "a9056349"
+        },
+        {
+          "name": "LAUNCH.json",
+          "bytes": 1114,
+          "compressed_bytes": 592,
+          "crc32": "2d1c7fce"
+        },
+        {
+          "name": "PHYSICAL_COST_RECEIPT.json",
+          "bytes": 232,
+          "compressed_bytes": 176,
+          "crc32": "91de2d28"
+        },
+        {
+          "name": "PROGRESS.json",
+          "bytes": 375,
+          "compressed_bytes": 240,
+          "crc32": "116d91f7"
+        },
+        {
+          "name": "RESOLVED_CASE.json",
+          "bytes": 21534,
+          "compressed_bytes": 6285,
+          "crc32": "c180a9eb"
+        },
+        {
+          "name": "RESULT.json",
+          "bytes": 7208,
+          "compressed_bytes": 2431,
+          "crc32": "01734daf"
+        },
+        {
+          "name": "SEGMENTS.jsonl",
+          "bytes": 86357646,
+          "compressed_bytes": 14158676,
+          "crc32": "9e58528c"
+        },
+        {
+          "name": "SOLVER_LOG.jsonl",
+          "bytes": 364845360,
+          "compressed_bytes": 20276076,
+          "crc32": "181ec884"
+        },
+        {
+          "name": "STATES.jsonl",
+          "bytes": 234809396,
+          "compressed_bytes": 23469872,
+          "crc32": "8d3e70e1"
+        },
+        {
+          "name": "stdout_stderr.log",
+          "bytes": 152,
+          "compressed_bytes": 133,
+          "crc32": "831e62e4"
+        }
+      ]
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_revision_20261107_v2\\candidates\\c1_c3c\\data\\qualification\\native\\T06_U\\runs\\PUMP_U_attempt01\\RUN_ARTIFACTS.zip",
+      "status": "safe_allowed_extensions_central_directory_only",
+      "member_count": 14,
+      "uncompressed_bytes": 375445861,
+      "prohibited_members": [],
+      "members": [
+        {
+          "name": "CASE.json",
+          "bytes": 42459,
+          "compressed_bytes": 6821,
+          "crc32": "dc893b36"
+        },
+        {
+          "name": "COMPLETION.json",
+          "bytes": 1118,
+          "compressed_bytes": 553,
+          "crc32": "72979968"
+        },
+        {
+          "name": "DECISIONS.jsonl",
+          "bytes": 11506140,
+          "compressed_bytes": 1673341,
+          "crc32": "a3d363b9"
+        },
+        {
+          "name": "ENGINEERING_AUDIT.json",
+          "bytes": 8214,
+          "compressed_bytes": 1752,
+          "crc32": "fde03eca"
+        },
+        {
+          "name": "EVENTS.jsonl",
+          "bytes": 55631822,
+          "compressed_bytes": 1980884,
+          "crc32": "4ae31897"
+        },
+        {
+          "name": "INDEPENDENT_ENERGY_AUDIT.json",
+          "bytes": 7644,
+          "compressed_bytes": 2095,
+          "crc32": "1a0e778b"
+        },
+        {
+          "name": "INITIAL_STATE.json",
+          "bytes": 3751,
+          "compressed_bytes": 1081,
+          "crc32": "407d0038"
+        },
+        {
+          "name": "PROCESS_CLOSEOUT.json",
+          "bytes": 1695,
+          "compressed_bytes": 818,
+          "crc32": "59f7394f"
+        },
+        {
+          "name": "RESOLVED_CASE.json",
+          "bytes": 24166,
+          "compressed_bytes": 6285,
+          "crc32": "3d9eaef9"
+        },
+        {
+          "name": "RESOLVED_CASE_OVERLAY.json",
+          "bytes": 28552,
+          "compressed_bytes": 7147,
+          "crc32": "e22ecd4d"
+        },
+        {
+          "name": "RESULT.json",
+          "bytes": 4628,
+          "compressed_bytes": 1320,
+          "crc32": "955ff0d7"
+        },
+        {
+          "name": "SEGMENTS.jsonl",
+          "bytes": 15723836,
+          "compressed_bytes": 1964248,
+          "crc32": "7295dec6"
+        },
+        {
+          "name": "SOLVER_LOG.jsonl",
+          "bytes": 123523764,
+          "compressed_bytes": 3483599,
+          "crc32": "38852b99"
+        },
+        {
+          "name": "STATES.jsonl",
+          "bytes": 168938072,
+          "compressed_bytes": 6126832,
+          "crc32": "bc8ce9b8"
+        }
+      ]
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_revision_20261107_v2\\candidates\\c1_c3c\\data\\qualification\\wrapper\\runs\\STEP_T06_U_60s_attempt01\\RUN_ARTIFACTS.zip",
+      "status": "safe_allowed_extensions_central_directory_only",
+      "member_count": 15,
+      "uncompressed_bytes": 380520523,
+      "prohibited_members": [],
+      "members": [
+        {
+          "name": "CASE.json",
+          "bytes": 44053,
+          "compressed_bytes": 7221,
+          "crc32": "53ca7487"
+        },
+        {
+          "name": "DECISIONS.jsonl",
+          "bytes": 11521500,
+          "compressed_bytes": 1677811,
+          "crc32": "f43aef40"
+        },
+        {
+          "name": "ENGINEERING_AUDIT.json",
+          "bytes": 8312,
+          "compressed_bytes": 1799,
+          "crc32": "5596cb10"
+        },
+        {
+          "name": "EVENTS.jsonl",
+          "bytes": 55631865,
+          "compressed_bytes": 1980737,
+          "crc32": "17ed1450"
+        },
+        {
+          "name": "FAULT_ONSET_STATE.json",
+          "bytes": 2533434,
+          "compressed_bytes": 279467,
+          "crc32": "c9d40a79"
+        },
+        {
+          "name": "FINAL_STATE.json",
+          "bytes": 2533439,
+          "compressed_bytes": 279465,
+          "crc32": "45ab5c7e"
+        },
+        {
+          "name": "INDEPENDENT_ENERGY_AUDIT.json",
+          "bytes": 7606,
+          "compressed_bytes": 2026,
+          "crc32": "15241cfa"
+        },
+        {
+          "name": "INITIAL_STATE.json",
+          "bytes": 3751,
+          "compressed_bytes": 1081,
+          "crc32": "407d0038"
+        },
+        {
+          "name": "PHYSICAL_COST_RECEIPT.json",
+          "bytes": 232,
+          "compressed_bytes": 174,
+          "crc32": "34a03ea4"
+        },
+        {
+          "name": "PROCESS_CLOSEOUT.json",
+          "bytes": 1664,
+          "compressed_bytes": 795,
+          "crc32": "c16f1191"
+        },
+        {
+          "name": "RESOLVED_CASE.json",
+          "bytes": 22802,
+          "compressed_bytes": 5621,
+          "crc32": "85af4f6f"
+        },
+        {
+          "name": "RESULT.json",
+          "bytes": 7671,
+          "compressed_bytes": 2352,
+          "crc32": "91df652b"
+        },
+        {
+          "name": "SEGMENTS.jsonl",
+          "bytes": 15739875,
+          "compressed_bytes": 1968024,
+          "crc32": "f41db0ac"
+        },
+        {
+          "name": "SOLVER_LOG.jsonl",
+          "bytes": 123524044,
+          "compressed_bytes": 3483447,
+          "crc32": "7ab2d4db"
+        },
+        {
+          "name": "STATES.jsonl",
+          "bytes": 168940275,
+          "compressed_bytes": 6129253,
+          "crc32": "a2b2edfa"
+        }
+      ]
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_revision_20261107_v2\\candidates\\c1_c3c\\data\\qualification\\wrapper\\runs\\STEP_T06_U_30s_attempt01\\RUN_ARTIFACTS.zip",
+      "status": "safe_allowed_extensions_central_directory_only",
+      "member_count": 15,
+      "uncompressed_bytes": 432163895,
+      "prohibited_members": [],
+      "members": [
+        {
+          "name": "CASE.json",
+          "bytes": 44053,
+          "compressed_bytes": 7221,
+          "crc32": "0952f783"
+        },
+        {
+          "name": "DECISIONS.jsonl",
+          "bytes": 11520157,
+          "compressed_bytes": 1678269,
+          "crc32": "f2edd26e"
+        },
+        {
+          "name": "ENGINEERING_AUDIT.json",
+          "bytes": 8316,
+          "compressed_bytes": 1788,
+          "crc32": "79eb1428"
+        },
+        {
+          "name": "EVENTS.jsonl",
+          "bytes": 55622292,
+          "compressed_bytes": 1979481,
+          "crc32": "a8881e89"
+        },
+        {
+          "name": "FAULT_ONSET_STATE.json",
+          "bytes": 2533421,
+          "compressed_bytes": 279310,
+          "crc32": "9ae19baf"
+        },
+        {
+          "name": "FINAL_STATE.json",
+          "bytes": 2533427,
+          "compressed_bytes": 279292,
+          "crc32": "35dc985b"
+        },
+        {
+          "name": "INDEPENDENT_ENERGY_AUDIT.json",
+          "bytes": 7587,
+          "compressed_bytes": 2006,
+          "crc32": "00f28189"
+        },
+        {
+          "name": "INITIAL_STATE.json",
+          "bytes": 3751,
+          "compressed_bytes": 1081,
+          "crc32": "407d0038"
+        },
+        {
+          "name": "PHYSICAL_COST_RECEIPT.json",
+          "bytes": 232,
+          "compressed_bytes": 175,
+          "crc32": "6f44fc7f"
+        },
+        {
+          "name": "PROCESS_CLOSEOUT.json",
+          "bytes": 1664,
+          "compressed_bytes": 795,
+          "crc32": "1ab4e88c"
+        },
+        {
+          "name": "RESOLVED_CASE.json",
+          "bytes": 22802,
+          "compressed_bytes": 5622,
+          "crc32": "89db9033"
+        },
+        {
+          "name": "RESULT.json",
+          "bytes": 7670,
+          "compressed_bytes": 2359,
+          "crc32": "f6fd1b3e"
+        },
+        {
+          "name": "SEGMENTS.jsonl",
+          "bytes": 30667367,
+          "compressed_bytes": 3807690,
+          "crc32": "bf9320ef"
+        },
+        {
+          "name": "SOLVER_LOG.jsonl",
+          "bytes": 160261940,
+          "compressed_bytes": 4672324,
+          "crc32": "bcf13aee"
+        },
+        {
+          "name": "STATES.jsonl",
+          "bytes": 168929216,
+          "compressed_bytes": 6118990,
+          "crc32": "7a7e60e5"
+        }
+      ]
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_revision_20261107_v2\\candidates\\c1_c3c\\data\\qualification\\wrapper\\runs\\STEP_T06_U_15s_attempt01\\RUN_ARTIFACTS.zip",
+      "status": "safe_allowed_extensions_central_directory_only",
+      "member_count": 15,
+      "uncompressed_bytes": 541263088,
+      "prohibited_members": [],
+      "members": [
+        {
+          "name": "CASE.json",
+          "bytes": 44053,
+          "compressed_bytes": 7221,
+          "crc32": "dde442c0"
+        },
+        {
+          "name": "DECISIONS.jsonl",
+          "bytes": 11520404,
+          "compressed_bytes": 1677396,
+          "crc32": "a01f88b4"
+        },
+        {
+          "name": "ENGINEERING_AUDIT.json",
+          "bytes": 8308,
+          "compressed_bytes": 1773,
+          "crc32": "83e95689"
+        },
+        {
+          "name": "EVENTS.jsonl",
+          "bytes": 55623677,
+          "compressed_bytes": 1980073,
+          "crc32": "9f596391"
+        },
+        {
+          "name": "FAULT_ONSET_STATE.json",
+          "bytes": 2533245,
+          "compressed_bytes": 279793,
+          "crc32": "b527a73c"
+        },
+        {
+          "name": "FINAL_STATE.json",
+          "bytes": 2533250,
+          "compressed_bytes": 279775,
+          "crc32": "4d54e102"
+        },
+        {
+          "name": "INDEPENDENT_ENERGY_AUDIT.json",
+          "bytes": 7588,
+          "compressed_bytes": 2031,
+          "crc32": "8a5f7057"
+        },
+        {
+          "name": "INITIAL_STATE.json",
+          "bytes": 3751,
+          "compressed_bytes": 1081,
+          "crc32": "407d0038"
+        },
+        {
+          "name": "PHYSICAL_COST_RECEIPT.json",
+          "bytes": 231,
+          "compressed_bytes": 174,
+          "crc32": "b0d66124"
+        },
+        {
+          "name": "PROCESS_CLOSEOUT.json",
+          "bytes": 1664,
+          "compressed_bytes": 796,
+          "crc32": "80080eb7"
+        },
+        {
+          "name": "RESOLVED_CASE.json",
+          "bytes": 22805,
+          "compressed_bytes": 5622,
+          "crc32": "5c1be6e7"
+        },
+        {
+          "name": "RESULT.json",
+          "bytes": 7669,
+          "compressed_bytes": 2350,
+          "crc32": "80fbfc1b"
+        },
+        {
+          "name": "SEGMENTS.jsonl",
+          "bytes": 60898926,
+          "compressed_bytes": 7515955,
+          "crc32": "69762673"
+        },
+        {
+          "name": "SOLVER_LOG.jsonl",
+          "bytes": 239148316,
+          "compressed_bytes": 7200354,
+          "crc32": "d8c34057"
+        },
+        {
+          "name": "STATES.jsonl",
+          "bytes": 168909201,
+          "compressed_bytes": 6129704,
+          "crc32": "461d8857"
+        }
+      ]
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_resolution_20261107_v3\\data\\qualification\\native\\T06_U\\runs\\PUMP_U_attempt01\\RUN_ARTIFACTS.zip",
+      "status": "safe_allowed_extensions_central_directory_only",
+      "member_count": 14,
+      "uncompressed_bytes": 375447220,
+      "prohibited_members": [],
+      "members": [
+        {
+          "name": "CASE.json",
+          "bytes": 42459,
+          "compressed_bytes": 6821,
+          "crc32": "dc893b36"
+        },
+        {
+          "name": "COMPLETION.json",
+          "bytes": 1082,
+          "compressed_bytes": 544,
+          "crc32": "0884a9bd"
+        },
+        {
+          "name": "DECISIONS.jsonl",
+          "bytes": 11506140,
+          "compressed_bytes": 1673341,
+          "crc32": "a3d363b9"
+        },
+        {
+          "name": "ENGINEERING_AUDIT.json",
+          "bytes": 8214,
+          "compressed_bytes": 1752,
+          "crc32": "fde03eca"
+        },
+        {
+          "name": "EVENTS.jsonl",
+          "bytes": 55632037,
+          "compressed_bytes": 1980368,
+          "crc32": "fd34c33e"
+        },
+        {
+          "name": "INDEPENDENT_ENERGY_AUDIT.json",
+          "bytes": 7572,
+          "compressed_bytes": 2087,
+          "crc32": "7f0fd2e7"
+        },
+        {
+          "name": "INITIAL_STATE.json",
+          "bytes": 3751,
+          "compressed_bytes": 1081,
+          "crc32": "407d0038"
+        },
+        {
+          "name": "PROCESS_CLOSEOUT.json",
+          "bytes": 1641,
+          "compressed_bytes": 806,
+          "crc32": "edf5d3fe"
+        },
+        {
+          "name": "RESOLVED_CASE.json",
+          "bytes": 24166,
+          "compressed_bytes": 6285,
+          "crc32": "3d9eaef9"
+        },
+        {
+          "name": "RESOLVED_CASE_OVERLAY.json",
+          "bytes": 28842,
+          "compressed_bytes": 7227,
+          "crc32": "99185db0"
+        },
+        {
+          "name": "RESULT.json",
+          "bytes": 4431,
+          "compressed_bytes": 1311,
+          "crc32": "465ae958"
+        },
+        {
+          "name": "SEGMENTS.jsonl",
+          "bytes": 15723858,
+          "compressed_bytes": 1964400,
+          "crc32": "5983db69"
+        },
+        {
+          "name": "SOLVER_LOG.jsonl",
+          "bytes": 123524260,
+          "compressed_bytes": 3482368,
+          "crc32": "a6815199"
+        },
+        {
+          "name": "STATES.jsonl",
+          "bytes": 168938767,
+          "compressed_bytes": 6127047,
+          "crc32": "1e41865f"
+        }
+      ]
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_resolution_20261107_v3\\data\\qualification\\wrapper\\runs\\V3_WRAPPER_T06_U_60s_attempt01\\RUN_ARTIFACTS.zip",
+      "status": "safe_allowed_extensions_central_directory_only",
+      "member_count": 15,
+      "uncompressed_bytes": 380518650,
+      "prohibited_members": [],
+      "members": [
+        {
+          "name": "CASE.json",
+          "bytes": 44053,
+          "compressed_bytes": 7221,
+          "crc32": "53ca7487"
+        },
+        {
+          "name": "DECISIONS.jsonl",
+          "bytes": 11521500,
+          "compressed_bytes": 1677811,
+          "crc32": "f43aef40"
+        },
+        {
+          "name": "ENGINEERING_AUDIT.json",
+          "bytes": 8312,
+          "compressed_bytes": 1799,
+          "crc32": "5596cb10"
+        },
+        {
+          "name": "EVENTS.jsonl",
+          "bytes": 55631977,
+          "compressed_bytes": 1980201,
+          "crc32": "789f1d4d"
+        },
+        {
+          "name": "FAULT_ONSET_STATE.json",
+          "bytes": 2533415,
+          "compressed_bytes": 279458,
+          "crc32": "2682b974"
+        },
+        {
+          "name": "FINAL_STATE.json",
+          "bytes": 2533420,
+          "compressed_bytes": 279454,
+          "crc32": "540857b5"
+        },
+        {
+          "name": "INDEPENDENT_ENERGY_AUDIT.json",
+          "bytes": 7552,
+          "compressed_bytes": 2014,
+          "crc32": "859a7dbf"
+        },
+        {
+          "name": "INITIAL_STATE.json",
+          "bytes": 3751,
+          "compressed_bytes": 1081,
+          "crc32": "407d0038"
+        },
+        {
+          "name": "PHYSICAL_COST_RECEIPT.json",
+          "bytes": 232,
+          "compressed_bytes": 174,
+          "crc32": "34a03ea4"
+        },
+        {
+          "name": "PROCESS_CLOSEOUT.json",
+          "bytes": 1616,
+          "compressed_bytes": 781,
+          "crc32": "3cbd8fae"
+        },
+        {
+          "name": "RESOLVED_CASE.json",
+          "bytes": 23128,
+          "compressed_bytes": 5695,
+          "crc32": "04aa82e5"
+        },
+        {
+          "name": "RESULT.json",
+          "bytes": 7484,
+          "compressed_bytes": 2350,
+          "crc32": "e0b1e083"
+        },
+        {
+          "name": "SEGMENTS.jsonl",
+          "bytes": 15739843,
+          "compressed_bytes": 1967983,
+          "crc32": "dac3a106"
+        },
+        {
+          "name": "SOLVER_LOG.jsonl",
+          "bytes": 123524260,
+          "compressed_bytes": 3482128,
+          "crc32": "b13bdd71"
+        },
+        {
+          "name": "STATES.jsonl",
+          "bytes": 168938107,
+          "compressed_bytes": 6127204,
+          "crc32": "1d644704"
+        }
+      ]
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_resolution_20261107_v3\\data\\qualification\\wrapper\\runs\\V3_WRAPPER_T06_U_15s_attempt01\\RUN_ARTIFACTS.zip",
+      "status": "safe_allowed_extensions_central_directory_only",
+      "member_count": 15,
+      "uncompressed_bytes": 541267278,
+      "prohibited_members": [],
+      "members": [
+        {
+          "name": "CASE.json",
+          "bytes": 44053,
+          "compressed_bytes": 7221,
+          "crc32": "53ca7487"
+        },
+        {
+          "name": "DECISIONS.jsonl",
+          "bytes": 11520404,
+          "compressed_bytes": 1677169,
+          "crc32": "0c20ca6a"
+        },
+        {
+          "name": "ENGINEERING_AUDIT.json",
+          "bytes": 8308,
+          "compressed_bytes": 1773,
+          "crc32": "83e95689"
+        },
+        {
+          "name": "EVENTS.jsonl",
+          "bytes": 55624288,
+          "compressed_bytes": 1979838,
+          "crc32": "fb2fca2a"
+        },
+        {
+          "name": "FAULT_ONSET_STATE.json",
+          "bytes": 2533248,
+          "compressed_bytes": 279673,
+          "crc32": "1bbe79db"
+        },
+        {
+          "name": "FINAL_STATE.json",
+          "bytes": 2533253,
+          "compressed_bytes": 279655,
+          "crc32": "5ee19cc2"
+        },
+        {
+          "name": "INDEPENDENT_ENERGY_AUDIT.json",
+          "bytes": 7534,
+          "compressed_bytes": 2017,
+          "crc32": "87c7f1bc"
+        },
+        {
+          "name": "INITIAL_STATE.json",
+          "bytes": 3751,
+          "compressed_bytes": 1081,
+          "crc32": "407d0038"
+        },
+        {
+          "name": "PHYSICAL_COST_RECEIPT.json",
+          "bytes": 231,
+          "compressed_bytes": 174,
+          "crc32": "b0d66124"
+        },
+        {
+          "name": "PROCESS_CLOSEOUT.json",
+          "bytes": 1616,
+          "compressed_bytes": 780,
+          "crc32": "d90e97a0"
+        },
+        {
+          "name": "RESOLVED_CASE.json",
+          "bytes": 23131,
+          "compressed_bytes": 5697,
+          "crc32": "6fc59cf2"
+        },
+        {
+          "name": "RESULT.json",
+          "bytes": 7483,
+          "compressed_bytes": 2350,
+          "crc32": "25e47357"
+        },
+        {
+          "name": "SEGMENTS.jsonl",
+          "bytes": 60899172,
+          "compressed_bytes": 7518067,
+          "crc32": "66830de7"
+        },
+        {
+          "name": "SOLVER_LOG.jsonl",
+          "bytes": 239150634,
+          "compressed_bytes": 7199578,
+          "crc32": "ac634b4c"
+        },
+        {
+          "name": "STATES.jsonl",
+          "bytes": 168910172,
+          "compressed_bytes": 6126154,
+          "crc32": "16c7caaf"
+        }
+      ]
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_resolution_20261107_v3\\data\\qualification\\wrapper\\runs\\V3_WRAPPER_T06_U_7p5s_attempt01\\RUN_ARTIFACTS.zip",
+      "status": "safe_allowed_extensions_central_directory_only",
+      "member_count": 15,
+      "uncompressed_bytes": 774738514,
+      "prohibited_members": [],
+      "members": [
+        {
+          "name": "CASE.json",
+          "bytes": 44053,
+          "compressed_bytes": 7221,
+          "crc32": "53ca7487"
+        },
+        {
+          "name": "DECISIONS.jsonl",
+          "bytes": 11511674,
+          "compressed_bytes": 1662309,
+          "crc32": "18a95964"
+        },
+        {
+          "name": "ENGINEERING_AUDIT.json",
+          "bytes": 8175,
+          "compressed_bytes": 1715,
+          "crc32": "92ea6798"
+        },
+        {
+          "name": "EVENTS.jsonl",
+          "bytes": 55598662,
+          "compressed_bytes": 2006890,
+          "crc32": "3cbbb3d9"
+        },
+        {
+          "name": "FAULT_ONSET_STATE.json",
+          "bytes": 2545184,
+          "compressed_bytes": 266606,
+          "crc32": "0bcc801f"
+        },
+        {
+          "name": "FINAL_STATE.json",
+          "bytes": 2545190,
+          "compressed_bytes": 266597,
+          "crc32": "34e960c4"
+        },
+        {
+          "name": "INDEPENDENT_ENERGY_AUDIT.json",
+          "bytes": 7531,
+          "compressed_bytes": 2016,
+          "crc32": "225fb08a"
+        },
+        {
+          "name": "INITIAL_STATE.json",
+          "bytes": 3751,
+          "compressed_bytes": 1081,
+          "crc32": "407d0038"
+        },
+        {
+          "name": "PHYSICAL_COST_RECEIPT.json",
+          "bytes": 231,
+          "compressed_bytes": 174,
+          "crc32": "3b9d959a"
+        },
+        {
+          "name": "PROCESS_CLOSEOUT.json",
+          "bytes": 1620,
+          "compressed_bytes": 782,
+          "crc32": "002c2c5b"
+        },
+        {
+          "name": "RESOLVED_CASE.json",
+          "bytes": 23134,
+          "compressed_bytes": 5699,
+          "crc32": "faf23552"
+        },
+        {
+          "name": "RESULT.json",
+          "bytes": 7498,
+          "compressed_bytes": 2351,
+          "crc32": "17d0c8ab"
+        },
+        {
+          "name": "SEGMENTS.jsonl",
+          "bytes": 120503952,
+          "compressed_bytes": 14692623,
+          "crc32": "9cdd64b8"
+        },
+        {
+          "name": "SOLVER_LOG.jsonl",
+          "bytes": 413004336,
+          "compressed_bytes": 12530547,
+          "crc32": "a4d5e5e1"
+        },
+        {
+          "name": "STATES.jsonl",
+          "bytes": 168933523,
+          "compressed_bytes": 6093301,
+          "crc32": "820f7f39"
+        }
+      ]
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_resolution_20261107_v3\\data\\finer_reference_v1\\wrapper\\runs\\FR1_WRAPPER_T06_U_3p75s_attempt01\\RUN_ARTIFACTS.zip",
+      "status": "safe_allowed_extensions_central_directory_only",
+      "member_count": 15,
+      "uncompressed_bytes": 1206972482,
+      "prohibited_members": [],
+      "members": [
+        {
+          "name": "CASE.json",
+          "bytes": 44053,
+          "compressed_bytes": 7221,
+          "crc32": "53ca7487"
+        },
+        {
+          "name": "DECISIONS.jsonl",
+          "bytes": 11523101,
+          "compressed_bytes": 1678724,
+          "crc32": "759d6080"
+        },
+        {
+          "name": "ENGINEERING_AUDIT.json",
+          "bytes": 8304,
+          "compressed_bytes": 1789,
+          "crc32": "10e8bd59"
+        },
+        {
+          "name": "EVENTS.jsonl",
+          "bytes": 55625040,
+          "compressed_bytes": 1979840,
+          "crc32": "4cd5f328"
+        },
+        {
+          "name": "FAULT_ONSET_STATE.json",
+          "bytes": 2533257,
+          "compressed_bytes": 279361,
+          "crc32": "04e0e8ef"
+        },
+        {
+          "name": "FINAL_STATE.json",
+          "bytes": 2533267,
+          "compressed_bytes": 279351,
+          "crc32": "27549c1b"
+        },
+        {
+          "name": "INDEPENDENT_ENERGY_AUDIT.json",
+          "bytes": 7566,
+          "compressed_bytes": 2052,
+          "crc32": "ef003a14"
+        },
+        {
+          "name": "INITIAL_STATE.json",
+          "bytes": 3751,
+          "compressed_bytes": 1081,
+          "crc32": "407d0038"
+        },
+        {
+          "name": "PHYSICAL_COST_RECEIPT.json",
+          "bytes": 232,
+          "compressed_bytes": 174,
+          "crc32": "bb029ef7"
+        },
+        {
+          "name": "PROCESS_CLOSEOUT.json",
+          "bytes": 1659,
+          "compressed_bytes": 794,
+          "crc32": "568fa2a5"
+        },
+        {
+          "name": "RESOLVED_CASE.json",
+          "bytes": 23137,
+          "compressed_bytes": 5699,
+          "crc32": "cc91564f"
+        },
+        {
+          "name": "RESULT.json",
+          "bytes": 7632,
+          "compressed_bytes": 2365,
+          "crc32": "92257dd3"
+        },
+        {
+          "name": "SEGMENTS.jsonl",
+          "bytes": 242447688,
+          "compressed_bytes": 29851555,
+          "crc32": "da77fd73"
+        },
+        {
+          "name": "SOLVER_LOG.jsonl",
+          "bytes": 723301503,
+          "compressed_bytes": 22641423,
+          "crc32": "b32d12d9"
+        },
+        {
+          "name": "STATES.jsonl",
+          "bytes": 168912292,
+          "compressed_bytes": 6126522,
+          "crc32": "be4a2b2e"
+        }
+      ]
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\data\\qualification_v4_r02\\inner\\V4R2_NATIVE_T06_U_60s\\runs\\V4R2_NATIVE_T06_U_60s_attempt01\\RUN_ARTIFACTS.zip",
+      "status": "safe_allowed_extensions_central_directory_only",
+      "member_count": 15,
+      "uncompressed_bytes": 9113874,
+      "prohibited_members": [],
+      "members": [
+        {
+          "name": "CASE.json",
+          "bytes": 42459,
+          "compressed_bytes": 6821,
+          "crc32": "dc893b36"
+        },
+        {
+          "name": "COMPLETION.json",
+          "bytes": 1167,
+          "compressed_bytes": 567,
+          "crc32": "a3668486"
+        },
+        {
+          "name": "DECISIONS.jsonl",
+          "bytes": 139688,
+          "compressed_bytes": 19977,
+          "crc32": "4e062822"
+        },
+        {
+          "name": "EVENTS.jsonl",
+          "bytes": 1872272,
+          "compressed_bytes": 66445,
+          "crc32": "ce427ab7"
+        },
+        {
+          "name": "FAILURE.json",
+          "bytes": 4799,
+          "compressed_bytes": 993,
+          "crc32": "635e7bbf"
+        },
+        {
+          "name": "FAILURE_CONTEXT.json",
+          "bytes": 1828,
+          "compressed_bytes": 672,
+          "crc32": "af253a05"
+        },
+        {
+          "name": "INDEPENDENT_ENERGY_AUDIT.json",
+          "bytes": 4226,
+          "compressed_bytes": 1356,
+          "crc32": "d40f1ef7"
+        },
+        {
+          "name": "INITIAL_STATE.json",
+          "bytes": 3751,
+          "compressed_bytes": 1081,
+          "crc32": "407d0038"
+        },
+        {
+          "name": "PROCESS_CLOSEOUT.json",
+          "bytes": 1740,
+          "compressed_bytes": 815,
+          "crc32": "4800be28"
+        },
+        {
+          "name": "RESOLVED_CASE.json",
+          "bytes": 24369,
+          "compressed_bytes": 6350,
+          "crc32": "92ba0188"
+        },
+        {
+          "name": "RESOLVED_CASE_OVERLAY.json",
+          "bytes": 31210,
+          "compressed_bytes": 7492,
+          "crc32": "62cdfba0"
+        },
+        {
+          "name": "RESULT.json",
+          "bytes": 9460,
+          "compressed_bytes": 2103,
+          "crc32": "c17fd6b1"
+        },
+        {
+          "name": "SEGMENTS.jsonl",
+          "bytes": 332135,
+          "compressed_bytes": 31522,
+          "crc32": "8734d7b3"
+        },
+        {
+          "name": "SOLVER_LOG.jsonl",
+          "bytes": 4783826,
+          "compressed_bytes": 132925,
+          "crc32": "4b0d422c"
+        },
+        {
+          "name": "STATES.jsonl",
+          "bytes": 1860944,
+          "compressed_bytes": 63887,
+          "crc32": "e2912ae6"
+        }
+      ]
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\data\\qualification_v4_r04\\inner\\V4R4_NATIVE_T06_U_60s\\runs\\V4R4_NATIVE_T06_U_60s_attempt01\\RUN_ARTIFACTS.zip",
+      "status": "safe_allowed_extensions_central_directory_only",
+      "member_count": 14,
+      "uncompressed_bytes": 385020285,
+      "prohibited_members": [],
+      "members": [
+        {
+          "name": "CASE.json",
+          "bytes": 42459,
+          "compressed_bytes": 6821,
+          "crc32": "dc893b36"
+        },
+        {
+          "name": "COMPLETION.json",
+          "bytes": 1170,
+          "compressed_bytes": 566,
+          "crc32": "8244b377"
+        },
+        {
+          "name": "DECISIONS.jsonl",
+          "bytes": 11535952,
+          "compressed_bytes": 1685330,
+          "crc32": "07f84188"
+        },
+        {
+          "name": "ENGINEERING_AUDIT.json",
+          "bytes": 8211,
+          "compressed_bytes": 1734,
+          "crc32": "9dd70d41"
+        },
+        {
+          "name": "EVENTS.jsonl",
+          "bytes": 55622171,
+          "compressed_bytes": 1978815,
+          "crc32": "67496e44"
+        },
+        {
+          "name": "INDEPENDENT_ENERGY_AUDIT.json",
+          "bytes": 4226,
+          "compressed_bytes": 1354,
+          "crc32": "4356e68a"
+        },
+        {
+          "name": "INITIAL_STATE.json",
+          "bytes": 3751,
+          "compressed_bytes": 1081,
+          "crc32": "407d0038"
+        },
+        {
+          "name": "PROCESS_CLOSEOUT.json",
+          "bytes": 1740,
+          "compressed_bytes": 811,
+          "crc32": "4ecede1b"
+        },
+        {
+          "name": "RESOLVED_CASE.json",
+          "bytes": 24369,
+          "compressed_bytes": 6350,
+          "crc32": "92ba0188"
+        },
+        {
+          "name": "RESOLVED_CASE_OVERLAY.json",
+          "bytes": 31210,
+          "compressed_bytes": 7494,
+          "crc32": "610a8b5d"
+        },
+        {
+          "name": "RESULT.json",
+          "bytes": 4915,
+          "compressed_bytes": 1323,
+          "crc32": "387c0cb0"
+        },
+        {
+          "name": "SEGMENTS.jsonl",
+          "bytes": 17105825,
+          "compressed_bytes": 2122041,
+          "crc32": "ccd89285"
+        },
+        {
+          "name": "SOLVER_LOG.jsonl",
+          "bytes": 131719377,
+          "compressed_bytes": 3722710,
+          "crc32": "06380877"
+        },
+        {
+          "name": "STATES.jsonl",
+          "bytes": 168914909,
+          "compressed_bytes": 6115374,
+          "crc32": "6575fa74"
+        }
+      ]
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\data\\qualification_recovery_r05\\inner\\R05_WRAPPER_T06_U_60s\\runs\\R05_WRAPPER_T06_U_60s_attempt01\\RUN_ARTIFACTS.zip",
+      "status": "safe_allowed_extensions_central_directory_only",
+      "member_count": 3,
+      "uncompressed_bytes": 6707,
+      "prohibited_members": [],
+      "members": [
+        {
+          "name": "FAILURE.json",
+          "bytes": 865,
+          "compressed_bytes": 370,
+          "crc32": "a971aaa2"
+        },
+        {
+          "name": "PROCESS_CLOSEOUT.json",
+          "bytes": 1378,
+          "compressed_bytes": 596,
+          "crc32": "f015fd36"
+        },
+        {
+          "name": "RESULT.json",
+          "bytes": 4464,
+          "compressed_bytes": 1718,
+          "crc32": "b56b183e"
+        }
+      ]
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\data\\qualification_recovery_r06\\inner\\R06_WRAPPER_T06_U_60s\\runs\\R06_WRAPPER_T06_U_60s_attempt01\\RUN_ARTIFACTS.zip",
+      "status": "safe_allowed_extensions_central_directory_only",
+      "member_count": 15,
+      "uncompressed_bytes": 390107026,
+      "prohibited_members": [],
+      "members": [
+        {
+          "name": "CASE.json",
+          "bytes": 44053,
+          "compressed_bytes": 7221,
+          "crc32": "53ca7487"
+        },
+        {
+          "name": "DECISIONS.jsonl",
+          "bytes": 11551312,
+          "compressed_bytes": 1689710,
+          "crc32": "80094dd4"
+        },
+        {
+          "name": "ENGINEERING_AUDIT.json",
+          "bytes": 8309,
+          "compressed_bytes": 1781,
+          "crc32": "9a11299b"
+        },
+        {
+          "name": "EVENTS.jsonl",
+          "bytes": 55623183,
+          "compressed_bytes": 1978724,
+          "crc32": "283ec449"
+        },
+        {
+          "name": "FAULT_ONSET_STATE.json",
+          "bytes": 2533313,
+          "compressed_bytes": 279547,
+          "crc32": "0879866c"
+        },
+        {
+          "name": "FINAL_STATE.json",
+          "bytes": 2533318,
+          "compressed_bytes": 279538,
+          "crc32": "35ee227c"
+        },
+        {
+          "name": "INDEPENDENT_ENERGY_AUDIT.json",
+          "bytes": 12388,
+          "compressed_bytes": 3236,
+          "crc32": "daf1a55d"
+        },
+        {
+          "name": "INITIAL_STATE.json",
+          "bytes": 3751,
+          "compressed_bytes": 1081,
+          "crc32": "407d0038"
+        },
+        {
+          "name": "PHYSICAL_COST_RECEIPT.json",
+          "bytes": 232,
+          "compressed_bytes": 175,
+          "crc32": "f6e0bf38"
+        },
+        {
+          "name": "PROCESS_CLOSEOUT.json",
+          "bytes": 1742,
+          "compressed_bytes": 802,
+          "crc32": "1c65a269"
+        },
+        {
+          "name": "RESOLVED_CASE.json",
+          "bytes": 24790,
+          "compressed_bytes": 5955,
+          "crc32": "71a0bb09"
+        },
+        {
+          "name": "RESULT.json",
+          "bytes": 9341,
+          "compressed_bytes": 2703,
+          "crc32": "c7bd9c93"
+        },
+        {
+          "name": "SEGMENTS.jsonl",
+          "bytes": 17122523,
+          "compressed_bytes": 2125820,
+          "crc32": "2616021a"
+        },
+        {
+          "name": "SOLVER_LOG.jsonl",
+          "bytes": 131721890,
+          "compressed_bytes": 3721894,
+          "crc32": "9b175f17"
+        },
+        {
+          "name": "STATES.jsonl",
+          "bytes": 168916881,
+          "compressed_bytes": 6117360,
+          "crc32": "d2f3df58"
+        }
+      ]
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\data\\qualification_recovery_r06\\inner\\R06_WRAPPER_T06_U_7p5s\\runs\\R06_WRAPPER_T06_U_7p5s_attempt01\\RUN_ARTIFACTS.zip",
+      "status": "safe_allowed_extensions_central_directory_only",
+      "member_count": 15,
+      "uncompressed_bytes": 776320113,
+      "prohibited_members": [],
+      "members": [
+        {
+          "name": "CASE.json",
+          "bytes": 44053,
+          "compressed_bytes": 7221,
+          "crc32": "53ca7487"
+        },
+        {
+          "name": "DECISIONS.jsonl",
+          "bytes": 11552611,
+          "compressed_bytes": 1690719,
+          "crc32": "ebd42e9b"
+        },
+        {
+          "name": "ENGINEERING_AUDIT.json",
+          "bytes": 8296,
+          "compressed_bytes": 1780,
+          "crc32": "312cebbf"
+        },
+        {
+          "name": "EVENTS.jsonl",
+          "bytes": 55620351,
+          "compressed_bytes": 1978416,
+          "crc32": "046e0cdc"
+        },
+        {
+          "name": "FAULT_ONSET_STATE.json",
+          "bytes": 2533226,
+          "compressed_bytes": 279432,
+          "crc32": "200d3c00"
+        },
+        {
+          "name": "FINAL_STATE.json",
+          "bytes": 2533232,
+          "compressed_bytes": 279423,
+          "crc32": "937edce5"
+        },
+        {
+          "name": "INDEPENDENT_ENERGY_AUDIT.json",
+          "bytes": 12394,
+          "compressed_bytes": 3240,
+          "crc32": "f72ca6f2"
+        },
+        {
+          "name": "INITIAL_STATE.json",
+          "bytes": 3751,
+          "compressed_bytes": 1081,
+          "crc32": "407d0038"
+        },
+        {
+          "name": "PHYSICAL_COST_RECEIPT.json",
+          "bytes": 232,
+          "compressed_bytes": 175,
+          "crc32": "71c1439f"
+        },
+        {
+          "name": "PROCESS_CLOSEOUT.json",
+          "bytes": 1747,
+          "compressed_bytes": 806,
+          "crc32": "10ba7784"
+        },
+        {
+          "name": "RESOLVED_CASE.json",
+          "bytes": 24796,
+          "compressed_bytes": 5959,
+          "crc32": "3dc97c5e"
+        },
+        {
+          "name": "RESULT.json",
+          "bytes": 9372,
+          "compressed_bytes": 2693,
+          "crc32": "9f802237"
+        },
+        {
+          "name": "SEGMENTS.jsonl",
+          "bytes": 124810451,
+          "compressed_bytes": 15522433,
+          "crc32": "b3db7818"
+        },
+        {
+          "name": "SOLVER_LOG.jsonl",
+          "bytes": 410261640,
+          "compressed_bytes": 12624232,
+          "crc32": "e5a4fc39"
+        },
+        {
+          "name": "STATES.jsonl",
+          "bytes": 168903961,
+          "compressed_bytes": 6122606,
+          "crc32": "e01d15da"
+        }
+      ]
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\data\\qualification_recovery_r06\\inner\\R06_WRAPPER_T06_U_3p75s\\runs\\R06_WRAPPER_T06_U_3p75s_attempt01\\RUN_ARTIFACTS.zip",
+      "status": "safe_allowed_extensions_central_directory_only",
+      "member_count": 15,
+      "uncompressed_bytes": 1221451787,
+      "prohibited_members": [],
+      "members": [
+        {
+          "name": "CASE.json",
+          "bytes": 44053,
+          "compressed_bytes": 7221,
+          "crc32": "53ca7487"
+        },
+        {
+          "name": "DECISIONS.jsonl",
+          "bytes": 11553375,
+          "compressed_bytes": 1691000,
+          "crc32": "2cd4bcb4"
+        },
+        {
+          "name": "ENGINEERING_AUDIT.json",
+          "bytes": 8297,
+          "compressed_bytes": 1773,
+          "crc32": "5f111229"
+        },
+        {
+          "name": "EVENTS.jsonl",
+          "bytes": 55624799,
+          "compressed_bytes": 1979607,
+          "crc32": "a5553eed"
+        },
+        {
+          "name": "FAULT_ONSET_STATE.json",
+          "bytes": 2533358,
+          "compressed_bytes": 279836,
+          "crc32": "73d159ec"
+        },
+        {
+          "name": "FINAL_STATE.json",
+          "bytes": 2533358,
+          "compressed_bytes": 279813,
+          "crc32": "0ad50636"
+        },
+        {
+          "name": "INDEPENDENT_ENERGY_AUDIT.json",
+          "bytes": 12369,
+          "compressed_bytes": 3213,
+          "crc32": "371ea8ce"
+        },
+        {
+          "name": "INITIAL_STATE.json",
+          "bytes": 3751,
+          "compressed_bytes": 1081,
+          "crc32": "407d0038"
+        },
+        {
+          "name": "PHYSICAL_COST_RECEIPT.json",
+          "bytes": 231,
+          "compressed_bytes": 175,
+          "crc32": "0372c8fe"
+        },
+        {
+          "name": "PROCESS_CLOSEOUT.json",
+          "bytes": 1752,
+          "compressed_bytes": 806,
+          "crc32": "a81d2b0e"
+        },
+        {
+          "name": "RESOLVED_CASE.json",
+          "bytes": 24799,
+          "compressed_bytes": 5959,
+          "crc32": "87748a93"
+        },
+        {
+          "name": "RESULT.json",
+          "bytes": 9402,
+          "compressed_bytes": 2698,
+          "crc32": "5d500fcb"
+        },
+        {
+          "name": "SEGMENTS.jsonl",
+          "bytes": 247923159,
+          "compressed_bytes": 30821015,
+          "crc32": "98831a36"
+        },
+        {
+          "name": "SOLVER_LOG.jsonl",
+          "bytes": 732254895,
+          "compressed_bytes": 22902148,
+          "crc32": "968036de"
+        },
+        {
+          "name": "STATES.jsonl",
+          "bytes": 168924189,
+          "compressed_bytes": 6120981,
+          "crc32": "a40f544a"
+        }
+      ]
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\data\\qualification_recovery_r06\\inner\\R06_NATIVE_T06_R_60s\\runs\\R06_NATIVE_T06_R_60s_attempt01\\RUN_ARTIFACTS.zip",
+      "status": "safe_allowed_extensions_central_directory_only",
+      "member_count": 14,
+      "uncompressed_bytes": 840651086,
+      "prohibited_members": [],
+      "members": [
+        {
+          "name": "CASE.json",
+          "bytes": 42439,
+          "compressed_bytes": 6819,
+          "crc32": "3acd525a"
+        },
+        {
+          "name": "COMPLETION.json",
+          "bytes": 1178,
+          "compressed_bytes": 570,
+          "crc32": "fe2532a3"
+        },
+        {
+          "name": "DECISIONS.jsonl",
+          "bytes": 13008795,
+          "compressed_bytes": 1879318,
+          "crc32": "04a6b5b1"
+        },
+        {
+          "name": "ENGINEERING_AUDIT.json",
+          "bytes": 8489,
+          "compressed_bytes": 2033,
+          "crc32": "a9627057"
+        },
+        {
+          "name": "EVENTS.jsonl",
+          "bytes": 169307719,
+          "compressed_bytes": 6426597,
+          "crc32": "459ce1bd"
+        },
+        {
+          "name": "INDEPENDENT_ENERGY_AUDIT.json",
+          "bytes": 12438,
+          "compressed_bytes": 3231,
+          "crc32": "00d788c0"
+        },
+        {
+          "name": "INITIAL_STATE.json",
+          "bytes": 3751,
+          "compressed_bytes": 1081,
+          "crc32": "407d0038"
+        },
+        {
+          "name": "PROCESS_CLOSEOUT.json",
+          "bytes": 1756,
+          "compressed_bytes": 820,
+          "crc32": "aeb42a34"
+        },
+        {
+          "name": "RESOLVED_CASE.json",
+          "bytes": 24369,
+          "compressed_bytes": 6347,
+          "crc32": "bf2453a4"
+        },
+        {
+          "name": "RESOLVED_CASE_OVERLAY.json",
+          "bytes": 31260,
+          "compressed_bytes": 7516,
+          "crc32": "4dcd6d02"
+        },
+        {
+          "name": "RESULT.json",
+          "bytes": 4989,
+          "compressed_bytes": 1340,
+          "crc32": "9c096dad"
+        },
+        {
+          "name": "SEGMENTS.jsonl",
+          "bytes": 30134835,
+          "compressed_bytes": 2959590,
+          "crc32": "c784ebc0"
+        },
+        {
+          "name": "SOLVER_LOG.jsonl",
+          "bytes": 353022634,
+          "compressed_bytes": 10268802,
+          "crc32": "599f5972"
+        },
+        {
+          "name": "STATES.jsonl",
+          "bytes": 275046434,
+          "compressed_bytes": 10984050,
+          "crc32": "7e8898f0"
+        }
+      ]
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\data\\qualification_recovery_r06\\inner\\R06_WRAPPER_T06_R_60s\\runs\\R06_WRAPPER_T06_R_60s_attempt01\\RUN_ARTIFACTS.zip",
+      "status": "safe_allowed_extensions_central_directory_only",
+      "member_count": 15,
+      "uncompressed_bytes": 845660371,
+      "prohibited_members": [],
+      "members": [
+        {
+          "name": "CASE.json",
+          "bytes": 44033,
+          "compressed_bytes": 7217,
+          "crc32": "16132af8"
+        },
+        {
+          "name": "DECISIONS.jsonl",
+          "bytes": 13023555,
+          "compressed_bytes": 1883812,
+          "crc32": "a70eb952"
+        },
+        {
+          "name": "ENGINEERING_AUDIT.json",
+          "bytes": 8587,
+          "compressed_bytes": 2081,
+          "crc32": "75196e71"
+        },
+        {
+          "name": "EVENTS.jsonl",
+          "bytes": 169307870,
+          "compressed_bytes": 6426627,
+          "crc32": "14d6feef"
+        },
+        {
+          "name": "FAULT_ONSET_STATE.json",
+          "bytes": 2533332,
+          "compressed_bytes": 279556,
+          "crc32": "427a9070"
+        },
+        {
+          "name": "FINAL_STATE.json",
+          "bytes": 2468896,
+          "compressed_bytes": 275019,
+          "crc32": "99597563"
+        },
+        {
+          "name": "INDEPENDENT_ENERGY_AUDIT.json",
+          "bytes": 12405,
+          "compressed_bytes": 3216,
+          "crc32": "7ce976dc"
+        },
+        {
+          "name": "INITIAL_STATE.json",
+          "bytes": 3751,
+          "compressed_bytes": 1081,
+          "crc32": "407d0038"
+        },
+        {
+          "name": "PHYSICAL_COST_RECEIPT.json",
+          "bytes": 232,
+          "compressed_bytes": 174,
+          "crc32": "0321c0a1"
+        },
+        {
+          "name": "PROCESS_CLOSEOUT.json",
+          "bytes": 1742,
+          "compressed_bytes": 804,
+          "crc32": "d4e2200b"
+        },
+        {
+          "name": "RESOLVED_CASE.json",
+          "bytes": 24790,
+          "compressed_bytes": 5951,
+          "crc32": "38a94fa5"
+        },
+        {
+          "name": "RESULT.json",
+          "bytes": 9373,
+          "compressed_bytes": 2715,
+          "crc32": "81ecccb3"
+        },
+        {
+          "name": "SEGMENTS.jsonl",
+          "bytes": 30151555,
+          "compressed_bytes": 2965158,
+          "crc32": "cc6f181f"
+        },
+        {
+          "name": "SOLVER_LOG.jsonl",
+          "bytes": 353023059,
+          "compressed_bytes": 10269244,
+          "crc32": "b04ae21c"
+        },
+        {
+          "name": "STATES.jsonl",
+          "bytes": 275047191,
+          "compressed_bytes": 10983606,
+          "crc32": "607253a8"
+        }
+      ]
+    }
+  ],
+  "attempts": [
+    {
+      "actual_index": 1,
+      "producer_id": "STEP_T06_U_60s",
+      "cohort": "original_step",
+      "ledger_state": "historical_actual",
+      "process_exit_code": 0,
+      "result_status": "completed",
+      "observed_until_minute": 180.0,
+      "expected_end_minute": 180,
+      "run_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\runs\\STEP_T06_U_60s_attempt01",
+      "run_directory_exists": true,
+      "registration_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\registration\\STEP_REGISTRATION.json",
+      "producer_matched_current_registration": true,
+      "safe_archives": [
+        "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T06_U_60s_attempt01.zip"
+      ],
+      "raw_coverage": {
+        "CASE.json": "plain_file",
+        "RESULT.json": "plain_file",
+        "SEGMENTS.jsonl": "inside_safe_archive",
+        "STATES.jsonl": "inside_safe_archive",
+        "DECISIONS.jsonl": "inside_safe_archive",
+        "EVENTS.jsonl": "inside_safe_archive",
+        "SOLVER_LOG.jsonl": "inside_safe_archive"
+      },
+      "missing_declared_raw_paths": [],
+      "operational_vs_scientific_note": "Process/data status only; completion does not establish scientific qualification"
+    },
+    {
+      "actual_index": 2,
+      "producer_id": "STEP_T06_R_60s",
+      "cohort": "original_step",
+      "ledger_state": "historical_actual",
+      "process_exit_code": 0,
+      "result_status": "completed",
+      "observed_until_minute": 180.0,
+      "expected_end_minute": 180,
+      "run_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\runs\\STEP_T06_R_60s_attempt01",
+      "run_directory_exists": true,
+      "registration_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\registration\\STEP_REGISTRATION.json",
+      "producer_matched_current_registration": true,
+      "safe_archives": [
+        "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T06_R_60s_attempt01.zip"
+      ],
+      "raw_coverage": {
+        "CASE.json": "plain_file",
+        "RESULT.json": "plain_file",
+        "SEGMENTS.jsonl": "inside_safe_archive",
+        "STATES.jsonl": "inside_safe_archive",
+        "DECISIONS.jsonl": "inside_safe_archive",
+        "EVENTS.jsonl": "inside_safe_archive",
+        "SOLVER_LOG.jsonl": "inside_safe_archive"
+      },
+      "missing_declared_raw_paths": [],
+      "operational_vs_scientific_note": "Process/data status only; completion does not establish scientific qualification"
+    },
+    {
+      "actual_index": 3,
+      "producer_id": "STEP_T01_U_60s",
+      "cohort": "original_step",
+      "ledger_state": "historical_actual",
+      "process_exit_code": 0,
+      "result_status": "completed",
+      "observed_until_minute": 180.0,
+      "expected_end_minute": 180,
+      "run_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\runs\\STEP_T01_U_60s_attempt01",
+      "run_directory_exists": true,
+      "registration_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\registration\\STEP_REGISTRATION.json",
+      "producer_matched_current_registration": true,
+      "safe_archives": [
+        "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T01_U_60s_attempt01.zip"
+      ],
+      "raw_coverage": {
+        "CASE.json": "plain_file",
+        "RESULT.json": "plain_file",
+        "SEGMENTS.jsonl": "inside_safe_archive",
+        "STATES.jsonl": "inside_safe_archive",
+        "DECISIONS.jsonl": "inside_safe_archive",
+        "EVENTS.jsonl": "inside_safe_archive",
+        "SOLVER_LOG.jsonl": "inside_safe_archive"
+      },
+      "missing_declared_raw_paths": [],
+      "operational_vs_scientific_note": "Process/data status only; completion does not establish scientific qualification"
+    },
+    {
+      "actual_index": 4,
+      "producer_id": "STEP_T01_R_60s",
+      "cohort": "original_step",
+      "ledger_state": "historical_actual",
+      "process_exit_code": 0,
+      "result_status": "completed",
+      "observed_until_minute": 180.0,
+      "expected_end_minute": 180,
+      "run_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\runs\\STEP_T01_R_60s_attempt01",
+      "run_directory_exists": true,
+      "registration_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\registration\\STEP_REGISTRATION.json",
+      "producer_matched_current_registration": true,
+      "safe_archives": [
+        "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T01_R_60s_attempt01.zip"
+      ],
+      "raw_coverage": {
+        "CASE.json": "plain_file",
+        "RESULT.json": "plain_file",
+        "SEGMENTS.jsonl": "inside_safe_archive",
+        "STATES.jsonl": "inside_safe_archive",
+        "DECISIONS.jsonl": "inside_safe_archive",
+        "EVENTS.jsonl": "inside_safe_archive",
+        "SOLVER_LOG.jsonl": "inside_safe_archive"
+      },
+      "missing_declared_raw_paths": [],
+      "operational_vs_scientific_note": "Process/data status only; completion does not establish scientific qualification"
+    },
+    {
+      "actual_index": 5,
+      "producer_id": "STEP_T07_U_60s",
+      "cohort": "original_step",
+      "ledger_state": "historical_actual",
+      "process_exit_code": 0,
+      "result_status": "completed",
+      "observed_until_minute": 240.0,
+      "expected_end_minute": 240,
+      "run_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\runs\\STEP_T07_U_60s_attempt01",
+      "run_directory_exists": true,
+      "registration_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\registration\\STEP_REGISTRATION.json",
+      "producer_matched_current_registration": true,
+      "safe_archives": [
+        "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T07_U_60s_attempt01.zip"
+      ],
+      "raw_coverage": {
+        "CASE.json": "plain_file",
+        "RESULT.json": "plain_file",
+        "SEGMENTS.jsonl": "inside_safe_archive",
+        "STATES.jsonl": "inside_safe_archive",
+        "DECISIONS.jsonl": "inside_safe_archive",
+        "EVENTS.jsonl": "inside_safe_archive",
+        "SOLVER_LOG.jsonl": "inside_safe_archive"
+      },
+      "missing_declared_raw_paths": [],
+      "operational_vs_scientific_note": "Process/data status only; completion does not establish scientific qualification"
+    },
+    {
+      "actual_index": 6,
+      "producer_id": "STEP_T07_R_60s",
+      "cohort": "original_step",
+      "ledger_state": "historical_actual",
+      "process_exit_code": 0,
+      "result_status": "completed",
+      "observed_until_minute": 240.0,
+      "expected_end_minute": 240,
+      "run_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\runs\\STEP_T07_R_60s_attempt01",
+      "run_directory_exists": true,
+      "registration_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\registration\\STEP_REGISTRATION.json",
+      "producer_matched_current_registration": true,
+      "safe_archives": [
+        "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T07_R_60s_attempt01.zip"
+      ],
+      "raw_coverage": {
+        "CASE.json": "plain_file",
+        "RESULT.json": "plain_file",
+        "SEGMENTS.jsonl": "inside_safe_archive",
+        "STATES.jsonl": "inside_safe_archive",
+        "DECISIONS.jsonl": "inside_safe_archive",
+        "EVENTS.jsonl": "inside_safe_archive",
+        "SOLVER_LOG.jsonl": "inside_safe_archive"
+      },
+      "missing_declared_raw_paths": [],
+      "operational_vs_scientific_note": "Process/data status only; completion does not establish scientific qualification"
+    },
+    {
+      "actual_index": 7,
+      "producer_id": "STEP_T06_U_30s",
+      "cohort": "original_step",
+      "ledger_state": "historical_actual",
+      "process_exit_code": 0,
+      "result_status": "completed",
+      "observed_until_minute": 180.0,
+      "expected_end_minute": 180,
+      "run_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\runs\\STEP_T06_U_30s_attempt01",
+      "run_directory_exists": true,
+      "registration_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\registration\\STEP_REGISTRATION.json",
+      "producer_matched_current_registration": true,
+      "safe_archives": [
+        "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T06_U_30s_attempt01.zip"
+      ],
+      "raw_coverage": {
+        "CASE.json": "plain_file",
+        "RESULT.json": "plain_file",
+        "SEGMENTS.jsonl": "inside_safe_archive",
+        "STATES.jsonl": "inside_safe_archive",
+        "DECISIONS.jsonl": "inside_safe_archive",
+        "EVENTS.jsonl": "inside_safe_archive",
+        "SOLVER_LOG.jsonl": "inside_safe_archive"
+      },
+      "missing_declared_raw_paths": [],
+      "operational_vs_scientific_note": "Process/data status only; completion does not establish scientific qualification"
+    },
+    {
+      "actual_index": 8,
+      "producer_id": "STEP_T06_R_30s",
+      "cohort": "original_step",
+      "ledger_state": "historical_actual",
+      "process_exit_code": 0,
+      "result_status": "completed",
+      "observed_until_minute": 180.0,
+      "expected_end_minute": 180,
+      "run_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\runs\\STEP_T06_R_30s_attempt01",
+      "run_directory_exists": true,
+      "registration_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\registration\\STEP_REGISTRATION.json",
+      "producer_matched_current_registration": true,
+      "safe_archives": [
+        "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T06_R_30s_attempt01.zip"
+      ],
+      "raw_coverage": {
+        "CASE.json": "plain_file",
+        "RESULT.json": "plain_file",
+        "SEGMENTS.jsonl": "inside_safe_archive",
+        "STATES.jsonl": "inside_safe_archive",
+        "DECISIONS.jsonl": "inside_safe_archive",
+        "EVENTS.jsonl": "inside_safe_archive",
+        "SOLVER_LOG.jsonl": "inside_safe_archive"
+      },
+      "missing_declared_raw_paths": [],
+      "operational_vs_scientific_note": "Process/data status only; completion does not establish scientific qualification"
+    },
+    {
+      "actual_index": 9,
+      "producer_id": "STEP_T06_R_15s",
+      "cohort": "original_step",
+      "ledger_state": "historical_actual",
+      "process_exit_code": 0,
+      "result_status": "completed",
+      "observed_until_minute": 180.0,
+      "expected_end_minute": 180,
+      "run_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\runs\\STEP_T06_R_15s_attempt01",
+      "run_directory_exists": true,
+      "registration_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\registration\\STEP_REGISTRATION.json",
+      "producer_matched_current_registration": true,
+      "safe_archives": [
+        "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T06_R_15s_attempt01.zip"
+      ],
+      "raw_coverage": {
+        "CASE.json": "plain_file",
+        "RESULT.json": "plain_file",
+        "SEGMENTS.jsonl": "inside_safe_archive",
+        "STATES.jsonl": "inside_safe_archive",
+        "DECISIONS.jsonl": "inside_safe_archive",
+        "EVENTS.jsonl": "inside_safe_archive",
+        "SOLVER_LOG.jsonl": "inside_safe_archive"
+      },
+      "missing_declared_raw_paths": [],
+      "operational_vs_scientific_note": "Process/data status only; completion does not establish scientific qualification"
+    },
+    {
+      "actual_index": 10,
+      "producer_id": "STEP_T01_U_30s",
+      "cohort": "original_step",
+      "ledger_state": "historical_actual",
+      "process_exit_code": 0,
+      "result_status": "completed",
+      "observed_until_minute": 180.0,
+      "expected_end_minute": 180,
+      "run_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\runs\\STEP_T01_U_30s_attempt01",
+      "run_directory_exists": true,
+      "registration_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\registration\\STEP_REGISTRATION.json",
+      "producer_matched_current_registration": true,
+      "safe_archives": [
+        "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T01_U_30s_attempt01.zip"
+      ],
+      "raw_coverage": {
+        "CASE.json": "plain_file",
+        "RESULT.json": "plain_file",
+        "SEGMENTS.jsonl": "inside_safe_archive",
+        "STATES.jsonl": "inside_safe_archive",
+        "DECISIONS.jsonl": "inside_safe_archive",
+        "EVENTS.jsonl": "inside_safe_archive",
+        "SOLVER_LOG.jsonl": "inside_safe_archive"
+      },
+      "missing_declared_raw_paths": [],
+      "operational_vs_scientific_note": "Process/data status only; completion does not establish scientific qualification"
+    },
+    {
+      "actual_index": 11,
+      "producer_id": "STEP_T01_R_30s",
+      "cohort": "original_step",
+      "ledger_state": "historical_actual",
+      "process_exit_code": 0,
+      "result_status": "completed",
+      "observed_until_minute": 180.0,
+      "expected_end_minute": 180,
+      "run_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\runs\\STEP_T01_R_30s_attempt01",
+      "run_directory_exists": true,
+      "registration_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\registration\\STEP_REGISTRATION.json",
+      "producer_matched_current_registration": true,
+      "safe_archives": [
+        "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T01_R_30s_attempt01.zip"
+      ],
+      "raw_coverage": {
+        "CASE.json": "plain_file",
+        "RESULT.json": "plain_file",
+        "SEGMENTS.jsonl": "inside_safe_archive",
+        "STATES.jsonl": "inside_safe_archive",
+        "DECISIONS.jsonl": "inside_safe_archive",
+        "EVENTS.jsonl": "inside_safe_archive",
+        "SOLVER_LOG.jsonl": "inside_safe_archive"
+      },
+      "missing_declared_raw_paths": [],
+      "operational_vs_scientific_note": "Process/data status only; completion does not establish scientific qualification"
+    },
+    {
+      "actual_index": 12,
+      "producer_id": "STEP_T07_U_30s",
+      "cohort": "original_step",
+      "ledger_state": "historical_actual",
+      "process_exit_code": 0,
+      "result_status": "completed",
+      "observed_until_minute": 240.0,
+      "expected_end_minute": 240,
+      "run_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\runs\\STEP_T07_U_30s_attempt01",
+      "run_directory_exists": true,
+      "registration_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\registration\\STEP_REGISTRATION.json",
+      "producer_matched_current_registration": true,
+      "safe_archives": [
+        "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T07_U_30s_attempt01.zip"
+      ],
+      "raw_coverage": {
+        "CASE.json": "plain_file",
+        "RESULT.json": "plain_file",
+        "SEGMENTS.jsonl": "inside_safe_archive",
+        "STATES.jsonl": "inside_safe_archive",
+        "DECISIONS.jsonl": "inside_safe_archive",
+        "EVENTS.jsonl": "inside_safe_archive",
+        "SOLVER_LOG.jsonl": "inside_safe_archive"
+      },
+      "missing_declared_raw_paths": [],
+      "operational_vs_scientific_note": "Process/data status only; completion does not establish scientific qualification"
+    },
+    {
+      "actual_index": 13,
+      "producer_id": "STEP_T07_R_30s",
+      "cohort": "original_step",
+      "ledger_state": "historical_actual",
+      "process_exit_code": 0,
+      "result_status": "completed",
+      "observed_until_minute": 240.0,
+      "expected_end_minute": 240,
+      "run_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\runs\\STEP_T07_R_30s_attempt01",
+      "run_directory_exists": true,
+      "registration_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\registration\\STEP_REGISTRATION.json",
+      "producer_matched_current_registration": true,
+      "safe_archives": [
+        "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T07_R_30s_attempt01.zip"
+      ],
+      "raw_coverage": {
+        "CASE.json": "plain_file",
+        "RESULT.json": "plain_file",
+        "SEGMENTS.jsonl": "inside_safe_archive",
+        "STATES.jsonl": "inside_safe_archive",
+        "DECISIONS.jsonl": "inside_safe_archive",
+        "EVENTS.jsonl": "inside_safe_archive",
+        "SOLVER_LOG.jsonl": "inside_safe_archive"
+      },
+      "missing_declared_raw_paths": [],
+      "operational_vs_scientific_note": "Process/data status only; completion does not establish scientific qualification"
+    },
+    {
+      "actual_index": 14,
+      "producer_id": "STEP_T06_U_15s",
+      "cohort": "original_step",
+      "ledger_state": "historical_actual",
+      "process_exit_code": 0,
+      "result_status": "completed",
+      "observed_until_minute": 180.0,
+      "expected_end_minute": 180,
+      "run_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\runs\\STEP_T06_U_15s_attempt01",
+      "run_directory_exists": true,
+      "registration_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\registration\\STEP_REGISTRATION.json",
+      "producer_matched_current_registration": true,
+      "safe_archives": [
+        "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T06_U_15s_attempt01.zip"
+      ],
+      "raw_coverage": {
+        "CASE.json": "plain_file",
+        "RESULT.json": "plain_file",
+        "SEGMENTS.jsonl": "inside_safe_archive",
+        "STATES.jsonl": "inside_safe_archive",
+        "DECISIONS.jsonl": "inside_safe_archive",
+        "EVENTS.jsonl": "inside_safe_archive",
+        "SOLVER_LOG.jsonl": "inside_safe_archive"
+      },
+      "missing_declared_raw_paths": [],
+      "operational_vs_scientific_note": "Process/data status only; completion does not establish scientific qualification"
+    },
+    {
+      "actual_index": 15,
+      "producer_id": "STEP_T01_U_15s",
+      "cohort": "original_step",
+      "ledger_state": "historical_actual",
+      "process_exit_code": 0,
+      "result_status": "completed",
+      "observed_until_minute": 180.0,
+      "expected_end_minute": 180,
+      "run_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\runs\\STEP_T01_U_15s_attempt01",
+      "run_directory_exists": true,
+      "registration_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\registration\\STEP_REGISTRATION.json",
+      "producer_matched_current_registration": true,
+      "safe_archives": [
+        "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T01_U_15s_attempt01.zip"
+      ],
+      "raw_coverage": {
+        "CASE.json": "plain_file",
+        "RESULT.json": "plain_file",
+        "SEGMENTS.jsonl": "inside_safe_archive",
+        "STATES.jsonl": "inside_safe_archive",
+        "DECISIONS.jsonl": "inside_safe_archive",
+        "EVENTS.jsonl": "inside_safe_archive",
+        "SOLVER_LOG.jsonl": "inside_safe_archive"
+      },
+      "missing_declared_raw_paths": [],
+      "operational_vs_scientific_note": "Process/data status only; completion does not establish scientific qualification"
+    },
+    {
+      "actual_index": 16,
+      "producer_id": "STEP_T01_R_15s",
+      "cohort": "original_step",
+      "ledger_state": "historical_actual",
+      "process_exit_code": 0,
+      "result_status": "completed",
+      "observed_until_minute": 180.0,
+      "expected_end_minute": 180,
+      "run_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\runs\\STEP_T01_R_15s_attempt01",
+      "run_directory_exists": true,
+      "registration_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\registration\\STEP_REGISTRATION.json",
+      "producer_matched_current_registration": true,
+      "safe_archives": [
+        "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T01_R_15s_attempt01.zip"
+      ],
+      "raw_coverage": {
+        "CASE.json": "plain_file",
+        "RESULT.json": "plain_file",
+        "SEGMENTS.jsonl": "inside_safe_archive",
+        "STATES.jsonl": "inside_safe_archive",
+        "DECISIONS.jsonl": "inside_safe_archive",
+        "EVENTS.jsonl": "inside_safe_archive",
+        "SOLVER_LOG.jsonl": "inside_safe_archive"
+      },
+      "missing_declared_raw_paths": [],
+      "operational_vs_scientific_note": "Process/data status only; completion does not establish scientific qualification"
+    },
+    {
+      "actual_index": 17,
+      "producer_id": "STEP_T07_U_15s",
+      "cohort": "original_step",
+      "ledger_state": "historical_actual",
+      "process_exit_code": 0,
+      "result_status": "completed",
+      "observed_until_minute": 240.0,
+      "expected_end_minute": 240,
+      "run_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\runs\\STEP_T07_U_15s_attempt01",
+      "run_directory_exists": true,
+      "registration_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\registration\\STEP_REGISTRATION.json",
+      "producer_matched_current_registration": true,
+      "safe_archives": [
+        "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T07_U_15s_attempt01.zip"
+      ],
+      "raw_coverage": {
+        "CASE.json": "plain_file",
+        "RESULT.json": "plain_file",
+        "SEGMENTS.jsonl": "inside_safe_archive",
+        "STATES.jsonl": "inside_safe_archive",
+        "DECISIONS.jsonl": "inside_safe_archive",
+        "EVENTS.jsonl": "inside_safe_archive",
+        "SOLVER_LOG.jsonl": "inside_safe_archive"
+      },
+      "missing_declared_raw_paths": [],
+      "operational_vs_scientific_note": "Process/data status only; completion does not establish scientific qualification"
+    },
+    {
+      "actual_index": 18,
+      "producer_id": "STEP_T07_R_15s",
+      "cohort": "original_step",
+      "ledger_state": "historical_actual",
+      "process_exit_code": 0,
+      "result_status": "completed",
+      "observed_until_minute": 240.0,
+      "expected_end_minute": 240,
+      "run_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\runs\\STEP_T07_R_15s_attempt01",
+      "run_directory_exists": true,
+      "registration_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\registration\\STEP_REGISTRATION.json",
+      "producer_matched_current_registration": true,
+      "safe_archives": [
+        "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T07_R_15s_attempt01.zip"
+      ],
+      "raw_coverage": {
+        "CASE.json": "plain_file",
+        "RESULT.json": "plain_file",
+        "SEGMENTS.jsonl": "inside_safe_archive",
+        "STATES.jsonl": "inside_safe_archive",
+        "DECISIONS.jsonl": "inside_safe_archive",
+        "EVENTS.jsonl": "inside_safe_archive",
+        "SOLVER_LOG.jsonl": "inside_safe_archive"
+      },
+      "missing_declared_raw_paths": [],
+      "operational_vs_scientific_note": "Process/data status only; completion does not establish scientific qualification"
+    },
+    {
+      "actual_index": 19,
+      "producer_id": "STEP_T07_U_60s",
+      "cohort": "c1_exploratory",
+      "ledger_state": "historical_actual",
+      "process_exit_code": 0,
+      "result_status": "completed",
+      "observed_until_minute": 240.0,
+      "expected_end_minute": 240,
+      "run_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_revision_20261107_v2\\candidates\\c1\\data\\pilot\\runs\\STEP_T07_U_60s_attempt01",
+      "run_directory_exists": true,
+      "registration_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_revision_20261107_v2\\candidates\\c1\\registration\\PILOT_REGISTRATION.json",
+      "producer_matched_current_registration": true,
+      "safe_archives": [
+        "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_revision_20261107_v2\\candidates\\c1\\data\\pilot\\archives\\STEP_T07_U_60s_attempt01.zip"
+      ],
+      "raw_coverage": {
+        "CASE.json": "plain_file",
+        "RESULT.json": "plain_file",
+        "SEGMENTS.jsonl": "inside_safe_archive",
+        "STATES.jsonl": "inside_safe_archive",
+        "DECISIONS.jsonl": "inside_safe_archive",
+        "EVENTS.jsonl": "inside_safe_archive",
+        "SOLVER_LOG.jsonl": "inside_safe_archive"
+      },
+      "missing_declared_raw_paths": [],
+      "operational_vs_scientific_note": "Process/data status only; completion does not establish scientific qualification"
+    },
+    {
+      "actual_index": 20,
+      "producer_id": "STEP_T07_U_30s",
+      "cohort": "c1_exploratory",
+      "ledger_state": "historical_actual",
+      "process_exit_code": 0,
+      "result_status": "completed",
+      "observed_until_minute": 240.0,
+      "expected_end_minute": 240,
+      "run_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_revision_20261107_v2\\candidates\\c1\\data\\pilot\\runs\\STEP_T07_U_30s_attempt01",
+      "run_directory_exists": true,
+      "registration_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_revision_20261107_v2\\candidates\\c1\\registration\\PILOT_REGISTRATION.json",
+      "producer_matched_current_registration": true,
+      "safe_archives": [
+        "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_revision_20261107_v2\\candidates\\c1\\data\\pilot\\archives\\STEP_T07_U_30s_attempt01.zip"
+      ],
+      "raw_coverage": {
+        "CASE.json": "plain_file",
+        "RESULT.json": "plain_file",
+        "SEGMENTS.jsonl": "inside_safe_archive",
+        "STATES.jsonl": "inside_safe_archive",
+        "DECISIONS.jsonl": "inside_safe_archive",
+        "EVENTS.jsonl": "inside_safe_archive",
+        "SOLVER_LOG.jsonl": "inside_safe_archive"
+      },
+      "missing_declared_raw_paths": [],
+      "operational_vs_scientific_note": "Process/data status only; completion does not establish scientific qualification"
+    },
+    {
+      "actual_index": 21,
+      "producer_id": "STEP_T07_U_15s",
+      "cohort": "c1_exploratory",
+      "ledger_state": "historical_actual",
+      "process_exit_code": 0,
+      "result_status": "completed",
+      "observed_until_minute": 240.0,
+      "expected_end_minute": 240,
+      "run_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_revision_20261107_v2\\candidates\\c1\\data\\pilot\\runs\\STEP_T07_U_15s_attempt01",
+      "run_directory_exists": true,
+      "registration_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_revision_20261107_v2\\candidates\\c1\\registration\\PILOT_REGISTRATION.json",
+      "producer_matched_current_registration": true,
+      "safe_archives": [
+        "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_revision_20261107_v2\\candidates\\c1\\data\\pilot\\archives\\STEP_T07_U_15s_attempt01.zip"
+      ],
+      "raw_coverage": {
+        "CASE.json": "plain_file",
+        "RESULT.json": "plain_file",
+        "SEGMENTS.jsonl": "inside_safe_archive",
+        "STATES.jsonl": "inside_safe_archive",
+        "DECISIONS.jsonl": "inside_safe_archive",
+        "EVENTS.jsonl": "inside_safe_archive",
+        "SOLVER_LOG.jsonl": "inside_safe_archive"
+      },
+      "missing_declared_raw_paths": [],
+      "operational_vs_scientific_note": "Process/data status only; completion does not establish scientific qualification"
+    },
+    {
+      "actual_index": 22,
+      "producer_id": "V2_NATIVE_T06_U_60s",
+      "cohort": "cfa_negative_history",
+      "ledger_state": "historical_actual",
+      "process_exit_code": 0,
+      "result_status": "completed",
+      "observed_until_minute": 180.0,
+      "expected_end_minute": 180,
+      "run_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_revision_20261107_v2\\candidates\\c1_c3c\\data\\qualification\\native\\T06_U\\runs\\PUMP_U_attempt01",
+      "run_directory_exists": true,
+      "registration_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_revision_20261107_v2\\candidates\\c1_c3c\\registration\\QUALIFICATION_LAUNCH.json",
+      "producer_matched_current_registration": true,
+      "safe_archives": [
+        "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_revision_20261107_v2\\candidates\\c1_c3c\\data\\qualification\\native\\T06_U\\runs\\PUMP_U_attempt01\\RUN_ARTIFACTS.zip"
+      ],
+      "raw_coverage": {
+        "CASE.json": "plain_file",
+        "RESULT.json": "plain_file",
+        "SEGMENTS.jsonl": "plain_file",
+        "STATES.jsonl": "plain_file",
+        "DECISIONS.jsonl": "plain_file",
+        "EVENTS.jsonl": "plain_file",
+        "SOLVER_LOG.jsonl": "plain_file"
+      },
+      "missing_declared_raw_paths": [],
+      "operational_vs_scientific_note": "Process/data status only; completion does not establish scientific qualification"
+    },
+    {
+      "actual_index": 23,
+      "producer_id": "V2_WRAPPER_T06_U_60s",
+      "cohort": "cfa_negative_history",
+      "ledger_state": "historical_actual",
+      "process_exit_code": 0,
+      "result_status": "completed",
+      "observed_until_minute": 180.0,
+      "expected_end_minute": 180,
+      "run_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_revision_20261107_v2\\candidates\\c1_c3c\\data\\qualification\\wrapper\\runs\\STEP_T06_U_60s_attempt01",
+      "run_directory_exists": true,
+      "registration_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_revision_20261107_v2\\candidates\\c1_c3c\\registration\\QUALIFICATION_LAUNCH.json",
+      "producer_matched_current_registration": true,
+      "safe_archives": [
+        "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_revision_20261107_v2\\candidates\\c1_c3c\\data\\qualification\\wrapper\\runs\\STEP_T06_U_60s_attempt01\\RUN_ARTIFACTS.zip"
+      ],
+      "raw_coverage": {
+        "CASE.json": "plain_file",
+        "RESULT.json": "plain_file",
+        "SEGMENTS.jsonl": "plain_file",
+        "STATES.jsonl": "plain_file",
+        "DECISIONS.jsonl": "plain_file",
+        "EVENTS.jsonl": "plain_file",
+        "SOLVER_LOG.jsonl": "plain_file"
+      },
+      "missing_declared_raw_paths": [],
+      "operational_vs_scientific_note": "Process/data status only; completion does not establish scientific qualification"
+    },
+    {
+      "actual_index": 24,
+      "producer_id": "V2_WRAPPER_T06_U_30s",
+      "cohort": "cfa_negative_history",
+      "ledger_state": "historical_actual",
+      "process_exit_code": 0,
+      "result_status": "completed",
+      "observed_until_minute": 180.0,
+      "expected_end_minute": 180,
+      "run_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_revision_20261107_v2\\candidates\\c1_c3c\\data\\qualification\\wrapper\\runs\\STEP_T06_U_30s_attempt01",
+      "run_directory_exists": true,
+      "registration_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_revision_20261107_v2\\candidates\\c1_c3c\\registration\\QUALIFICATION_LAUNCH.json",
+      "producer_matched_current_registration": true,
+      "safe_archives": [
+        "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_revision_20261107_v2\\candidates\\c1_c3c\\data\\qualification\\wrapper\\runs\\STEP_T06_U_30s_attempt01\\RUN_ARTIFACTS.zip"
+      ],
+      "raw_coverage": {
+        "CASE.json": "plain_file",
+        "RESULT.json": "plain_file",
+        "SEGMENTS.jsonl": "plain_file",
+        "STATES.jsonl": "plain_file",
+        "DECISIONS.jsonl": "plain_file",
+        "EVENTS.jsonl": "plain_file",
+        "SOLVER_LOG.jsonl": "plain_file"
+      },
+      "missing_declared_raw_paths": [],
+      "operational_vs_scientific_note": "Process/data status only; completion does not establish scientific qualification"
+    },
+    {
+      "actual_index": 25,
+      "producer_id": "V2_WRAPPER_T06_U_15s",
+      "cohort": "cfa_negative_history",
+      "ledger_state": "historical_actual",
+      "process_exit_code": 0,
+      "result_status": "completed",
+      "observed_until_minute": 180.0,
+      "expected_end_minute": 180,
+      "run_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_revision_20261107_v2\\candidates\\c1_c3c\\data\\qualification\\wrapper\\runs\\STEP_T06_U_15s_attempt01",
+      "run_directory_exists": true,
+      "registration_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_revision_20261107_v2\\candidates\\c1_c3c\\registration\\QUALIFICATION_LAUNCH.json",
+      "producer_matched_current_registration": true,
+      "safe_archives": [
+        "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_revision_20261107_v2\\candidates\\c1_c3c\\data\\qualification\\wrapper\\runs\\STEP_T06_U_15s_attempt01\\RUN_ARTIFACTS.zip"
+      ],
+      "raw_coverage": {
+        "CASE.json": "plain_file",
+        "RESULT.json": "plain_file",
+        "SEGMENTS.jsonl": "plain_file",
+        "STATES.jsonl": "plain_file",
+        "DECISIONS.jsonl": "plain_file",
+        "EVENTS.jsonl": "plain_file",
+        "SOLVER_LOG.jsonl": "plain_file"
+      },
+      "missing_declared_raw_paths": [],
+      "operational_vs_scientific_note": "Process/data status only; completion does not establish scientific qualification"
+    },
+    {
+      "actual_index": 26,
+      "producer_id": "V3_NATIVE_T06_U_60s",
+      "cohort": "registered_claim",
+      "ledger_state": "closed",
+      "process_exit_code": 0,
+      "result_status": "completed",
+      "observed_until_minute": 180.0,
+      "expected_end_minute": 180,
+      "run_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_resolution_20261107_v3\\data\\qualification\\native\\T06_U\\runs\\PUMP_U_attempt01",
+      "run_directory_exists": true,
+      "registration_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_resolution_20261107_v3\\registration\\QUALIFICATION_LAUNCH.json",
+      "producer_matched_current_registration": true,
+      "safe_archives": [
+        "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_resolution_20261107_v3\\data\\qualification\\native\\T06_U\\runs\\PUMP_U_attempt01\\RUN_ARTIFACTS.zip"
+      ],
+      "raw_coverage": {
+        "CASE.json": "plain_file",
+        "RESULT.json": "plain_file",
+        "SEGMENTS.jsonl": "plain_file",
+        "STATES.jsonl": "plain_file",
+        "DECISIONS.jsonl": "plain_file",
+        "EVENTS.jsonl": "plain_file",
+        "SOLVER_LOG.jsonl": "plain_file"
+      },
+      "missing_declared_raw_paths": [],
+      "operational_vs_scientific_note": "Process/data status only; completion does not establish scientific qualification"
+    },
+    {
+      "actual_index": 27,
+      "producer_id": "V3_WRAPPER_T06_U_60s",
+      "cohort": "registered_claim",
+      "ledger_state": "closed",
+      "process_exit_code": 0,
+      "result_status": "completed",
+      "observed_until_minute": 180.0,
+      "expected_end_minute": 180,
+      "run_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_resolution_20261107_v3\\data\\qualification\\wrapper\\runs\\V3_WRAPPER_T06_U_60s_attempt01",
+      "run_directory_exists": true,
+      "registration_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_resolution_20261107_v3\\registration\\QUALIFICATION_LAUNCH.json",
+      "producer_matched_current_registration": true,
+      "safe_archives": [
+        "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_resolution_20261107_v3\\data\\qualification\\wrapper\\runs\\V3_WRAPPER_T06_U_60s_attempt01\\RUN_ARTIFACTS.zip"
+      ],
+      "raw_coverage": {
+        "CASE.json": "plain_file",
+        "RESULT.json": "plain_file",
+        "SEGMENTS.jsonl": "plain_file",
+        "STATES.jsonl": "plain_file",
+        "DECISIONS.jsonl": "plain_file",
+        "EVENTS.jsonl": "plain_file",
+        "SOLVER_LOG.jsonl": "plain_file"
+      },
+      "missing_declared_raw_paths": [],
+      "operational_vs_scientific_note": "Process/data status only; completion does not establish scientific qualification"
+    },
+    {
+      "actual_index": 28,
+      "producer_id": "V3_WRAPPER_T06_U_15s",
+      "cohort": "registered_claim",
+      "ledger_state": "closed",
+      "process_exit_code": 0,
+      "result_status": "completed",
+      "observed_until_minute": 180.0,
+      "expected_end_minute": 180,
+      "run_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_resolution_20261107_v3\\data\\qualification\\wrapper\\runs\\V3_WRAPPER_T06_U_15s_attempt01",
+      "run_directory_exists": true,
+      "registration_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_resolution_20261107_v3\\registration\\QUALIFICATION_LAUNCH.json",
+      "producer_matched_current_registration": true,
+      "safe_archives": [
+        "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_resolution_20261107_v3\\data\\qualification\\wrapper\\runs\\V3_WRAPPER_T06_U_15s_attempt01\\RUN_ARTIFACTS.zip"
+      ],
+      "raw_coverage": {
+        "CASE.json": "plain_file",
+        "RESULT.json": "plain_file",
+        "SEGMENTS.jsonl": "plain_file",
+        "STATES.jsonl": "plain_file",
+        "DECISIONS.jsonl": "plain_file",
+        "EVENTS.jsonl": "plain_file",
+        "SOLVER_LOG.jsonl": "plain_file"
+      },
+      "missing_declared_raw_paths": [],
+      "operational_vs_scientific_note": "Process/data status only; completion does not establish scientific qualification"
+    },
+    {
+      "actual_index": 29,
+      "producer_id": "V3_WRAPPER_T06_U_7p5s",
+      "cohort": "registered_claim",
+      "ledger_state": "closed",
+      "process_exit_code": 0,
+      "result_status": "completed",
+      "observed_until_minute": 180.0,
+      "expected_end_minute": 180,
+      "run_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_resolution_20261107_v3\\data\\qualification\\wrapper\\runs\\V3_WRAPPER_T06_U_7p5s_attempt01",
+      "run_directory_exists": true,
+      "registration_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_resolution_20261107_v3\\registration\\QUALIFICATION_LAUNCH.json",
+      "producer_matched_current_registration": true,
+      "safe_archives": [
+        "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_resolution_20261107_v3\\data\\qualification\\wrapper\\runs\\V3_WRAPPER_T06_U_7p5s_attempt01\\RUN_ARTIFACTS.zip"
+      ],
+      "raw_coverage": {
+        "CASE.json": "plain_file",
+        "RESULT.json": "plain_file",
+        "SEGMENTS.jsonl": "plain_file",
+        "STATES.jsonl": "plain_file",
+        "DECISIONS.jsonl": "plain_file",
+        "EVENTS.jsonl": "plain_file",
+        "SOLVER_LOG.jsonl": "plain_file"
+      },
+      "missing_declared_raw_paths": [],
+      "operational_vs_scientific_note": "Process/data status only; completion does not establish scientific qualification"
+    },
+    {
+      "actual_index": 30,
+      "producer_id": "FR1_WRAPPER_T06_U_3p75s",
+      "cohort": "registered_claim",
+      "ledger_state": "closed",
+      "process_exit_code": 0,
+      "result_status": "completed",
+      "observed_until_minute": 180.0,
+      "expected_end_minute": 180,
+      "run_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_resolution_20261107_v3\\data\\finer_reference_v1\\wrapper\\runs\\FR1_WRAPPER_T06_U_3p75s_attempt01",
+      "run_directory_exists": true,
+      "registration_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_resolution_20261107_v3\\registration\\finer_reference_v1\\LAUNCH.json",
+      "producer_matched_current_registration": true,
+      "safe_archives": [
+        "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_resolution_20261107_v3\\data\\finer_reference_v1\\wrapper\\runs\\FR1_WRAPPER_T06_U_3p75s_attempt01\\RUN_ARTIFACTS.zip"
+      ],
+      "raw_coverage": {
+        "CASE.json": "plain_file",
+        "RESULT.json": "plain_file",
+        "SEGMENTS.jsonl": "plain_file",
+        "STATES.jsonl": "plain_file",
+        "DECISIONS.jsonl": "plain_file",
+        "EVENTS.jsonl": "plain_file",
+        "SOLVER_LOG.jsonl": "plain_file"
+      },
+      "missing_declared_raw_paths": [],
+      "operational_vs_scientific_note": "Process/data status only; completion does not establish scientific qualification"
+    },
+    {
+      "actual_index": 31,
+      "producer_id": "V4R2_NATIVE_T06_U_60s",
+      "cohort": "registered_claim",
+      "ledger_state": "closed",
+      "process_exit_code": 1,
+      "result_status": "failed",
+      "observed_until_minute": 1.0,
+      "expected_end_minute": 180,
+      "run_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\data\\qualification_v4_r02\\inner\\V4R2_NATIVE_T06_U_60s\\runs\\V4R2_NATIVE_T06_U_60s_attempt01",
+      "run_directory_exists": true,
+      "registration_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\registration\\QUALIFICATION_LAUNCH.json",
+      "producer_matched_current_registration": false,
+      "safe_archives": [
+        "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\data\\qualification_v4_r02\\inner\\V4R2_NATIVE_T06_U_60s\\runs\\V4R2_NATIVE_T06_U_60s_attempt01\\RUN_ARTIFACTS.zip"
+      ],
+      "raw_coverage": {
+        "CASE.json": "plain_file",
+        "RESULT.json": "plain_file",
+        "SEGMENTS.jsonl": "plain_file",
+        "STATES.jsonl": "plain_file",
+        "DECISIONS.jsonl": "plain_file",
+        "EVENTS.jsonl": "plain_file",
+        "SOLVER_LOG.jsonl": "plain_file"
+      },
+      "missing_declared_raw_paths": [],
+      "operational_vs_scientific_note": "Process/data status only; completion does not establish scientific qualification"
+    },
+    {
+      "actual_index": 32,
+      "producer_id": "V4R4_NATIVE_T06_U_60s",
+      "cohort": "registered_claim",
+      "ledger_state": "closed",
+      "process_exit_code": 1,
+      "result_status": "completed",
+      "observed_until_minute": 180.0,
+      "expected_end_minute": 180,
+      "run_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\data\\qualification_v4_r04\\inner\\V4R4_NATIVE_T06_U_60s\\runs\\V4R4_NATIVE_T06_U_60s_attempt01",
+      "run_directory_exists": true,
+      "registration_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\registration\\QUALIFICATION_LAUNCH.json",
+      "producer_matched_current_registration": true,
+      "safe_archives": [
+        "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\data\\qualification_v4_r04\\inner\\V4R4_NATIVE_T06_U_60s\\runs\\V4R4_NATIVE_T06_U_60s_attempt01\\RUN_ARTIFACTS.zip"
+      ],
+      "raw_coverage": {
+        "CASE.json": "plain_file",
+        "RESULT.json": "plain_file",
+        "SEGMENTS.jsonl": "plain_file",
+        "STATES.jsonl": "plain_file",
+        "DECISIONS.jsonl": "plain_file",
+        "EVENTS.jsonl": "plain_file",
+        "SOLVER_LOG.jsonl": "plain_file"
+      },
+      "missing_declared_raw_paths": [],
+      "operational_vs_scientific_note": "Process/data status only; completion does not establish scientific qualification"
+    },
+    {
+      "actual_index": 33,
+      "producer_id": "R05_WRAPPER_T06_U_60s",
+      "cohort": "registered_claim",
+      "ledger_state": "closed",
+      "process_exit_code": 1,
+      "result_status": "failed",
+      "observed_until_minute": 0.0,
+      "expected_end_minute": 180,
+      "run_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\data\\qualification_recovery_r05\\inner\\R05_WRAPPER_T06_U_60s\\runs\\R05_WRAPPER_T06_U_60s_attempt01",
+      "run_directory_exists": true,
+      "registration_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\registration\\recovery_r05\\QUALIFICATION_LAUNCH.json",
+      "producer_matched_current_registration": true,
+      "safe_archives": [
+        "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\data\\qualification_recovery_r05\\inner\\R05_WRAPPER_T06_U_60s\\runs\\R05_WRAPPER_T06_U_60s_attempt01\\RUN_ARTIFACTS.zip"
+      ],
+      "raw_coverage": {
+        "CASE.json": "absent",
+        "RESULT.json": "plain_file",
+        "SEGMENTS.jsonl": "absent",
+        "STATES.jsonl": "absent",
+        "DECISIONS.jsonl": "absent",
+        "EVENTS.jsonl": "absent",
+        "SOLVER_LOG.jsonl": "absent"
+      },
+      "missing_declared_raw_paths": [],
+      "operational_vs_scientific_note": "Process/data status only; completion does not establish scientific qualification"
+    },
+    {
+      "actual_index": 34,
+      "producer_id": "R06_WRAPPER_T06_U_60s",
+      "cohort": "registered_claim",
+      "ledger_state": "closed",
+      "process_exit_code": 0,
+      "result_status": "completed",
+      "observed_until_minute": 180.0,
+      "expected_end_minute": 180,
+      "run_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\data\\qualification_recovery_r06\\inner\\R06_WRAPPER_T06_U_60s\\runs\\R06_WRAPPER_T06_U_60s_attempt01",
+      "run_directory_exists": true,
+      "registration_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\registration\\recovery_r06\\QUALIFICATION_LAUNCH.json",
+      "producer_matched_current_registration": true,
+      "safe_archives": [
+        "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\data\\qualification_recovery_r06\\inner\\R06_WRAPPER_T06_U_60s\\runs\\R06_WRAPPER_T06_U_60s_attempt01\\RUN_ARTIFACTS.zip"
+      ],
+      "raw_coverage": {
+        "CASE.json": "plain_file",
+        "RESULT.json": "plain_file",
+        "SEGMENTS.jsonl": "plain_file",
+        "STATES.jsonl": "plain_file",
+        "DECISIONS.jsonl": "plain_file",
+        "EVENTS.jsonl": "plain_file",
+        "SOLVER_LOG.jsonl": "plain_file"
+      },
+      "missing_declared_raw_paths": [],
+      "operational_vs_scientific_note": "Process/data status only; completion does not establish scientific qualification"
+    },
+    {
+      "actual_index": 35,
+      "producer_id": "R06_WRAPPER_T06_U_7p5s",
+      "cohort": "registered_claim",
+      "ledger_state": "closed",
+      "process_exit_code": 0,
+      "result_status": "completed",
+      "observed_until_minute": 180.0,
+      "expected_end_minute": 180,
+      "run_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\data\\qualification_recovery_r06\\inner\\R06_WRAPPER_T06_U_7p5s\\runs\\R06_WRAPPER_T06_U_7p5s_attempt01",
+      "run_directory_exists": true,
+      "registration_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\registration\\recovery_r06\\QUALIFICATION_LAUNCH.json",
+      "producer_matched_current_registration": true,
+      "safe_archives": [
+        "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\data\\qualification_recovery_r06\\inner\\R06_WRAPPER_T06_U_7p5s\\runs\\R06_WRAPPER_T06_U_7p5s_attempt01\\RUN_ARTIFACTS.zip"
+      ],
+      "raw_coverage": {
+        "CASE.json": "plain_file",
+        "RESULT.json": "plain_file",
+        "SEGMENTS.jsonl": "plain_file",
+        "STATES.jsonl": "plain_file",
+        "DECISIONS.jsonl": "plain_file",
+        "EVENTS.jsonl": "plain_file",
+        "SOLVER_LOG.jsonl": "plain_file"
+      },
+      "missing_declared_raw_paths": [],
+      "operational_vs_scientific_note": "Process/data status only; completion does not establish scientific qualification"
+    },
+    {
+      "actual_index": 36,
+      "producer_id": "R06_WRAPPER_T06_U_3p75s",
+      "cohort": "registered_claim",
+      "ledger_state": "closed",
+      "process_exit_code": 0,
+      "result_status": "completed",
+      "observed_until_minute": 180.0,
+      "expected_end_minute": 180,
+      "run_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\data\\qualification_recovery_r06\\inner\\R06_WRAPPER_T06_U_3p75s\\runs\\R06_WRAPPER_T06_U_3p75s_attempt01",
+      "run_directory_exists": true,
+      "registration_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\registration\\recovery_r06\\QUALIFICATION_LAUNCH.json",
+      "producer_matched_current_registration": true,
+      "safe_archives": [
+        "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\data\\qualification_recovery_r06\\inner\\R06_WRAPPER_T06_U_3p75s\\runs\\R06_WRAPPER_T06_U_3p75s_attempt01\\RUN_ARTIFACTS.zip"
+      ],
+      "raw_coverage": {
+        "CASE.json": "plain_file",
+        "RESULT.json": "plain_file",
+        "SEGMENTS.jsonl": "plain_file",
+        "STATES.jsonl": "plain_file",
+        "DECISIONS.jsonl": "plain_file",
+        "EVENTS.jsonl": "plain_file",
+        "SOLVER_LOG.jsonl": "plain_file"
+      },
+      "missing_declared_raw_paths": [],
+      "operational_vs_scientific_note": "Process/data status only; completion does not establish scientific qualification"
+    },
+    {
+      "actual_index": 37,
+      "producer_id": "R06_NATIVE_T06_R_60s",
+      "cohort": "registered_claim",
+      "ledger_state": "closed",
+      "process_exit_code": 0,
+      "result_status": "completed",
+      "observed_until_minute": 180.0,
+      "expected_end_minute": 180,
+      "run_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\data\\qualification_recovery_r06\\inner\\R06_NATIVE_T06_R_60s\\runs\\R06_NATIVE_T06_R_60s_attempt01",
+      "run_directory_exists": true,
+      "registration_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\registration\\recovery_r06\\QUALIFICATION_LAUNCH.json",
+      "producer_matched_current_registration": true,
+      "safe_archives": [
+        "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\data\\qualification_recovery_r06\\inner\\R06_NATIVE_T06_R_60s\\runs\\R06_NATIVE_T06_R_60s_attempt01\\RUN_ARTIFACTS.zip"
+      ],
+      "raw_coverage": {
+        "CASE.json": "plain_file",
+        "RESULT.json": "plain_file",
+        "SEGMENTS.jsonl": "plain_file",
+        "STATES.jsonl": "plain_file",
+        "DECISIONS.jsonl": "plain_file",
+        "EVENTS.jsonl": "plain_file",
+        "SOLVER_LOG.jsonl": "plain_file"
+      },
+      "missing_declared_raw_paths": [],
+      "operational_vs_scientific_note": "Process/data status only; completion does not establish scientific qualification"
+    },
+    {
+      "actual_index": 38,
+      "producer_id": "R06_WRAPPER_T06_R_60s",
+      "cohort": "registered_claim",
+      "ledger_state": "closed",
+      "process_exit_code": 0,
+      "result_status": "completed",
+      "observed_until_minute": 180.0,
+      "expected_end_minute": 180,
+      "run_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\data\\qualification_recovery_r06\\inner\\R06_WRAPPER_T06_R_60s\\runs\\R06_WRAPPER_T06_R_60s_attempt01",
+      "run_directory_exists": true,
+      "registration_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\registration\\recovery_r06\\QUALIFICATION_LAUNCH.json",
+      "producer_matched_current_registration": true,
+      "safe_archives": [
+        "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\data\\qualification_recovery_r06\\inner\\R06_WRAPPER_T06_R_60s\\runs\\R06_WRAPPER_T06_R_60s_attempt01\\RUN_ARTIFACTS.zip"
+      ],
+      "raw_coverage": {
+        "CASE.json": "plain_file",
+        "RESULT.json": "plain_file",
+        "SEGMENTS.jsonl": "plain_file",
+        "STATES.jsonl": "plain_file",
+        "DECISIONS.jsonl": "plain_file",
+        "EVENTS.jsonl": "plain_file",
+        "SOLVER_LOG.jsonl": "plain_file"
+      },
+      "missing_declared_raw_paths": [],
+      "operational_vs_scientific_note": "Process/data status only; completion does not establish scientific qualification"
+    }
+  ],
+  "checks": {
+    "simulation_or_optimizer_runs": 0,
+    "goal_resumed": false,
+    "source_files_edited": false,
+    "raw_copied": false,
+    "full_sha_calculated": false,
+    "zip_check": "Central-directory paths, extensions, CRC metadata only; no payload extraction or CRC recomputation"
+  },
+  "qualification": "Contains completed, failed and partial historical attempts. Latest C7 is partial first6; full24/selected step/production remain unqualified.",
+  "small_registration_metadata_sha_check": {
+    "unique_registration_files_checked": 8,
+    "raw_data_hashed": false,
+    "mismatches": [
+      {
+        "actual_index": 31,
+        "path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\registration\\QUALIFICATION_LAUNCH.json",
+        "recorded_registration_sha256": "91e13971798cb8a4c19ee1bf809e694c650c117c8ead3b93f4cf3335eaea4541",
+        "current_file_sha256": "834fc59b21884acaf47ff8bd8274b1c0ee4d1dc9a0a2148b54c81b22cd2a6cf8",
+        "interpretation": "Current path no longer holds recorded registration revision. Original per-attempt launch/CASE/source bindings remain preserved; do not claim this current registry is exact historic launch revision."
+      }
+    ]
+  },
+  "dedup_check": {
+    "unique_source_paths": 674,
+    "unique_archive_paths": 674,
+    "file_count": 674,
+    "collisions": false
+  },
+  "packaging_note": "The manifest inventories both existing raw ZIPs and existing plain raw files. These duplicate payloads by design; verified archived raw can be packaged without duplicate JSONL only if external RESULT/binding/failure/recovery metadata is preserved."
+}

@@ -1,0 +1,1209 @@
+{
+  "schema": "ies_hospital_data.independent_upload_scope_review.v1",
+  "reviewed_utc": "2026-11-09T16:55:56.117513+00:00",
+  "status": "PASS_SCOPE_WITH_REQUIRED_DISCLOSURES",
+  "inputs": [
+    {
+      "path": "E:\\ies_hospital_data_upload_20261110\\scope_core_files.json",
+      "bytes": 360386,
+      "sha256": "7a3ac0b5cc9b1ae99e24e7624746067c3b94e19792c792dc6f3d5c4f04f57253",
+      "file_count": 822
+    },
+    {
+      "path": "E:\\ies_hospital_data_upload_20261110\\scope_d_files.json",
+      "bytes": 215208,
+      "sha256": "48f39564de9086ff3388012fd78d7b88c56b393c1176d0bfa59d10b221c23033",
+      "file_count": 619
+    },
+    {
+      "path": "E:\\ies_hospital_data_upload_20261110\\scope_g_files.json",
+      "bytes": 352702,
+      "sha256": "427207692067a4c1db7b638cdecb0f9fa21f776f82c85bf885e78aec70c305e2",
+      "file_count": 674
+    }
+  ],
+  "union": {
+    "files": 2115,
+    "unique_source_paths": 2115,
+    "unique_archive_paths": 2115,
+    "total_selected_bytes": 56149811365,
+    "duplicate_source_paths": [],
+    "target_collisions": [],
+    "missing_files": [],
+    "declared_size_drift": []
+  },
+  "coverage": {
+    "counts": {
+      "A_U": 8,
+      "A_common": 8,
+      "B_R": 8,
+      "B_N_unique": 5,
+      "C": 6,
+      "E": 4,
+      "F_topics": 8,
+      "H_prefix_attempts": 7,
+      "D_attempt_archives": 96,
+      "G_actual_attempts": 38
+    },
+    "critical_checks": 55,
+    "missing_critical_paths": [],
+    "details": [
+      {
+        "scope": "A_T01",
+        "expected_paths": 17,
+        "missing_selected": []
+      },
+      {
+        "scope": "B_R_T01",
+        "expected_paths": 8,
+        "missing_selected": []
+      },
+      {
+        "scope": "F_T01",
+        "expected_paths": 23,
+        "missing_selected": []
+      },
+      {
+        "scope": "A_T02",
+        "expected_paths": 17,
+        "missing_selected": []
+      },
+      {
+        "scope": "B_R_T02",
+        "expected_paths": 8,
+        "missing_selected": []
+      },
+      {
+        "scope": "F_T02",
+        "expected_paths": 23,
+        "missing_selected": []
+      },
+      {
+        "scope": "A_T03",
+        "expected_paths": 17,
+        "missing_selected": []
+      },
+      {
+        "scope": "B_R_T03",
+        "expected_paths": 8,
+        "missing_selected": []
+      },
+      {
+        "scope": "F_T03",
+        "expected_paths": 23,
+        "missing_selected": []
+      },
+      {
+        "scope": "A_T04",
+        "expected_paths": 17,
+        "missing_selected": []
+      },
+      {
+        "scope": "B_R_T04",
+        "expected_paths": 8,
+        "missing_selected": []
+      },
+      {
+        "scope": "F_T04",
+        "expected_paths": 23,
+        "missing_selected": []
+      },
+      {
+        "scope": "A_T05",
+        "expected_paths": 17,
+        "missing_selected": []
+      },
+      {
+        "scope": "B_R_T05",
+        "expected_paths": 8,
+        "missing_selected": []
+      },
+      {
+        "scope": "F_T05",
+        "expected_paths": 23,
+        "missing_selected": []
+      },
+      {
+        "scope": "A_T06",
+        "expected_paths": 17,
+        "missing_selected": []
+      },
+      {
+        "scope": "B_R_T06",
+        "expected_paths": 8,
+        "missing_selected": []
+      },
+      {
+        "scope": "F_T06",
+        "expected_paths": 23,
+        "missing_selected": []
+      },
+      {
+        "scope": "A_T07",
+        "expected_paths": 17,
+        "missing_selected": []
+      },
+      {
+        "scope": "B_R_T07",
+        "expected_paths": 8,
+        "missing_selected": []
+      },
+      {
+        "scope": "F_T07",
+        "expected_paths": 23,
+        "missing_selected": []
+      },
+      {
+        "scope": "A_T08",
+        "expected_paths": 17,
+        "missing_selected": []
+      },
+      {
+        "scope": "B_R_T08",
+        "expected_paths": 8,
+        "missing_selected": []
+      },
+      {
+        "scope": "F_T08",
+        "expected_paths": 23,
+        "missing_selected": []
+      },
+      {
+        "scope": "B_N_T02_N_attempt05",
+        "expected_paths": 9,
+        "missing_selected": []
+      },
+      {
+        "scope": "B_N_T01_N_attempt05",
+        "expected_paths": 9,
+        "missing_selected": []
+      },
+      {
+        "scope": "B_N_T06_N_attempt01",
+        "expected_paths": 9,
+        "missing_selected": []
+      },
+      {
+        "scope": "B_N_T07_N_attempt01",
+        "expected_paths": 9,
+        "missing_selected": []
+      },
+      {
+        "scope": "B_N_T03_N_attempt02",
+        "expected_paths": 9,
+        "missing_selected": []
+      },
+      {
+        "scope": "C_hospital_ies_single_unit_20261104_run01_PUMP_R_attempt01",
+        "expected_paths": 12,
+        "missing_selected": []
+      },
+      {
+        "scope": "C_hospital_ies_single_unit_20261104_run01_PUMP_U0_attempt01",
+        "expected_paths": 12,
+        "missing_selected": []
+      },
+      {
+        "scope": "C_hospital_ies_single_unit_20261104_run01_PUMP_U_attempt01",
+        "expected_paths": 12,
+        "missing_selected": []
+      },
+      {
+        "scope": "C_hospital_ies_single_unit_20261104_run01_TOWER_R_attempt01",
+        "expected_paths": 12,
+        "missing_selected": []
+      },
+      {
+        "scope": "C_hospital_ies_single_unit_20261104_run01_TOWER_U0_attempt01",
+        "expected_paths": 12,
+        "missing_selected": []
+      },
+      {
+        "scope": "C_hospital_ies_single_unit_20261104_run01_TOWER_U_attempt01",
+        "expected_paths": 12,
+        "missing_selected": []
+      },
+      {
+        "scope": "E_hospital_ies_recovery_dispatch_20261104_run01_T05_R1_attempt01",
+        "expected_paths": 12,
+        "missing_selected": []
+      },
+      {
+        "scope": "E_hospital_ies_recovery_dispatch_20261104_run01_T05_R1_attempt02",
+        "expected_paths": 12,
+        "missing_selected": []
+      },
+      {
+        "scope": "E_hospital_ies_recovery_dispatch_20261104_run01_T06_R1_attempt01",
+        "expected_paths": 12,
+        "missing_selected": []
+      },
+      {
+        "scope": "E_hospital_ies_recovery_steam_20261104_run01_T05_R2_attempt01",
+        "expected_paths": 12,
+        "missing_selected": []
+      },
+      {
+        "scope": "H_campaign_T01_attempt01",
+        "expected_paths": 9,
+        "missing_selected": []
+      },
+      {
+        "scope": "H_campaign_T02_attempt01",
+        "expected_paths": 9,
+        "missing_selected": []
+      },
+      {
+        "scope": "H_campaign_T03_attempt01",
+        "expected_paths": 9,
+        "missing_selected": []
+      },
+      {
+        "scope": "H_campaign02_T01_attempt01",
+        "expected_paths": 9,
+        "missing_selected": []
+      },
+      {
+        "scope": "H_campaign02_T02_attempt01",
+        "expected_paths": 9,
+        "missing_selected": []
+      },
+      {
+        "scope": "H_campaign02_T03_attempt01",
+        "expected_paths": 9,
+        "missing_selected": []
+      },
+      {
+        "scope": "H_campaign02_T04_attempt01",
+        "expected_paths": 9,
+        "missing_selected": []
+      },
+      {
+        "scope": "D_sensitivity_analysis/data/run01",
+        "expected_paths": 90,
+        "missing_selected": []
+      },
+      {
+        "scope": "D_index_sensitivity_analysis/data/run01",
+        "expected_paths": 1,
+        "missing_selected": []
+      },
+      {
+        "scope": "D_sensitivity_analysis/repair_20261106/data/run01",
+        "expected_paths": 4,
+        "missing_selected": []
+      },
+      {
+        "scope": "D_index_sensitivity_analysis/repair_20261106/data/run01",
+        "expected_paths": 1,
+        "missing_selected": []
+      },
+      {
+        "scope": "D_sensitivity_analysis/repair_20261106/retry_C_r2/data/run01",
+        "expected_paths": 1,
+        "missing_selected": []
+      },
+      {
+        "scope": "D_index_sensitivity_analysis/repair_20261106/retry_C_r2/data/run01",
+        "expected_paths": 1,
+        "missing_selected": []
+      },
+      {
+        "scope": "D_sensitivity_analysis/repair_20261106/retry_C_r3/data/run01",
+        "expected_paths": 1,
+        "missing_selected": []
+      },
+      {
+        "scope": "D_index_sensitivity_analysis/repair_20261106/retry_C_r3/data/run01",
+        "expected_paths": 1,
+        "missing_selected": []
+      },
+      {
+        "scope": "G_all38_archive_paths",
+        "expected_paths": 38,
+        "missing_selected": []
+      }
+    ],
+    "final_source_boundary": {
+      "authoritative_final_source_binding": "E:\\hospital_ies_source_partition_fix_20261105_run01\\campaign03\\SOURCE_BINDING.json",
+      "source_root": "D:\\hospital_ies_no_priority_20261105",
+      "final_U_four_file_hashes": {
+        "environment.py": "cef3417784c750e37bc0b78cdd962ad532ad09cef4bb1edef962d8047893ffd4",
+        "fixed_branches.py": "a5ce62cd3410dc2ab1b7569d287f17aa13e8ffdc95be27246db5c31bcb2666ff",
+        "forward.py": "d4549b05b6c7d414662f8ef14a0cc24d3ee34a449aabd556b4ac84723b9d6cbb",
+        "runtime.py": "b9185188befd3bbd767cdb7f3c1e92e8a8e7f020651241d326ff5e5dfc7718b0"
+      },
+      "final_main_data": "8 final corrected U/common topics under campaign03, exact8 R references under fixed_branch_replot_run03, and5 reused normal producers; do not label Nov4family19 as the final campaign.",
+      "earlier_data_kept_separate": "C single-unit, D sensitivity, E recovery, F prior fixed branch and G numerical candidates retain original source/version identity."
+    }
+  },
+  "payload_exclusion_checks": {
+    "forbidden_selected_paths": [],
+    "credential_filename_hits": [],
+    "final_blind12_filename_hits": [],
+    "zip_archives_central_directories_reviewed": 134,
+    "zip_member_count": 2116,
+    "zip_member_declared_uncompressed_bytes": 122146305662,
+    "zip_prohibited_members_or_errors": [],
+    "metadata_json_files_up_to_1MB_scanned_for_exact_sensitive_keys": 1471,
+    "sensitive_key_hits_classified": [
+      {
+        "source_path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\REGISTRATION.json",
+        "key_path": "authorization",
+        "value_not_printed": true,
+        "classification": "workflow_authorization_text_not_credential",
+        "credential_pattern": false
+      },
+      {
+        "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_revision_20261107_v2\\candidates\\c1_c3c\\registration\\QUALIFICATION_LAUNCH.json",
+        "key_path": "postprocessing_review.authorization",
+        "value_not_printed": true,
+        "classification": "workflow_authorization_text_not_credential",
+        "credential_pattern": false
+      }
+    ],
+    "confirmed_credential_payload_findings": [],
+    "source_snapshot_zip_policy": "Excluded; all134 selected ZIPs contain raw attempt evidence only and no nested ZIP, Python, Markdown, image, EnergyPlus or annual input member."
+  },
+  "required_repository_disclosures": [
+    {
+      "id": "G_actual31_historical_master_registration_drift",
+      "actual_index": 31,
+      "path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\registration\\QUALIFICATION_LAUNCH.json",
+      "recorded_registration_sha256": "91e13971798cb8a4c19ee1bf809e694c650c117c8ead3b93f4cf3335eaea4541",
+      "current_registration_sha256": "834fc59b21884acaf47ff8bd8274b1c0ee4d1dc9a0a2148b54c81b22cd2a6cf8",
+      "current_sha_independently_rechecked": true,
+      "payload_error": false,
+      "required_repository_disclosure": "Historical actual31 launch recorded a prior master registration SHA. The selected current master file is a later revision; preserve the original launch/CASE/per-attempt bindings and never label the current master as the exact historical launch revision."
+    },
+    {
+      "id": "G_actual33_no_segment_payload",
+      "actual_index": 33,
+      "payload_error": false,
+      "required_repository_disclosure": "Retained failed pre-trajectory attempt R05_WRAPPER_T06_U_60s has FAILURE.json, PROCESS_CLOSEOUT.json and RESULT.json in RUN_ARTIFACTS.zip, and no SEGMENTS.jsonl. This is genuine absence before production, not a completed trajectory."
+    },
+    {
+      "id": "qualification_status",
+      "payload_error": false,
+      "required_repository_disclosure": "Completed/failed/partial, numerical gate qualification and full campaign acceptance remain separate. G is38actual attempts including36completed and2failed; latest first6/C7 does not qualify full24, a selected physical step or production."
+    }
+  ],
+  "notes": [
+    "No file changed in the three input scope manifests.",
+    "Core B/F source reuse remains one file entry with groups; different historical source paths remain preserved even when bytes may match.",
+    "G uses an archive path namespace beginning G/ while core/D use raw/. Namespaces are collision-free; retain or normalize consistently before packaging, preserving manifest mapping."
+  ],
+  "verification_limits": [
+    "No simulation, optimizer, model tests, full raw-body reads, archive extraction, archive CRC recomputation or raw payload SHA hashing were performed.",
+    "ZIP checks use all selected central directories; credential content check covers selected JSON metadata no larger than1MB and explicit filename checks, not a full arbitrary log-body secret scan.",
+    "Final-blind12 exclusion was checked against selected file/member names and the explicitly finite eight-topic registration mapping; source binding hashes may refer to protected source inventories without carrying those datasets."
+  ],
+  "remote_actions_performed": false,
+  "source_or_raw_modified": false,
+  "zip_central_review": [
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\A_T06_R_b3d1913423_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 832844625,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\A_T06_U_f54bfbbd11_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 376517858,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\B_T01_R_02d517136b_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 1397555737,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\B_T01_R_72284b3c07_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 1466542988,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\B_T01_U_1be238c634_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 584833259,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\B_T01_U_c8eddea004_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 615959433,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\B_T02_R_5a7406f8d2_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 1426009076,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\B_T02_R_863ccaa00d_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 1854283305,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\B_T02_U_3761c684ef_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 624491310,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\B_T02_U_3c0f1127fb_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 607721959,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\B_T03_R_61e3d15161_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 1281651369,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\B_T03_R_69e8bc1d6f_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 1504202568,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\B_T03_U_005af10fba_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 587048411,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\B_T03_U_1b753479e7_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 477282949,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\B_T04_R_76d1dcb12c_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 1282215293,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\B_T04_R_d499d099d9_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 1506283125,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\B_T04_U_3c866965f6_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 587086312,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\B_T04_U_af9bf93d7a_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 477268150,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\B_T05_R_23acbf17c4_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 1511550258,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\B_T05_R_53198ea5f3_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 1283257352,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\B_T05_U_30b9c06c43_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 587173697,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\B_T05_U_3bb1d3c8c5_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 477317826,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\B_T06_R_51501f2457_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 1576900994,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\B_T06_R_787cf96d13_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 1848040821,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\B_T06_U_620d9a7f70_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 703642209,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\B_T06_U_d8a99b982c_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 624543522,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\C_T01_R_2cca2ecbab_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 1029022499,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\C_T01_R_83bf388ad8_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 634054580,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\C_T01_U_4239f8de83_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 427132788,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\C_T01_U_6dbf2d4fed_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 442173562,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\C_T06_R_17ce8e51c3_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 655740984,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\C_T06_R_4559dd51b1_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 715212650,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\C_T06_U_692a3236be_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 329491026,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\C_T06_U_91ffa8ed9b_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 345166875,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\C_T07_R_0bba38ad10_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 1797464516,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\C_T07_R_98456097e6_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 1814737960,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\C_T07_U_a01b38a651_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 683103572,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\C_T07_U_a87c695bbf_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 699573930,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\D_T04_R_04bd69545f_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 1965515302,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\D_T04_R_07baa83a93_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 1584068847,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\D_T04_R_3b4e2455aa_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 1504040666,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\D_T04_R_515eb9fd84_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 1505039125,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\D_T04_R_6245c1cc29_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 1585227921,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\D_T04_R_81f6d4e8db_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 1964435352,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\D_T04_R_932c6b56ac_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 1503729690,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\D_T04_R_f56d1e030e_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 1964767203,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\D_T04_U_627f0ce276_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 615931382,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\D_T04_U_8813e8dc18_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 615929927,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\D_T04_U_8a900d3a5f_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 615880644,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\D_T04_U_9bea3a7e77_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 616015629,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\D_T04_U_df1b4c48ca_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 615881181,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\D_T04_U_e2b3d6068a_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 616017546,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\D_T04_U_f668aaff89_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 616018210,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\D_T04_U_f6ffac2eb9_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 615880313,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\D_T06_R_1ea64d1c16_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 731928997,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\D_T06_R_2e512c5f11_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 1226661617,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\D_T06_R_3c53b922c0_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 831776696,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\D_T06_R_53de79eb53_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 1226083727,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\D_T06_R_5849e2daae_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 1227255548,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\D_T06_R_793d1de75f_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 830520604,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\D_T06_R_a86177ff26_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 733737944,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\D_T06_R_cf67dee398_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 735045430,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\D_T06_U_057bcc23c0_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 376517512,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\D_T06_U_0eeae03af6_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 376246916,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\D_T06_U_39f1609cb4_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 376250100,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\D_T06_U_a3e7111df8_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 374832379,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\D_T06_U_b739b6a511_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 376248810,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\D_T06_U_c50b08dbb7_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 374833448,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\D_T06_U_c8eee80689_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 374829935,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\D_T06_U_ed502f11e2_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 376517234,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\E_T06_R_2b12137f81_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 720148422,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\E_T06_R_9a8e7663e2_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 833723900,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\E_T06_R_b9db5b8ec0_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 659409463,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\E_T06_R_bdffdf7e74_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 837685595,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\E_T06_R_cf73f1743b_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 716102227,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\E_T06_R_e4b5b5d852_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 655924831,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\E_T06_U_6a6186a140_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 331015024,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\E_T06_U_7ceacbddf5_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 346697991,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\E_T06_U_80db0ea0bf_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 374611324,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\E_T06_U_b98d46676a_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 343676344,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\E_T06_U_be46756471_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 378064331,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\E_T06_U_f4e1a7e2b5_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 328207329,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\F_T04_R_078a381117_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 1637113351,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\F_T04_R_bf51475661_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 1902059040,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\F_T04_U_3c262ff4d9_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 477302921,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\F_T04_U_47c55d4656_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 587324173,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\F_T06_R_3868923063_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 1898456273,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\F_T06_R_76e8f3d9c2_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 2104510897,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\F_T06_U_49f96d3440_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 622796567,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01\\archives\\F_T06_U_90b1d5d98c_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 700675848,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\repair_20261106\\data\\run01\\archives\\B_T02_R_5a7406f8d2_attempt01.zip",
+      "members": 17,
+      "uncompressed_bytes": 1637016481,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\repair_20261106\\data\\run01\\archives\\B_T02_U_3c0f1127fb_attempt01.zip",
+      "members": 17,
+      "uncompressed_bytes": 723529189,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\repair_20261106\\data\\run01\\archives\\C_T01_R_83bf388ad8_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 626331229,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\repair_20261106\\data\\run01\\archives\\F_T06_R_76e8f3d9c2_attempt01.zip",
+      "members": 17,
+      "uncompressed_bytes": 2264844129,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\repair_20261106\\retry_C_r2\\data\\run01\\archives\\C_T01_R_83bf388ad8_attempt01.zip",
+      "members": 17,
+      "uncompressed_bytes": 663098552,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\repair_20261106\\retry_C_r3\\data\\run01\\archives\\C_T01_R_83bf388ad8_attempt01.zip",
+      "members": 17,
+      "uncompressed_bytes": 5280287092,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T01_R_15s_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 1387235671,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T01_R_30s_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 1282298928,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T01_R_60s_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 1244046167,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T01_U_15s_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 541088421,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T01_U_30s_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 495980791,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T01_U_60s_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 472256591,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T06_R_15s_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 1262842436,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T06_R_30s_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 976152646,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T06_R_60s_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 832843774,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T06_U_15s_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 557270793,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T06_U_30s_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 436740508,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T06_U_60s_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 376518307,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T07_R_15s_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 2108053734,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T07_R_30s_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 1951026829,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T07_R_60s_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 1895082402,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T07_U_15s_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 761132519,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T07_U_30s_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 739904519,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_extension_20261107_run01\\data\\step_qualification\\archives\\STEP_T07_U_60s_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 732436057,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\data\\qualification_recovery_r05\\inner\\R05_WRAPPER_T06_U_60s\\runs\\R05_WRAPPER_T06_U_60s_attempt01\\RUN_ARTIFACTS.zip",
+      "members": 3,
+      "uncompressed_bytes": 6707,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\data\\qualification_recovery_r06\\inner\\R06_NATIVE_T06_R_60s\\runs\\R06_NATIVE_T06_R_60s_attempt01\\RUN_ARTIFACTS.zip",
+      "members": 14,
+      "uncompressed_bytes": 840651086,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\data\\qualification_recovery_r06\\inner\\R06_WRAPPER_T06_R_60s\\runs\\R06_WRAPPER_T06_R_60s_attempt01\\RUN_ARTIFACTS.zip",
+      "members": 15,
+      "uncompressed_bytes": 845660371,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\data\\qualification_recovery_r06\\inner\\R06_WRAPPER_T06_U_3p75s\\runs\\R06_WRAPPER_T06_U_3p75s_attempt01\\RUN_ARTIFACTS.zip",
+      "members": 15,
+      "uncompressed_bytes": 1221451787,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\data\\qualification_recovery_r06\\inner\\R06_WRAPPER_T06_U_60s\\runs\\R06_WRAPPER_T06_U_60s_attempt01\\RUN_ARTIFACTS.zip",
+      "members": 15,
+      "uncompressed_bytes": 390107026,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\data\\qualification_recovery_r06\\inner\\R06_WRAPPER_T06_U_7p5s\\runs\\R06_WRAPPER_T06_U_7p5s_attempt01\\RUN_ARTIFACTS.zip",
+      "members": 15,
+      "uncompressed_bytes": 776320113,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\data\\qualification_v4_r02\\inner\\V4R2_NATIVE_T06_U_60s\\runs\\V4R2_NATIVE_T06_U_60s_attempt01\\RUN_ARTIFACTS.zip",
+      "members": 15,
+      "uncompressed_bytes": 9113874,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\data\\qualification_v4_r04\\inner\\V4R4_NATIVE_T06_U_60s\\runs\\V4R4_NATIVE_T06_U_60s_attempt01\\RUN_ARTIFACTS.zip",
+      "members": 14,
+      "uncompressed_bytes": 385020285,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_resolution_20261107_v3\\data\\finer_reference_v1\\wrapper\\runs\\FR1_WRAPPER_T06_U_3p75s_attempt01\\RUN_ARTIFACTS.zip",
+      "members": 15,
+      "uncompressed_bytes": 1206972482,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_resolution_20261107_v3\\data\\qualification\\native\\T06_U\\runs\\PUMP_U_attempt01\\RUN_ARTIFACTS.zip",
+      "members": 14,
+      "uncompressed_bytes": 375447220,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_resolution_20261107_v3\\data\\qualification\\wrapper\\runs\\V3_WRAPPER_T06_U_15s_attempt01\\RUN_ARTIFACTS.zip",
+      "members": 15,
+      "uncompressed_bytes": 541267278,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_resolution_20261107_v3\\data\\qualification\\wrapper\\runs\\V3_WRAPPER_T06_U_60s_attempt01\\RUN_ARTIFACTS.zip",
+      "members": 15,
+      "uncompressed_bytes": 380518650,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_resolution_20261107_v3\\data\\qualification\\wrapper\\runs\\V3_WRAPPER_T06_U_7p5s_attempt01\\RUN_ARTIFACTS.zip",
+      "members": 15,
+      "uncompressed_bytes": 774738514,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_revision_20261107_v2\\candidates\\c1\\data\\pilot\\archives\\STEP_T07_U_15s_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 762702247,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_revision_20261107_v2\\candidates\\c1\\data\\pilot\\archives\\STEP_T07_U_30s_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 741069628,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_revision_20261107_v2\\candidates\\c1\\data\\pilot\\archives\\STEP_T07_U_60s_attempt01.zip",
+      "members": 16,
+      "uncompressed_bytes": 733576228,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_revision_20261107_v2\\candidates\\c1_c3c\\data\\qualification\\native\\T06_U\\runs\\PUMP_U_attempt01\\RUN_ARTIFACTS.zip",
+      "members": 14,
+      "uncompressed_bytes": 375445861,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_revision_20261107_v2\\candidates\\c1_c3c\\data\\qualification\\wrapper\\runs\\STEP_T06_U_15s_attempt01\\RUN_ARTIFACTS.zip",
+      "members": 15,
+      "uncompressed_bytes": 541263088,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_revision_20261107_v2\\candidates\\c1_c3c\\data\\qualification\\wrapper\\runs\\STEP_T06_U_30s_attempt01\\RUN_ARTIFACTS.zip",
+      "members": 15,
+      "uncompressed_bytes": 432163895,
+      "bad_members": []
+    },
+    {
+      "source_path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_revision_20261107_v2\\candidates\\c1_c3c\\data\\qualification\\wrapper\\runs\\STEP_T06_U_60s_attempt01\\RUN_ARTIFACTS.zip",
+      "members": 15,
+      "uncompressed_bytes": 380520523,
+      "bad_members": []
+    }
+  ]
+}

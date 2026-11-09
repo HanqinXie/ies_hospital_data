@@ -1,0 +1,2214 @@
+{
+  "schema": "hospital-ies.raw-assets.v1",
+  "created_utc": "2026-11-09T17:26:27.872683+00:00",
+  "assets": [
+    {
+      "name": "raw-part-0001.zip",
+      "bytes": 31674462,
+      "sha256": "548169155322dd162f91e9f24e6d6235ca04298a8ef3087f33c48f4d831392ec",
+      "original_fragment_bytes": 284900567,
+      "members": 13,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0001.zip"
+    },
+    {
+      "name": "raw-part-0002.zip",
+      "bytes": 17028226,
+      "sha256": "4b72e1018c30092245b16eae5edc3f80d084eda067fe87fa651da8ec76e550ae",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0002.zip"
+    },
+    {
+      "name": "raw-part-0003.zip",
+      "bytes": 16875438,
+      "sha256": "bcf5ee90cd33440e36ab0c5d462749753c3987c127cf0e8bf41b97dd5aa18429",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0003.zip"
+    },
+    {
+      "name": "raw-part-0004.zip",
+      "bytes": 14286935,
+      "sha256": "da67eb18b4ad60ed8639d9661f15d50a3fe4338d20a906410f1aaee7979ec183",
+      "original_fragment_bytes": 229361353,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0004.zip"
+    },
+    {
+      "name": "raw-part-0005.zip",
+      "bytes": 33391361,
+      "sha256": "d3ed9fa2e67b17a545cdda41f8ea8854ca50e5927df11b155e4b05b8c93e9592",
+      "original_fragment_bytes": 344829722,
+      "members": 9,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0005.zip"
+    },
+    {
+      "name": "raw-part-0006.zip",
+      "bytes": 19615207,
+      "sha256": "f45ab7093fb53caaf3013f3202e03f9d74b36440d5309b18cf77a02846d3c36f",
+      "original_fragment_bytes": 298676247,
+      "members": 2,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0006.zip"
+    },
+    {
+      "name": "raw-part-0007.zip",
+      "bytes": 12301021,
+      "sha256": "194002ea072398b479666f1d88a8ce458e587758f4c2078db2f9e23884ecf820",
+      "original_fragment_bytes": 203975889,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0007.zip"
+    },
+    {
+      "name": "raw-part-0008.zip",
+      "bytes": 33021914,
+      "sha256": "7289c88b362db0d3f77d89f9dd5751021a1a71a8cc1d1004499bd24abbb42140",
+      "original_fragment_bytes": 342031476,
+      "members": 9,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0008.zip"
+    },
+    {
+      "name": "raw-part-0009.zip",
+      "bytes": 18824517,
+      "sha256": "81ff9434f15ec22274d94807618a1ddf1f34ee58942ad47b637db19973c6b96d",
+      "original_fragment_bytes": 148654826,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0009.zip"
+    },
+    {
+      "name": "raw-part-0010.zip",
+      "bytes": 16328375,
+      "sha256": "f3a234ef22fc837f1bcc1822619493db52f0aaea4d091f1154290ba1af058e56",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0010.zip"
+    },
+    {
+      "name": "raw-part-0011.zip",
+      "bytes": 16273149,
+      "sha256": "ee3ada6dc187615fdaee4fa1af8fd7140f16c13078c47799efdd2f5af92fc021",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0011.zip"
+    },
+    {
+      "name": "raw-part-0012.zip",
+      "bytes": 16362185,
+      "sha256": "999b32bdcae9f12ce25db27d84e3ad1409b0689171b5a368cdf9eb59aa5453ab",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0012.zip"
+    },
+    {
+      "name": "raw-part-0013.zip",
+      "bytes": 12616804,
+      "sha256": "2a6cc0899eb0b6624384f18f182b04b1a19e1f527b48ccb637244392219ae88c",
+      "original_fragment_bytes": 205413653,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0013.zip"
+    },
+    {
+      "name": "raw-part-0014.zip",
+      "bytes": 33499861,
+      "sha256": "0d2686ad9df75a6b9435129b9d1622f3c0e4ad0bf21156369501498b29f4cdf9",
+      "original_fragment_bytes": 342680257,
+      "members": 9,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0014.zip"
+    },
+    {
+      "name": "raw-part-0015.zip",
+      "bytes": 21091858,
+      "sha256": "be3831c740eeb56a607a375312bdcaa4dd00b3c9f09d48a60a44bd4987e8deeb",
+      "original_fragment_bytes": 295670320,
+      "members": 2,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0015.zip"
+    },
+    {
+      "name": "raw-part-0016.zip",
+      "bytes": 24818283,
+      "sha256": "ba25fcbfeb9e95572bc787d7da6897aa34fa296627fc346086289702b4537555",
+      "original_fragment_bytes": 263392882,
+      "members": 5,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0016.zip"
+    },
+    {
+      "name": "raw-part-0017.zip",
+      "bytes": 20738794,
+      "sha256": "a8e18b89ae8387532ebf2d4ed6429f14bbd91aa8ebf0da52cc64927588e481e9",
+      "original_fragment_bytes": 225605600,
+      "members": 5,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0017.zip"
+    },
+    {
+      "name": "raw-part-0018.zip",
+      "bytes": 20436810,
+      "sha256": "697bcc1d8ce25b1176bbc43afd2a064641d002534dd1ae55e4fbd24ff91b064a",
+      "original_fragment_bytes": 182065357,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0018.zip"
+    },
+    {
+      "name": "raw-part-0019.zip",
+      "bytes": 15092183,
+      "sha256": "06a1d8f325f9aca723cee6ebf485e08b3f595b2dfa319e8bd58d064d860cd7ce",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0019.zip"
+    },
+    {
+      "name": "raw-part-0020.zip",
+      "bytes": 14596997,
+      "sha256": "18c9fd6d40e73245597889e034fcaed21763dd1da605e399060fcdc3ac9844d7",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0020.zip"
+    },
+    {
+      "name": "raw-part-0021.zip",
+      "bytes": 14852363,
+      "sha256": "eaa59e1d56c16bd1d9bd8a7d02687fd4bd6d8e627218ba5ec5345b699c526524",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0021.zip"
+    },
+    {
+      "name": "raw-part-0022.zip",
+      "bytes": 14697744,
+      "sha256": "c5c4c9412f3b7b80eca6799f344382368832ff75c358817dbee8a7feb8df5b80",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0022.zip"
+    },
+    {
+      "name": "raw-part-0023.zip",
+      "bytes": 14829266,
+      "sha256": "9dc7b713b5bef2e30beac00d16330c99fed2a83cbfdedc5e6d519935852d108a",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0023.zip"
+    },
+    {
+      "name": "raw-part-0024.zip",
+      "bytes": 9841662,
+      "sha256": "edcc91b83f516a06cbccb57d6a69fad6435f1e147df165bb7246ffb960fb8d4c",
+      "original_fragment_bytes": 175284838,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0024.zip"
+    },
+    {
+      "name": "raw-part-0025.zip",
+      "bytes": 22737980,
+      "sha256": "5707cf9390a4396f4a05476745252b42615f02036a92e0e57e8078d06c0ce2a4",
+      "original_fragment_bytes": 237334782,
+      "members": 29,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0025.zip"
+    },
+    {
+      "name": "raw-part-0026.zip",
+      "bytes": 28370352,
+      "sha256": "b017ce16071ed926ae6c5e375cad928df392c3aafe01eb25a66cafb7866f306e",
+      "original_fragment_bytes": 262293454,
+      "members": 6,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0026.zip"
+    },
+    {
+      "name": "raw-part-0027.zip",
+      "bytes": 17581793,
+      "sha256": "4309d3ef030835f41256c46e54114a75fe640ad71f4e1021ffddf3b8a9bbdd5e",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0027.zip"
+    },
+    {
+      "name": "raw-part-0028.zip",
+      "bytes": 13496967,
+      "sha256": "b19c1b4cae4a4cdef555eb08d9db31e661bf82576be011d6153ef7ac7481f1c8",
+      "original_fragment_bytes": 215568427,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0028.zip"
+    },
+    {
+      "name": "raw-part-0029.zip",
+      "bytes": 32097460,
+      "sha256": "82c5c134502de64046b8c88ca5303933940bc4baec13377e7e9f5235a748c859",
+      "original_fragment_bytes": 305663843,
+      "members": 10,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0029.zip"
+    },
+    {
+      "name": "raw-part-0030.zip",
+      "bytes": 19760523,
+      "sha256": "79aa67d40ee13fe0d608251c25c65f1d124b13753db7367d01ded41d1eb3e89c",
+      "original_fragment_bytes": 194590270,
+      "members": 6,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0030.zip"
+    },
+    {
+      "name": "raw-part-0031.zip",
+      "bytes": 20014704,
+      "sha256": "85a0b80946f7568b7c3407c8769d3c2f72a1d7e62217f2775bbaed82ae4193ca",
+      "original_fragment_bytes": 272109085,
+      "members": 7,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0031.zip"
+    },
+    {
+      "name": "raw-part-0032.zip",
+      "bytes": 20079685,
+      "sha256": "a8128d1ac7700195209e0dcff34c4564804398f309fa619a9db1c1ce0a856078",
+      "original_fragment_bytes": 198813653,
+      "members": 6,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0032.zip"
+    },
+    {
+      "name": "raw-part-0033.zip",
+      "bytes": 17980862,
+      "sha256": "54a5dabcea341b066be2ac70e72af1953af16c102fef031f3a33c587f3f70b84",
+      "original_fragment_bytes": 288814921,
+      "members": 2,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0033.zip"
+    },
+    {
+      "name": "raw-part-0034.zip",
+      "bytes": 29768126,
+      "sha256": "fd6f6f70f1c2a722a51577454beac005b80e0687d68560b763d5808b19cb8677",
+      "original_fragment_bytes": 289421837,
+      "members": 10,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0034.zip"
+    },
+    {
+      "name": "raw-part-0035.zip",
+      "bytes": 26102692,
+      "sha256": "c25c6632f0a03b7e2c800e65b534552ca8cd3b1ec716388bda1bb2e063740cee",
+      "original_fragment_bytes": 336970475,
+      "members": 7,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0035.zip"
+    },
+    {
+      "name": "raw-part-0036.zip",
+      "bytes": 22792065,
+      "sha256": "9fa63901f305e97975258686765cb6aec4a904d911fe217dc23ced907261f237",
+      "original_fragment_bytes": 232474989,
+      "members": 11,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0036.zip"
+    },
+    {
+      "name": "raw-part-0037.zip",
+      "bytes": 18133308,
+      "sha256": "a0ea0f89338506b1abb56c241f56bfaecff2eb9a19627c60e9af0847ffe03701",
+      "original_fragment_bytes": 143568065,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0037.zip"
+    },
+    {
+      "name": "raw-part-0038.zip",
+      "bytes": 16595736,
+      "sha256": "91a6acace7f81fff23b4acd334be612bd8f70460a20badb5ec0d1c8fb4526240",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0038.zip"
+    },
+    {
+      "name": "raw-part-0039.zip",
+      "bytes": 16355532,
+      "sha256": "731c336a843399afbf9f6fa29b14e08a0e0de7d2e48ce643574de4d170016c80",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0039.zip"
+    },
+    {
+      "name": "raw-part-0040.zip",
+      "bytes": 29185378,
+      "sha256": "4c7bd44d0262afa662dd13e4eb639232a4fbc6abb5ca00b56aa38d552e30ae75",
+      "original_fragment_bytes": 332716432,
+      "members": 4,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0040.zip"
+    },
+    {
+      "name": "raw-part-0041.zip",
+      "bytes": 34059544,
+      "sha256": "e6e08d621def8f7e45257c379beb0c4b789b547887053391b311cfdf87a00069",
+      "original_fragment_bytes": 321920940,
+      "members": 13,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0041.zip"
+    },
+    {
+      "name": "raw-part-0042.zip",
+      "bytes": 20142174,
+      "sha256": "f0a28cbf27b8cf6928697563dd2557762d51466261cfff582069824804b9726e",
+      "original_fragment_bytes": 330875815,
+      "members": 2,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0042.zip"
+    },
+    {
+      "name": "raw-part-0043.zip",
+      "bytes": 22634061,
+      "sha256": "db6ff37311b3419d909e1aa104ed020f5dc4aa21f5f7992f5d2a7e9688e7d5d1",
+      "original_fragment_bytes": 231806715,
+      "members": 11,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0043.zip"
+    },
+    {
+      "name": "raw-part-0044.zip",
+      "bytes": 18183004,
+      "sha256": "37436ea5530c525713875d0f625cc75db5bd79a7483ba65db928873e76406d75",
+      "original_fragment_bytes": 143686442,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0044.zip"
+    },
+    {
+      "name": "raw-part-0045.zip",
+      "bytes": 16909810,
+      "sha256": "95a0a70fb9e58ed80b02f71ae9a84a84dfe3a0af46edea50a480b1f471c00a6f",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0045.zip"
+    },
+    {
+      "name": "raw-part-0046.zip",
+      "bytes": 16316537,
+      "sha256": "44d241f9666adcb867ed199e188b9eefba96b914df3328613afe296893df8497",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0046.zip"
+    },
+    {
+      "name": "raw-part-0047.zip",
+      "bytes": 29848697,
+      "sha256": "1baa763fe3645628ff2bf00ec34d9d480563c4120bcae40aec0004d864687984",
+      "original_fragment_bytes": 334775316,
+      "members": 4,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0047.zip"
+    },
+    {
+      "name": "raw-part-0048.zip",
+      "bytes": 33972781,
+      "sha256": "14666fef0e3c35fe444d3b0f9a35bbba6747b103ee2197b0ee5883b2b436c7a2",
+      "original_fragment_bytes": 321955881,
+      "members": 13,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0048.zip"
+    },
+    {
+      "name": "raw-part-0049.zip",
+      "bytes": 20121465,
+      "sha256": "ffa55ff5bdc6a7e196aba530a12fc1c6716d9c0d5d00a067473a013b39c8b2f5",
+      "original_fragment_bytes": 330875878,
+      "members": 2,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0049.zip"
+    },
+    {
+      "name": "raw-part-0050.zip",
+      "bytes": 22346824,
+      "sha256": "53e1572cc980dc5c284fadf128712c6a976d8dea334751514670a9b18a35eb75",
+      "original_fragment_bytes": 231230591,
+      "members": 11,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0050.zip"
+    },
+    {
+      "name": "raw-part-0051.zip",
+      "bytes": 18420220,
+      "sha256": "4a35833e76e1b06e6b14b2064cf48bd6cf87dd080115e4617f40aec6da26f13d",
+      "original_fragment_bytes": 144995895,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0051.zip"
+    },
+    {
+      "name": "raw-part-0052.zip",
+      "bytes": 16861063,
+      "sha256": "cbf6e4fc84b4f04c835410ebf487c8bc51fa35205be8c378cf2c85b34dc0473a",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0052.zip"
+    },
+    {
+      "name": "raw-part-0053.zip",
+      "bytes": 16382060,
+      "sha256": "d307745277d77a2178bceeb77ce211cd111900893dd4614034148f695599f349",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0053.zip"
+    },
+    {
+      "name": "raw-part-0054.zip",
+      "bytes": 28897111,
+      "sha256": "a8eb7a8e5f25f190f24eaa4503e11cd374c8c69b7c8a21b378ff52eb07334a79",
+      "original_fragment_bytes": 330823948,
+      "members": 4,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0054.zip"
+    },
+    {
+      "name": "raw-part-0055.zip",
+      "bytes": 34147873,
+      "sha256": "9262c73f33e3b1651d96ec94996400a6b428e9968c6728377015df6e5540add2",
+      "original_fragment_bytes": 323344044,
+      "members": 13,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0055.zip"
+    },
+    {
+      "name": "raw-part-0056.zip",
+      "bytes": 20122793,
+      "sha256": "d5a86a6e61aa962bc3b9a1c5a7fdfdba36227d91b6ba6e5797051db9c857658e",
+      "original_fragment_bytes": 330876161,
+      "members": 2,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0056.zip"
+    },
+    {
+      "name": "raw-part-0057.zip",
+      "bytes": 27180820,
+      "sha256": "f898583304b4da1fd683807781d7fdb93748b458c7c57fdc66c9cc5f56290aed",
+      "original_fragment_bytes": 262578092,
+      "members": 12,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0057.zip"
+    },
+    {
+      "name": "raw-part-0058.zip",
+      "bytes": 15643694,
+      "sha256": "4768fd972c7a69dc06b03819f424a422b777f817efbd96506deb59265a5fda67",
+      "original_fragment_bytes": 222738516,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0058.zip"
+    },
+    {
+      "name": "raw-part-0059.zip",
+      "bytes": 32625509,
+      "sha256": "63d4610b2080f12898d56c473b3282f54a29724fa3deb853dd43cc0d4855a32c",
+      "original_fragment_bytes": 295103963,
+      "members": 10,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0059.zip"
+    },
+    {
+      "name": "raw-part-0060.zip",
+      "bytes": 25644172,
+      "sha256": "6ecc78db106db8c5bae62efbe524d8d153e33fbb1261c27626a99bed7a4edb6b",
+      "original_fragment_bytes": 304309903,
+      "members": 7,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0060.zip"
+    },
+    {
+      "name": "raw-part-0061.zip",
+      "bytes": 29477591,
+      "sha256": "1f99d05434ad465e246449da7c6bbf1c4c95de728a25ee76ed5ba2486e19170a",
+      "original_fragment_bytes": 290932246,
+      "members": 11,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0061.zip"
+    },
+    {
+      "name": "raw-part-0062.zip",
+      "bytes": 15701218,
+      "sha256": "2ed9d6af5b8b8d7486433c039c9c9345753da4038aa0f47251cc13563639a274",
+      "original_fragment_bytes": 137449962,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0062.zip"
+    },
+    {
+      "name": "raw-part-0063.zip",
+      "bytes": 16608036,
+      "sha256": "c5ccfe9fa97e3a77a03ced34da9ba7b2a235f7aed972ce91a008fe25a49591ca",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0063.zip"
+    },
+    {
+      "name": "raw-part-0064.zip",
+      "bytes": 14669214,
+      "sha256": "963aa486b90fd681713e38eff86ef02908f7e7ea757c8d1b5c867b47e4f1fd17",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0064.zip"
+    },
+    {
+      "name": "raw-part-0065.zip",
+      "bytes": 16857145,
+      "sha256": "43dd03d457565d9e5890f03062f203ae0385cab5c0a7019acacf14343415f807",
+      "original_fragment_bytes": 300332711,
+      "members": 2,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0065.zip"
+    },
+    {
+      "name": "raw-part-0066.zip",
+      "bytes": 33507787,
+      "sha256": "595f92c3916765646ed373d0469221b69052639eb52674f02edd52f5fdc31b5c",
+      "original_fragment_bytes": 318732610,
+      "members": 8,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0066.zip"
+    },
+    {
+      "name": "raw-part-0067.zip",
+      "bytes": 36449034,
+      "sha256": "41e308e491d2fea2ae8aa57e0ba1b150ef8a52b4c3f188b3d3e05a935c5cb2d0",
+      "original_fragment_bytes": 335972449,
+      "members": 8,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0067.zip"
+    },
+    {
+      "name": "raw-part-0068.zip",
+      "bytes": 15129675,
+      "sha256": "964c9e0476db75e7f4788d82a04d4e3561405f288d1db13c23451a3a36843a37",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0068.zip"
+    },
+    {
+      "name": "raw-part-0069.zip",
+      "bytes": 27671382,
+      "sha256": "62391fb405e3dc5083f46407e9ad5a3740b53c653bba07822c238b91a8cb4891",
+      "original_fragment_bytes": 326339450,
+      "members": 12,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0069.zip"
+    },
+    {
+      "name": "raw-part-0070.zip",
+      "bytes": 19156131,
+      "sha256": "66255c0cced23746db46b1270ebd4459d536ccb1f3c98c9582b8d0b2a55a1678",
+      "original_fragment_bytes": 149815914,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0070.zip"
+    },
+    {
+      "name": "raw-part-0071.zip",
+      "bytes": 18367567,
+      "sha256": "b69152fec4ee0d15eb216df5df2d2452e30d5f5935ef59b9ec4f39a24057e889",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0071.zip"
+    },
+    {
+      "name": "raw-part-0072.zip",
+      "bytes": 17088752,
+      "sha256": "a521fc37c13d38da8101148b1724fb2b7bfc220b4a7c47c703660cb4606d89a8",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0072.zip"
+    },
+    {
+      "name": "raw-part-0073.zip",
+      "bytes": 17078388,
+      "sha256": "e381bb14d1a54f56f90aefd9a293eed4844c8355f82df1ca617c9a10667fc0f3",
+      "original_fragment_bytes": 278409406,
+      "members": 2,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0073.zip"
+    },
+    {
+      "name": "raw-part-0074.zip",
+      "bytes": 36615768,
+      "sha256": "45fa7809ddfc617ee2949bded679008befff135460ee61edb4c15965c67b2717",
+      "original_fragment_bytes": 334841880,
+      "members": 10,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0074.zip"
+    },
+    {
+      "name": "raw-part-0075.zip",
+      "bytes": 20587244,
+      "sha256": "a2998456931b060d40c46fb0689f81410e2b717dd76ee92ac017b2403172a5c2",
+      "original_fragment_bytes": 209678014,
+      "members": 6,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0075.zip"
+    },
+    {
+      "name": "raw-part-0076.zip",
+      "bytes": 20088865,
+      "sha256": "d400dce1b09ae3f793978d583ff05f4f419a8ac0aa7434e9f28e4b636219b42e",
+      "original_fragment_bytes": 330876014,
+      "members": 2,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0076.zip"
+    },
+    {
+      "name": "raw-part-0077.zip",
+      "bytes": 24281994,
+      "sha256": "23564354fca931c0981715c94f39d9ac1b4d94bf61219b2181222cdc2ea678dc",
+      "original_fragment_bytes": 225072924,
+      "members": 49,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0077.zip"
+    },
+    {
+      "name": "raw-part-0078.zip",
+      "bytes": 16317789,
+      "sha256": "be65c18c8bef47f852616a580cd1734563cb7dbe488ca586990b387ea00e54ae",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0078.zip"
+    },
+    {
+      "name": "raw-part-0079.zip",
+      "bytes": 17156609,
+      "sha256": "9e67ec7ede8e797e3bc4598af2a0707031fc6c9055a3d6d219058924b452dd4b",
+      "original_fragment_bytes": 253812041,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0079.zip"
+    },
+    {
+      "name": "raw-part-0080.zip",
+      "bytes": 22811028,
+      "sha256": "23ca2e175cbcee1b49f211079ee95fc39fd0b1b67032d97e453d5e5ad1d8014c",
+      "original_fragment_bytes": 208792629,
+      "members": 4,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0080.zip"
+    },
+    {
+      "name": "raw-part-0081.zip",
+      "bytes": 35087200,
+      "sha256": "581ce0d43a76d078531cc745669977cea85e958e34eacca7fbef0ea8890b4adc",
+      "original_fragment_bytes": 317156765,
+      "members": 6,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0081.zip"
+    },
+    {
+      "name": "raw-part-0082.zip",
+      "bytes": 16357145,
+      "sha256": "80325a64c6399b4000195144d757487aa60555c1d04a0e5aac6a9512b180ea7e",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0082.zip"
+    },
+    {
+      "name": "raw-part-0083.zip",
+      "bytes": 18122156,
+      "sha256": "bd24262bc8855fd0264dab696c4b1cd42ab5c0c4ab7b1cdd370164131c732008",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0083.zip"
+    },
+    {
+      "name": "raw-part-0084.zip",
+      "bytes": 17217747,
+      "sha256": "2c096d7be54703e2ab972d60e359f34538b53111af1928a8f376837d76a80748",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0084.zip"
+    },
+    {
+      "name": "raw-part-0085.zip",
+      "bytes": 20951011,
+      "sha256": "2d34e004751154e53a9481efb2e41f7f36ca463d4cbca831f36365ca9e15d9e4",
+      "original_fragment_bytes": 340849206,
+      "members": 2,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0085.zip"
+    },
+    {
+      "name": "raw-part-0086.zip",
+      "bytes": 30005054,
+      "sha256": "f162454e51a0811cba51881c9617722a505a86f35fe1b3599c81172cf2b8c6a8",
+      "original_fragment_bytes": 287439653,
+      "members": 6,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0086.zip"
+    },
+    {
+      "name": "raw-part-0087.zip",
+      "bytes": 20056636,
+      "sha256": "76095e96cad578fa5b79f6e4a36a26da85cb5a6fa151d3997b5fc1ab247fea7e",
+      "original_fragment_bytes": 194896815,
+      "members": 6,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0087.zip"
+    },
+    {
+      "name": "raw-part-0088.zip",
+      "bytes": 18042204,
+      "sha256": "9070d8006d29e3782a1755cec12a180f3c43b8c2e42327a0c9238b250e134a47",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0088.zip"
+    },
+    {
+      "name": "raw-part-0089.zip",
+      "bytes": 6104892,
+      "sha256": "1a25c94dc0c0dbc1982edf4ca859a8ddbd30dc89778459ce7d46be0df166f1ac",
+      "original_fragment_bytes": 90034143,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0089.zip"
+    },
+    {
+      "name": "raw-part-0090.zip",
+      "bytes": 30113820,
+      "sha256": "cf95faf420b3b8a1c9d706151036e476c2f1df0e835fad36efe7d2bf17c2c624",
+      "original_fragment_bytes": 287100252,
+      "members": 32,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0090.zip"
+    },
+    {
+      "name": "raw-part-0091.zip",
+      "bytes": 35300108,
+      "sha256": "e8dbc016358820d07f8964fe6df02913ffb695fb621de16cd7674159af556f7b",
+      "original_fragment_bytes": 317493190,
+      "members": 6,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0091.zip"
+    },
+    {
+      "name": "raw-part-0092.zip",
+      "bytes": 16365115,
+      "sha256": "152306d4bc0cef1f3239f3de07e10906eb44447bb6c4229d7c6c3c5cd37083f7",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0092.zip"
+    },
+    {
+      "name": "raw-part-0093.zip",
+      "bytes": 18109497,
+      "sha256": "14d8a12de7da30d4b2a8a3c81c23d22fbcc8eb2f230b3656fae2b88c4651fd12",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0093.zip"
+    },
+    {
+      "name": "raw-part-0094.zip",
+      "bytes": 17198841,
+      "sha256": "581a4dfe4cb3bc6ba7e09bf42d04e65006a6211cc900b5b29ba170a25dcf6d6f",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0094.zip"
+    },
+    {
+      "name": "raw-part-0095.zip",
+      "bytes": 21101198,
+      "sha256": "c0640b15ac1f3af39c0a4be42b193ca95ab09a44f3afb04c5bdad3d75a8a9360",
+      "original_fragment_bytes": 342266441,
+      "members": 2,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0095.zip"
+    },
+    {
+      "name": "raw-part-0096.zip",
+      "bytes": 30547563,
+      "sha256": "0cbcce8b80c9055686131ec1d61321e4c63d338911e15a562c42d5276ae33ef2",
+      "original_fragment_bytes": 288789087,
+      "members": 43,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0096.zip"
+    },
+    {
+      "name": "raw-part-0097.zip",
+      "bytes": 20487902,
+      "sha256": "1d8125234e618179d414cb3468ca1acc52b156be7f75d4cfd22060db8e5bb42c",
+      "original_fragment_bytes": 197323357,
+      "members": 6,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0097.zip"
+    },
+    {
+      "name": "raw-part-0098.zip",
+      "bytes": 23242752,
+      "sha256": "994337e59e460e289237313d69f9064f2205d5fda6fa5ba8b527ad8e50215d9f",
+      "original_fragment_bytes": 342774430,
+      "members": 2,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0098.zip"
+    },
+    {
+      "name": "raw-part-0099.zip",
+      "bytes": 36335800,
+      "sha256": "a09e93228558652eb7b06b0ab73d4b1a869c2208b955927cfaadc784b939f75b",
+      "original_fragment_bytes": 342421754,
+      "members": 11,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0099.zip"
+    },
+    {
+      "name": "raw-part-0100.zip",
+      "bytes": 27484529,
+      "sha256": "0010a3b0b7ff25766905ff6be8e249ab9ed7b78b86ccd2d8539ae96548b03682",
+      "original_fragment_bytes": 315227498,
+      "members": 7,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0100.zip"
+    },
+    {
+      "name": "raw-part-0101.zip",
+      "bytes": 15270862,
+      "sha256": "7a8131b7b99316d278679b378444bd494c2429bb6f6b069a307b370ff1c9acba",
+      "original_fragment_bytes": 190498411,
+      "members": 7,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0101.zip"
+    },
+    {
+      "name": "raw-part-0102.zip",
+      "bytes": 33427289,
+      "sha256": "ba58136e9d4bc6b2c8db18de9fa4668d548bbd16dceb5e95d518622a18ea6450",
+      "original_fragment_bytes": 348619770,
+      "members": 10,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0102.zip"
+    },
+    {
+      "name": "raw-part-0103.zip",
+      "bytes": 18413587,
+      "sha256": "21ca81e829754e2c0b62ae191f173ec7c1c018847edec4accb95a6c0d778d26f",
+      "original_fragment_bytes": 144990086,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0103.zip"
+    },
+    {
+      "name": "raw-part-0104.zip",
+      "bytes": 16339339,
+      "sha256": "6dc6a32e1571f48dfed0afe305bd94016ac5926c93ebb162526b643430d085b4",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0104.zip"
+    },
+    {
+      "name": "raw-part-0105.zip",
+      "bytes": 16768187,
+      "sha256": "ca88a8d6d8a72b6b911ca0d5a59e2f6153b2efb00d682f03f1ce8618b47cb0e4",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0105.zip"
+    },
+    {
+      "name": "raw-part-0106.zip",
+      "bytes": 16339685,
+      "sha256": "4e4c572b529aebe74356b5352de739e066e915684cfd049c0e3ed3c99addeb7a",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0106.zip"
+    },
+    {
+      "name": "raw-part-0107.zip",
+      "bytes": 10807607,
+      "sha256": "75b3e2678aade344db16de4f0cb076c7882773054fcf37db74442271c79542a1",
+      "original_fragment_bytes": 175864805,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0107.zip"
+    },
+    {
+      "name": "raw-part-0108.zip",
+      "bytes": 33525435,
+      "sha256": "aeef8e25be00b8b5fc97f2cdd3fd0d58fcd2ae287ccdd00da69986c7b3984811",
+      "original_fragment_bytes": 335523470,
+      "members": 11,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0108.zip"
+    },
+    {
+      "name": "raw-part-0109.zip",
+      "bytes": 24788998,
+      "sha256": "6a0487ab0ae0bf632b1117bd625a3495ecfebb562a13b8d1d70cc561dba766dd",
+      "original_fragment_bytes": 326514415,
+      "members": 2,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0109.zip"
+    },
+    {
+      "name": "raw-part-0110.zip",
+      "bytes": 32937166,
+      "sha256": "a09ac3578ee8f4a24673d8d893ef7c5b247555fecc79818ba90bc068fef993b6",
+      "original_fragment_bytes": 342831275,
+      "members": 12,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0110.zip"
+    },
+    {
+      "name": "raw-part-0111.zip",
+      "bytes": 20186718,
+      "sha256": "7293bae9927d1d67159134256c99845580569ace058b8457922c6f42a003ae19",
+      "original_fragment_bytes": 330877171,
+      "members": 2,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0111.zip"
+    },
+    {
+      "name": "raw-part-0112.zip",
+      "bytes": 20249404,
+      "sha256": "c06369baa369469599261b3a457063ff08ed91e371a2ef80c72b5e827e0ba46c",
+      "original_fragment_bytes": 212184470,
+      "members": 32,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0112.zip"
+    },
+    {
+      "name": "raw-part-0113.zip",
+      "bytes": 18252487,
+      "sha256": "7dd43dc592dd5fb0eaee6d3bee5742f8f443e4be61adffe4cc7e24ada800bc3a",
+      "original_fragment_bytes": 246634019,
+      "members": 9,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0113.zip"
+    },
+    {
+      "name": "raw-part-0114.zip",
+      "bytes": 18313924,
+      "sha256": "2146fbf9484d61e41a6370ea3592af546d854fa698e829387250a0c1cd54f56b",
+      "original_fragment_bytes": 237488677,
+      "members": 9,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0114.zip"
+    },
+    {
+      "name": "raw-part-0115.zip",
+      "bytes": 20009397,
+      "sha256": "7667719814c57f8282389b55ef6446995594b37007f54b464f83b0c15ff40162",
+      "original_fragment_bytes": 258546982,
+      "members": 25,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0115.zip"
+    },
+    {
+      "name": "raw-part-0116.zip",
+      "bytes": 22350555,
+      "sha256": "f37a9189729c3cc246cc4802eab7fc6300f93c1e969a14941d7a7068b64acf9f",
+      "original_fragment_bytes": 293764722,
+      "members": 9,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0116.zip"
+    },
+    {
+      "name": "raw-part-0117.zip",
+      "bytes": 22179984,
+      "sha256": "500145be984f9ce707f27f1f698c6340a9a6d0a7916a200b6fe3b4fa4ee17257",
+      "original_fragment_bytes": 286245182,
+      "members": 9,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0117.zip"
+    },
+    {
+      "name": "raw-part-0118.zip",
+      "bytes": 22619202,
+      "sha256": "7d6651a8abf7a45e4604ccffc51115c66432960c60678fa1fb5886926153617d",
+      "original_fragment_bytes": 299776317,
+      "members": 9,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0118.zip"
+    },
+    {
+      "name": "raw-part-0119.zip",
+      "bytes": 22447954,
+      "sha256": "7884454a7d5a960665e53a39090f97b57d9608ce2dcb6b1e9dce29c2e77c7127",
+      "original_fragment_bytes": 324742728,
+      "members": 29,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0119.zip"
+    },
+    {
+      "name": "raw-part-0120.zip",
+      "bytes": 24277847,
+      "sha256": "d31b860254820e96aeb138a9843f6047c0d9967d06ad788eb1a722af2ff4b5eb",
+      "original_fragment_bytes": 226378817,
+      "members": 8,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0120.zip"
+    },
+    {
+      "name": "raw-part-0121.zip",
+      "bytes": 26248783,
+      "sha256": "281fa5a7847d6067bb53ebe2979d9c7704a53db48402f7f93c1e7c73094486de",
+      "original_fragment_bytes": 335859187,
+      "members": 14,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0121.zip"
+    },
+    {
+      "name": "raw-part-0122.zip",
+      "bytes": 26123540,
+      "sha256": "80dcb4b3bbe804d47e3fa5f32c8e7125e75ef5ad8d008b13811930aa36592353",
+      "original_fragment_bytes": 336975409,
+      "members": 7,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0122.zip"
+    },
+    {
+      "name": "raw-part-0123.zip",
+      "bytes": 33798431,
+      "sha256": "222e14f74e8d1a0616391f7d2efd3947f6ede95759254995fb1090914fd5bbc0",
+      "original_fragment_bytes": 340180330,
+      "members": 18,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0123.zip"
+    },
+    {
+      "name": "raw-part-0124.zip",
+      "bytes": 22436680,
+      "sha256": "a145c3f0d9d28ceb7144ae61e857bb80f7f8fd922cf3eea5be77d3b565441e96",
+      "original_fragment_bytes": 316442101,
+      "members": 2,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0124.zip"
+    },
+    {
+      "name": "raw-part-0125.zip",
+      "bytes": 32348053,
+      "sha256": "f029daa4dd75a68fd504e3b166f139160d6a76b1a3cf066edfa01f1c96ae08cd",
+      "original_fragment_bytes": 347663014,
+      "members": 16,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0125.zip"
+    },
+    {
+      "name": "raw-part-0126.zip",
+      "bytes": 11018408,
+      "sha256": "9882d3298fa494045b7146f0309866ba52a3a84b057b9d7052c7a4c4f490d9e5",
+      "original_fragment_bytes": 102205541,
+      "members": 4,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0126.zip"
+    },
+    {
+      "name": "raw-part-0127.zip",
+      "bytes": 20085264,
+      "sha256": "94b0e4445d177e12ba38980d1c21657b119d34bfbbbe0aad92e675999683524c",
+      "original_fragment_bytes": 330877051,
+      "members": 2,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0127.zip"
+    },
+    {
+      "name": "raw-part-0128.zip",
+      "bytes": 34615172,
+      "sha256": "131e2ac3176f6a81938ccf04058c58f6c4106e096b544ef40e8780086a7f025a",
+      "original_fragment_bytes": 340354408,
+      "members": 18,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0128.zip"
+    },
+    {
+      "name": "raw-part-0129.zip",
+      "bytes": 22490687,
+      "sha256": "32bf36363e85a93fcb6f6aefb5150ddcc13340c42090dcc9194c06969de3a5bb",
+      "original_fragment_bytes": 316892687,
+      "members": 2,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0129.zip"
+    },
+    {
+      "name": "raw-part-0130.zip",
+      "bytes": 28946079,
+      "sha256": "40ff2d1ce96474fb70fb18b7cc9b30e548d83e436ddf9059fac9c9daad72c914",
+      "original_fragment_bytes": 314441998,
+      "members": 16,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0130.zip"
+    },
+    {
+      "name": "raw-part-0131.zip",
+      "bytes": 25236730,
+      "sha256": "68e155a1582256a73740daacfa938e6ef9e22bfda26c5e153c61c7feed8a772e",
+      "original_fragment_bytes": 307896619,
+      "members": 16,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0131.zip"
+    },
+    {
+      "name": "raw-part-0132.zip",
+      "bytes": 36531852,
+      "sha256": "b636830240a34a2cfd7b446e60c8b3cff780d5879fb7db7727f34cdb0442d393",
+      "original_fragment_bytes": 336758501,
+      "members": 8,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0132.zip"
+    },
+    {
+      "name": "raw-part-0133.zip",
+      "bytes": 15048010,
+      "sha256": "f0fa4c94d69cc9f2b8c6bcfd64654b3d95ec90c7823c6fc98f7718009571474d",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0133.zip"
+    },
+    {
+      "name": "raw-part-0134.zip",
+      "bytes": 24216952,
+      "sha256": "01ef0698aca4515d17323c049d2a3164a1918d1b0628ea62732e268b591547c5",
+      "original_fragment_bytes": 272039000,
+      "members": 14,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0134.zip"
+    },
+    {
+      "name": "raw-part-0135.zip",
+      "bytes": 20653205,
+      "sha256": "97b179e48fafe925a9c920e3e19e52118f9c5c87117641606281081d1305ed27",
+      "original_fragment_bytes": 209675111,
+      "members": 6,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0135.zip"
+    },
+    {
+      "name": "raw-part-0136.zip",
+      "bytes": 20131702,
+      "sha256": "32e6296f708a741e2659c08b646b68a601ba3897f4b9edabbe41d0e9f86913be",
+      "original_fragment_bytes": 330878411,
+      "members": 2,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0136.zip"
+    },
+    {
+      "name": "raw-part-0137.zip",
+      "bytes": 227717285,
+      "sha256": "3da5d3f2aab534b2a9b9db902e77dcf333ade72f543c733cbda3af22fa7de87c",
+      "original_fragment_bytes": 276719133,
+      "members": 4,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0137.zip"
+    },
+    {
+      "name": "raw-part-0138.zip",
+      "bytes": 322345714,
+      "sha256": "bbaa02b156787049ae6add13b0c3546569b449151d10bc5c5cc4a4eb5808e670",
+      "original_fragment_bytes": 322345084,
+      "members": 4,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0138.zip"
+    },
+    {
+      "name": "raw-part-0139.zip",
+      "bytes": 326246149,
+      "sha256": "84470f7d9bf1ba94be35403cd694722c3cdf0c816101afa6e1fddfad7db8670e",
+      "original_fragment_bytes": 326245519,
+      "members": 4,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0139.zip"
+    },
+    {
+      "name": "raw-part-0140.zip",
+      "bytes": 315740068,
+      "sha256": "b4044507e80f6bef944e25b610010c5b40f5958689783e70ffd35373a55f88d8",
+      "original_fragment_bytes": 315739438,
+      "members": 4,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0140.zip"
+    },
+    {
+      "name": "raw-part-0141.zip",
+      "bytes": 332277577,
+      "sha256": "af9adc7de727b260d0db1aab9ca5e98a4f2b2a8af8266744f047ef4eb5f5517a",
+      "original_fragment_bytes": 332276947,
+      "members": 4,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0141.zip"
+    },
+    {
+      "name": "raw-part-0142.zip",
+      "bytes": 310055913,
+      "sha256": "3173276b8da63a3491a59509b77bfe26b098d4402d16eb8c93dc0f7063bd4ff2",
+      "original_fragment_bytes": 310055283,
+      "members": 4,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0142.zip"
+    },
+    {
+      "name": "raw-part-0143.zip",
+      "bytes": 318973647,
+      "sha256": "597e46cdab6dc961ebf621e9064124b137d193ff08f3096298586ffacf8be442",
+      "original_fragment_bytes": 318973017,
+      "members": 4,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0143.zip"
+    },
+    {
+      "name": "raw-part-0144.zip",
+      "bytes": 314274824,
+      "sha256": "3392bf895b6d78a00dab0e69d1ca5ea99af819422c6aeedccac8b900cf074f6c",
+      "original_fragment_bytes": 314273738,
+      "members": 7,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0144.zip"
+    },
+    {
+      "name": "raw-part-0145.zip",
+      "bytes": 321615278,
+      "sha256": "a19fd30c2fffa13de24894be434dfa6e02e212c5d98d26a8fad78263ba759943",
+      "original_fragment_bytes": 321614800,
+      "members": 3,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0145.zip"
+    },
+    {
+      "name": "raw-part-0146.zip",
+      "bytes": 230104521,
+      "sha256": "e878c357b8e10245573aa8c6dbe8e271bead6e8f85722fe3837930b1986f79bd",
+      "original_fragment_bytes": 230104195,
+      "members": 2,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0146.zip"
+    },
+    {
+      "name": "raw-part-0147.zip",
+      "bytes": 239041292,
+      "sha256": "d73699ccfd504225f1ac20d0b84a7456096f7c6b28d830ec868995d99dd1d619",
+      "original_fragment_bytes": 239040966,
+      "members": 2,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0147.zip"
+    },
+    {
+      "name": "raw-part-0148.zip",
+      "bytes": 239119946,
+      "sha256": "7e96633fb22746fe4e586921baeeccbe3f6dbe471dfc2a02eb7144310fc34c86",
+      "original_fragment_bytes": 239119620,
+      "members": 2,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0148.zip"
+    },
+    {
+      "name": "raw-part-0149.zip",
+      "bytes": 286494060,
+      "sha256": "835bfb18e874301c204d81e7fca17499a4aa1915a63502c6f28679c0949b9886",
+      "original_fragment_bytes": 286493734,
+      "members": 2,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0149.zip"
+    },
+    {
+      "name": "raw-part-0150.zip",
+      "bytes": 322495158,
+      "sha256": "93864d2ea3696f25e6b6e117e3bb0706cbc27dfa4c88046378f66599879feabc",
+      "original_fragment_bytes": 322494528,
+      "members": 4,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0150.zip"
+    },
+    {
+      "name": "raw-part-0151.zip",
+      "bytes": 312373305,
+      "sha256": "0f78eadfe8c95a9c3ae3748392b25d57f518b342b9fd5ad94f87ade941f8a9f6",
+      "original_fragment_bytes": 312372371,
+      "members": 6,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0151.zip"
+    },
+    {
+      "name": "raw-part-0152.zip",
+      "bytes": 321148995,
+      "sha256": "4feb67ae01af7c6d9a063a59f4199dbe624359bf3b0b6ac52268e756a43a7344",
+      "original_fragment_bytes": 321148517,
+      "members": 3,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0152.zip"
+    },
+    {
+      "name": "raw-part-0153.zip",
+      "bytes": 325232457,
+      "sha256": "c0dd714eb1a903c68f5ec1965934d001ca9a21c862a4856f97cd448d5d843932",
+      "original_fragment_bytes": 325231827,
+      "members": 4,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0153.zip"
+    },
+    {
+      "name": "raw-part-0154.zip",
+      "bytes": 334742819,
+      "sha256": "5c42f2aeceaa48f147e7afdb4a0be160268843595b6b1465ac71e90bfd5b08de",
+      "original_fragment_bytes": 334741429,
+      "members": 9,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0154.zip"
+    },
+    {
+      "name": "raw-part-0155.zip",
+      "bytes": 336688869,
+      "sha256": "27d729db321bd7ba825acec5835ed572269b2ec606d99acbd0fc07a3e6ab0914",
+      "original_fragment_bytes": 336688087,
+      "members": 5,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0155.zip"
+    },
+    {
+      "name": "raw-part-0156.zip",
+      "bytes": 329566614,
+      "sha256": "d9d55ebce9fa98e4b790cb4e00db80ccd9e74d36a1d339f64af36cf54cc68fa0",
+      "original_fragment_bytes": 329565528,
+      "members": 7,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0156.zip"
+    },
+    {
+      "name": "raw-part-0157.zip",
+      "bytes": 258436780,
+      "sha256": "32145606d93286f7d2e9ad009f33d118b2c2dcd105312ef72b48d51bf9936e55",
+      "original_fragment_bytes": 258436302,
+      "members": 3,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0157.zip"
+    },
+    {
+      "name": "raw-part-0158.zip",
+      "bytes": 324088529,
+      "sha256": "5dc8e8ccf691f3da6725b4f95efb103819ece4413f837f3d9f0be6d9b3cf0795",
+      "original_fragment_bytes": 324088203,
+      "members": 2,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0158.zip"
+    },
+    {
+      "name": "raw-part-0159.zip",
+      "bytes": 328650623,
+      "sha256": "fab065511aeba68462a565cb9e4608bc322d78caafd1b69c11540b580985fb51",
+      "original_fragment_bytes": 331332043,
+      "members": 470,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0159.zip"
+    },
+    {
+      "name": "raw-part-0160.zip",
+      "bytes": 239745936,
+      "sha256": "34375b4a32af9b4da5b997dca184a5d806d9226f5beb358914d6d41509781984",
+      "original_fragment_bytes": 239867361,
+      "members": 42,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0160.zip"
+    },
+    {
+      "name": "raw-part-0161.zip",
+      "bytes": 336928877,
+      "sha256": "5b6111592e196a6b17973e429b3434fabc900c3f8cacf31f37a80673a8c8baaa",
+      "original_fragment_bytes": 338026282,
+      "members": 38,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0161.zip"
+    },
+    {
+      "name": "raw-part-0162.zip",
+      "bytes": 322957698,
+      "sha256": "0d6dafeac265daa9775f0789f8c3dc32b6c2d83fc55f0d05f6f154d5ff4a2b04",
+      "original_fragment_bytes": 322957220,
+      "members": 3,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0162.zip"
+    },
+    {
+      "name": "raw-part-0163.zip",
+      "bytes": 322918100,
+      "sha256": "9283d5db776f496e2701476d939559ee10707a08d51c66d6673d422a2a6abeb4",
+      "original_fragment_bytes": 322917318,
+      "members": 5,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0163.zip"
+    },
+    {
+      "name": "raw-part-0164.zip",
+      "bytes": 194804592,
+      "sha256": "c8ecafc86d67f6ce512db1c98314f58b968cb57277ecac2f27fd2a63f017d8bf",
+      "original_fragment_bytes": 194803962,
+      "members": 4,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0164.zip"
+    },
+    {
+      "name": "raw-part-0165.zip",
+      "bytes": 303966574,
+      "sha256": "236bdda9f618d2a755a89111c96f30297e9d57f5ffcccb71907509f602a0519b",
+      "original_fragment_bytes": 303966248,
+      "members": 2,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0165.zip"
+    },
+    {
+      "name": "raw-part-0166.zip",
+      "bytes": 334648064,
+      "sha256": "b89079c508846d7a4c14833c001a4a43fd7ee4dff9ece2895d0dca4aa6b7dd93",
+      "original_fragment_bytes": 347337058,
+      "members": 126,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0166.zip"
+    },
+    {
+      "name": "raw-part-0167.zip",
+      "bytes": 53460396,
+      "sha256": "3f7febf166b4ec2078222b073f98b18d73b35b63afc831066b16574a9628acd4",
+      "original_fragment_bytes": 232942109,
+      "members": 11,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0167.zip"
+    },
+    {
+      "name": "raw-part-0168.zip",
+      "bytes": 18299777,
+      "sha256": "a8c265b19bff6849c5efb86a9232420ab70efc92b4f71905056d5613c46543f2",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0168.zip"
+    },
+    {
+      "name": "raw-part-0169.zip",
+      "bytes": 5801560,
+      "sha256": "d5d7753e506bec4e50507a9b062abc4f363430fad41556919963fcc66a7c4a0e",
+      "original_fragment_bytes": 84587178,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0169.zip"
+    },
+    {
+      "name": "raw-part-0170.zip",
+      "bytes": 31524559,
+      "sha256": "75e92a09d7320f8f63c7ed4df95f3f2102b69f29fb3c880d7173a43a13eb32dd",
+      "original_fragment_bytes": 288663854,
+      "members": 13,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0170.zip"
+    },
+    {
+      "name": "raw-part-0171.zip",
+      "bytes": 54747133,
+      "sha256": "bd1095b975bcfbce90c2bc7d48397398219db89b81c97b6eb1492fde0f6aa64c",
+      "original_fragment_bytes": 238478579,
+      "members": 13,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0171.zip"
+    },
+    {
+      "name": "raw-part-0172.zip",
+      "bytes": 18307761,
+      "sha256": "b594dea3e852cbd450c3f6c784069e0f0708074e78a316a163ecae09809150bd",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0172.zip"
+    },
+    {
+      "name": "raw-part-0173.zip",
+      "bytes": 5809773,
+      "sha256": "91f166c5720c2b75cb5019ea13058ccf4096a505e829c988c8d191a8837818f6",
+      "original_fragment_bytes": 84587603,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0173.zip"
+    },
+    {
+      "name": "raw-part-0174.zip",
+      "bytes": 37477546,
+      "sha256": "e7a58e330cf9637dffb69ffd5c755859c96665779ce2b0e3f820fb381dcd7fb5",
+      "original_fragment_bytes": 348798286,
+      "members": 24,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0174.zip"
+    },
+    {
+      "name": "raw-part-0175.zip",
+      "bytes": 104031375,
+      "sha256": "b5ac2f1d17d4931b1470a26271c400512b143a1c4e0eb448dab605a615fcb41a",
+      "original_fragment_bytes": 312022169,
+      "members": 2,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0175.zip"
+    },
+    {
+      "name": "raw-part-0176.zip",
+      "bytes": 14967408,
+      "sha256": "fafe87807646da7b0ffc5b3193f14576054d3f6f25642440ef1e06101cd541f9",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0176.zip"
+    },
+    {
+      "name": "raw-part-0177.zip",
+      "bytes": 16399125,
+      "sha256": "08bdff1da3df09eb420d226ae9efdd388f405a80f0d3620e9506b77e193e5a21",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0177.zip"
+    },
+    {
+      "name": "raw-part-0178.zip",
+      "bytes": 11534140,
+      "sha256": "b722ece4b97a5931201ccfc25a51085ec7ca6b8ea7fbb63a7f9cb298fea8c602",
+      "original_fragment_bytes": 195383983,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0178.zip"
+    },
+    {
+      "name": "raw-part-0179.zip",
+      "bytes": 42702371,
+      "sha256": "2d0d354d0b585b2c1f1202587309cd51dbfa989273045aaf5d9b2caa90e818a0",
+      "original_fragment_bytes": 276011158,
+      "members": 25,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0179.zip"
+    },
+    {
+      "name": "raw-part-0180.zip",
+      "bytes": 26413835,
+      "sha256": "e5d099b1a98a2080cfd1e426116c8ad6b744a282de26b056625661780a4d967e",
+      "original_fragment_bytes": 312789814,
+      "members": 13,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0180.zip"
+    },
+    {
+      "name": "raw-part-0181.zip",
+      "bytes": 64721152,
+      "sha256": "93831a202de78134c97b2f625ed830373e2167ac5b525ed997f15b404d776aa9",
+      "original_fragment_bytes": 224926880,
+      "members": 13,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0181.zip"
+    },
+    {
+      "name": "raw-part-0182.zip",
+      "bytes": 15902596,
+      "sha256": "126610c15a4d95fef591fd4dafe161caeb38e644775078a1c22da27fd6f8bce7",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0182.zip"
+    },
+    {
+      "name": "raw-part-0183.zip",
+      "bytes": 29065340,
+      "sha256": "20faaa2076f67a9aec440d66b411a786c07e8f212d8c5025187bd4dacf213123",
+      "original_fragment_bytes": 337701248,
+      "members": 65,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0183.zip"
+    },
+    {
+      "name": "raw-part-0184.zip",
+      "bytes": 32142889,
+      "sha256": "9e79ac63013c8d318b6e1e111e4935afbb3ba06756e95d10ffda14ea48bce14b",
+      "original_fragment_bytes": 220171112,
+      "members": 11,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0184.zip"
+    },
+    {
+      "name": "raw-part-0185.zip",
+      "bytes": 87523241,
+      "sha256": "5d56b488d9f862fd630eeb7055c7e00067d5102f8c032c84bf0434329ba5ac58",
+      "original_fragment_bytes": 311362855,
+      "members": 55,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0185.zip"
+    },
+    {
+      "name": "raw-part-0186.zip",
+      "bytes": 38575895,
+      "sha256": "bcd05e64af626429f23697f3aee23ac3839d2841be495ac96a3cb70e4ad84c67",
+      "original_fragment_bytes": 242447688,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0186.zip"
+    },
+    {
+      "name": "raw-part-0187.zip",
+      "bytes": 15029132,
+      "sha256": "3d7eb01744372c5e80ed889c27e78f44e5f5bba4838857b411d9c634ed44b655",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0187.zip"
+    },
+    {
+      "name": "raw-part-0188.zip",
+      "bytes": 16346206,
+      "sha256": "56da3b8dd6d4f6e8c2637c830e8ae29fb9623ffcae7604c9fb5434b1740e9483",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0188.zip"
+    },
+    {
+      "name": "raw-part-0189.zip",
+      "bytes": 10988912,
+      "sha256": "6de8aeaa391502f15bc1387ed8c058772c1985dfa31ba7e4b580c79a015f46fc",
+      "original_fragment_bytes": 186430591,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0189.zip"
+    },
+    {
+      "name": "raw-part-0190.zip",
+      "bytes": 41332542,
+      "sha256": "fe8f6b13024f6554669b6c7752a16ad2f79c5222e45f16c6cb62892004840977",
+      "original_fragment_bytes": 272011501,
+      "members": 40,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0190.zip"
+    },
+    {
+      "name": "raw-part-0191.zip",
+      "bytes": 25736034,
+      "sha256": "9b0f1af2a4e1512d5bf7328e499d1a72d41f77b1a9ecb7641dc4e2fc46f7a820",
+      "original_fragment_bytes": 304186642,
+      "members": 8,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0191.zip"
+    },
+    {
+      "name": "raw-part-0192.zip",
+      "bytes": 40847988,
+      "sha256": "8afb02ebcbd91504fe25aa21092aadac48deefa6ce56d5997f08f5d5d5f595a4",
+      "original_fragment_bytes": 147419252,
+      "members": 13,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0192.zip"
+    },
+    {
+      "name": "raw-part-0193.zip",
+      "bytes": 14701683,
+      "sha256": "92052f374cab66cf714fe4a62149c0e799b19242c577a0e86bbf961dc3a2c88c",
+      "original_fragment_bytes": 239150634,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0193.zip"
+    },
+    {
+      "name": "raw-part-0194.zip",
+      "bytes": 41822999,
+      "sha256": "998e1d98708025ce9c5502599185505293cdae6ed80784a23ab65492700a9820",
+      "original_fragment_bytes": 273491003,
+      "members": 19,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0194.zip"
+    },
+    {
+      "name": "raw-part-0195.zip",
+      "bytes": 25850581,
+      "sha256": "720b7e8f2ad9f42e39827befdf2f3f067c9bca0fe51fce030224050f16ad674c",
+      "original_fragment_bytes": 304031150,
+      "members": 7,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0195.zip"
+    },
+    {
+      "name": "raw-part-0196.zip",
+      "bytes": 62641931,
+      "sha256": "d158365f1d708d70ceff5b37a3429552f4ef15bbb1aa3c6640e1b125412cc3ab",
+      "original_fragment_bytes": 219480998,
+      "members": 13,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0196.zip"
+    },
+    {
+      "name": "raw-part-0197.zip",
+      "bytes": 15300070,
+      "sha256": "11be3dfa6e16e9e38b087feb94bcc9f87467ed37dc1e8ab22333a64746c268f8",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0197.zip"
+    },
+    {
+      "name": "raw-part-0198.zip",
+      "bytes": 24997513,
+      "sha256": "8e0f1897f2b135f34149e23662db0fa7505752a0e32d17511078619948bcccc7",
+      "original_fragment_bytes": 316616005,
+      "members": 29,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0198.zip"
+    },
+    {
+      "name": "raw-part-0199.zip",
+      "bytes": 215608044,
+      "sha256": "26ebe7a2a9b01b2d11231ff15f2ddf43a69a5a3f6beb22843b50f26da35c332e",
+      "original_fragment_bytes": 292222763,
+      "members": 62,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0199.zip"
+    },
+    {
+      "name": "raw-part-0200.zip",
+      "bytes": 25544852,
+      "sha256": "3a7c1f7d4e11a1dda8b09f6da7fc912b87463a606592411c59a090b19abb0a80",
+      "original_fragment_bytes": 304185051,
+      "members": 8,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0200.zip"
+    },
+    {
+      "name": "raw-part-0201.zip",
+      "bytes": 40873944,
+      "sha256": "875df955eb5e92cb6c3997ac2dfaac51daba19e3bb9a1cc3025e711977c7e12c",
+      "original_fragment_bytes": 147463797,
+      "members": 13,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0201.zip"
+    },
+    {
+      "name": "raw-part-0202.zip",
+      "bytes": 14691840,
+      "sha256": "7d5d40019ddc33c806bb5978ffc5e97e33f939b1462822be34bb37180ba8a6b7",
+      "original_fragment_bytes": 239148316,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0202.zip"
+    },
+    {
+      "name": "raw-part-0203.zip",
+      "bytes": 46752951,
+      "sha256": "7edfdffe286bc9a604f1ee4f019d145d6662cf02b986ddad3c2ce4c5f5119898",
+      "original_fragment_bytes": 291470168,
+      "members": 19,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0203.zip"
+    },
+    {
+      "name": "raw-part-0204.zip",
+      "bytes": 27595103,
+      "sha256": "759c1724aa22cde2031b77a250873acb74c4841b0fee7a53d70e090448ae9902",
+      "original_fragment_bytes": 340769955,
+      "members": 7,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0204.zip"
+    },
+    {
+      "name": "raw-part-0205.zip",
+      "bytes": 32481339,
+      "sha256": "5afb5f594b2b1080bf351ef7fcb9168c7cca9f525a1ff8f9342211a18129d070",
+      "original_fragment_bytes": 216572548,
+      "members": 14,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0205.zip"
+    },
+    {
+      "name": "raw-part-0206.zip",
+      "bytes": 16291656,
+      "sha256": "9d7338dd1ab101d9a767f1df53715c93fa18df6ad2976c46c882685c198fff18",
+      "original_fragment_bytes": 170788719,
+      "members": 14,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0206.zip"
+    },
+    {
+      "name": "raw-part-0207.zip",
+      "bytes": 30539967,
+      "sha256": "9d5401f2b817a27494c00efe763a1592716892dfcf42d789a5f4eb21f360966c",
+      "original_fragment_bytes": 275084608,
+      "members": 14,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0207.zip"
+    },
+    {
+      "name": "raw-part-0208.zip",
+      "bytes": 17723837,
+      "sha256": "56868117423a98b541b1ce9dd332a1455d4ab998aa21f081249bb124157e2b7d",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0208.zip"
+    },
+    {
+      "name": "raw-part-0209.zip",
+      "bytes": 16852296,
+      "sha256": "e901b60d126bde4d98f804aa0284b980f56464df0065dba923088c1f0ca559c8",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0209.zip"
+    },
+    {
+      "name": "raw-part-0210.zip",
+      "bytes": 9653691,
+      "sha256": "3f2eafe1fafdeac1bc86558e09aa23bc2aa0b409fbb424ce96875091293585a0",
+      "original_fragment_bytes": 153914641,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0210.zip"
+    },
+    {
+      "name": "raw-part-0211.zip",
+      "bytes": 29364304,
+      "sha256": "32520d1f582035e6f2aa96c7ae3029eb1ab6da1de45f405be7720658e8e812e6",
+      "original_fragment_bytes": 284716674,
+      "members": 5,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0211.zip"
+    },
+    {
+      "name": "raw-part-0212.zip",
+      "bytes": 20061304,
+      "sha256": "d91bf13b127016d51a6745c757aca7bc999c76e6542c6f5b0f991eba04287f86",
+      "original_fragment_bytes": 198811001,
+      "members": 6,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0212.zip"
+    },
+    {
+      "name": "raw-part-0213.zip",
+      "bytes": 16543594,
+      "sha256": "265431e2a2d04fc47433e61ad8f1e8c94cced34fdcbff1496f7db17402a6622a",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0213.zip"
+    },
+    {
+      "name": "raw-part-0214.zip",
+      "bytes": 11276967,
+      "sha256": "7b42bb6dd7fa3a1b88a410e9a5e3269a80e2acc3f2a446abe21035c08630099e",
+      "original_fragment_bytes": 187051078,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0214.zip"
+    },
+    {
+      "name": "raw-part-0215.zip",
+      "bytes": 29365656,
+      "sha256": "ed50e12f8c06ea28a10a9d9adf446fb44af4e8254b31a006249e7234c998a326",
+      "original_fragment_bytes": 285357943,
+      "members": 5,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0215.zip"
+    },
+    {
+      "name": "raw-part-0216.zip",
+      "bytes": 33975988,
+      "sha256": "90a5b6b89805a645ec2500a19bfc0527bc33ae86e8f6ef4a9e955056fb3b1a94",
+      "original_fragment_bytes": 310320553,
+      "members": 6,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0216.zip"
+    },
+    {
+      "name": "raw-part-0217.zip",
+      "bytes": 16362854,
+      "sha256": "ec05b8f69eb12c1ec5526f4978ed0f1b9c88082ce6c4a2acf6664177133bd123",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0217.zip"
+    },
+    {
+      "name": "raw-part-0218.zip",
+      "bytes": 16671493,
+      "sha256": "4c1cdf878a6a2cbd69b2c7f544e13a4247df738d5b05625c77f2f7cf8d41ff88",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0218.zip"
+    },
+    {
+      "name": "raw-part-0219.zip",
+      "bytes": 16235638,
+      "sha256": "e28554c08f93d837bd009d07bfd53bd8834ca959a428cc0acb4b4063ea42574d",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0219.zip"
+    },
+    {
+      "name": "raw-part-0220.zip",
+      "bytes": 10775302,
+      "sha256": "3dab90bc7ef3b190b9f3678d75f54b9c59362dafb2f73d0d2f0981b5258f1de7",
+      "original_fragment_bytes": 176014841,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0220.zip"
+    },
+    {
+      "name": "raw-part-0221.zip",
+      "bytes": 28955827,
+      "sha256": "f608f53becf8b059238719887d267b49ce6773290ea97bf82c57a71862543abd",
+      "original_fragment_bytes": 284055655,
+      "members": 5,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0221.zip"
+    },
+    {
+      "name": "raw-part-0222.zip",
+      "bytes": 34032773,
+      "sha256": "62cae06b3e3ab56fe53590b779a7acb070131d4512f9057111f0d5c19c96fa86",
+      "original_fragment_bytes": 310565070,
+      "members": 6,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0222.zip"
+    },
+    {
+      "name": "raw-part-0223.zip",
+      "bytes": 16382513,
+      "sha256": "24594fa92356dab2687d877c4a1376d66a2c80ca35ebd9377553503c48013831",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0223.zip"
+    },
+    {
+      "name": "raw-part-0224.zip",
+      "bytes": 16910804,
+      "sha256": "f6a8bcb3689c0c57befd36054ac83504c84adb92c1f24cd71c9c44e0d79139c7",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0224.zip"
+    },
+    {
+      "name": "raw-part-0225.zip",
+      "bytes": 16324539,
+      "sha256": "6ff8f2e4016b5ff0bcb6b2f4fa34864644a5f272202c022c17116dbb4d077e16",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0225.zip"
+    },
+    {
+      "name": "raw-part-0226.zip",
+      "bytes": 10843523,
+      "sha256": "03e78519269591582cb7f05a3d99a02f7f9adc5e8fb78af829380b5b8a250f08",
+      "original_fragment_bytes": 176826981,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0226.zip"
+    },
+    {
+      "name": "raw-part-0227.zip",
+      "bytes": 30447310,
+      "sha256": "0191d0f04daf4db8297b3d8ee311da65e8c8d82017a161e127cd126ee7668896",
+      "original_fragment_bytes": 289454814,
+      "members": 5,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0227.zip"
+    },
+    {
+      "name": "raw-part-0228.zip",
+      "bytes": 21590464,
+      "sha256": "483f7a7196d0d8645413290a6bf8f9fc582c49a3e92b12dc50f04eda703c917f",
+      "original_fragment_bytes": 219389696,
+      "members": 5,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0228.zip"
+    },
+    {
+      "name": "raw-part-0229.zip",
+      "bytes": 15696171,
+      "sha256": "73167f72d1892744424f7cbb0ac2163be2e1fb302b271f51d6ffec0d53c45d09",
+      "original_fragment_bytes": 137444941,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0229.zip"
+    },
+    {
+      "name": "raw-part-0230.zip",
+      "bytes": 15131504,
+      "sha256": "7d73a354a06a76a0f6c85a0736d68c7626314a7728c013d11312b815e54098da",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0230.zip"
+    },
+    {
+      "name": "raw-part-0231.zip",
+      "bytes": 16367315,
+      "sha256": "9d0b5f76288193dd81901bc8c8f902a7cfec9612b27e8c391b69c9e316f0d707",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0231.zip"
+    },
+    {
+      "name": "raw-part-0232.zip",
+      "bytes": 14878997,
+      "sha256": "39c661c06454c3a793de18bf8c25ee23dc0c64f36553d691a2d201071afed434",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0232.zip"
+    },
+    {
+      "name": "raw-part-0233.zip",
+      "bytes": 15023231,
+      "sha256": "2164731da8dbc35491a9ed832fd94284aa0f72d398bcbec538fb406802136917",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0233.zip"
+    },
+    {
+      "name": "raw-part-0234.zip",
+      "bytes": 6835455,
+      "sha256": "8ac398bffd143d2c2d0601023a3d0fc1180150b9b1f4a73140aa264b2bc10450",
+      "original_fragment_bytes": 124529915,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0234.zip"
+    },
+    {
+      "name": "raw-part-0235.zip",
+      "bytes": 35280579,
+      "sha256": "ca3c61c6b8d06a589bd0c77a0b85815cf3f73df039d9ca61ed7d583a9ce09c89",
+      "original_fragment_bytes": 327829258,
+      "members": 11,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0235.zip"
+    },
+    {
+      "name": "raw-part-0236.zip",
+      "bytes": 22667133,
+      "sha256": "00b0866c524ec1a24ebff3fcc09f6730e87d20c8308d087b7023e2eaa5d7e151",
+      "original_fragment_bytes": 292525034,
+      "members": 7,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0236.zip"
+    },
+    {
+      "name": "raw-part-0237.zip",
+      "bytes": 24776467,
+      "sha256": "1bce4bec6670ebcab7cef8a7096798605b09f8538714b930c340bc6726f86f42",
+      "original_fragment_bytes": 243413972,
+      "members": 10,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0237.zip"
+    },
+    {
+      "name": "raw-part-0238.zip",
+      "bytes": 25957532,
+      "sha256": "77a4c4befd5cd5f2f31dc81c2a8cb9b47eb833c8b1b83720bae8f42c63a7661e",
+      "original_fragment_bytes": 332983247,
+      "members": 5,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0238.zip"
+    },
+    {
+      "name": "raw-part-0239.zip",
+      "bytes": 13233181,
+      "sha256": "063aa3ad2efd142affe2db61e1d2b97916417064836a17ddf4ee3a7d68b37d23",
+      "original_fragment_bytes": 111598713,
+      "members": 6,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0239.zip"
+    },
+    {
+      "name": "raw-part-0240.zip",
+      "bytes": 20151140,
+      "sha256": "040a069503df0bf8230300ea64e90db443c1d3af5cdebec4ecbbff9a178a0be6",
+      "original_fragment_bytes": 330878037,
+      "members": 2,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0240.zip"
+    },
+    {
+      "name": "raw-part-0241.zip",
+      "bytes": 28785182,
+      "sha256": "3a6ba04a3321140082d03159d0229e7569b5479a73a1e8d5d674ac03fe47c078",
+      "original_fragment_bytes": 279204316,
+      "members": 10,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0241.zip"
+    },
+    {
+      "name": "raw-part-0242.zip",
+      "bytes": 20106421,
+      "sha256": "51349a605b1c2ede9d62bfce8d2441675172e41e2769bc0a4337065c0ccb028d",
+      "original_fragment_bytes": 330878499,
+      "members": 2,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0242.zip"
+    },
+    {
+      "name": "raw-part-0243.zip",
+      "bytes": 29787594,
+      "sha256": "193eceb283c113f3ea06f55045bcd1a859f8ed1b6794f2dc03b7968905bef511",
+      "original_fragment_bytes": 286174497,
+      "members": 10,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0243.zip"
+    },
+    {
+      "name": "raw-part-0244.zip",
+      "bytes": 15154194,
+      "sha256": "8776660bee7df28bec852e61ad7ed5838e803e5173f2d76dc579068afb9e38b4",
+      "original_fragment_bytes": 268435456,
+      "members": 1,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0244.zip"
+    },
+    {
+      "name": "raw-part-0245.zip",
+      "bytes": 28263147,
+      "sha256": "d0ca55781140236acd627ca83310bb6dbddf8eb9f0ca9af46341bc2d60393608",
+      "original_fragment_bytes": 327399825,
+      "members": 2,
+      "sealed": true,
+      "download_url": "https://github.com/HanqinXie/ies_hospital_data/releases/download/raw-data-20261110/raw-part-0245.zip"
+    }
+  ],
+  "original_total_bytes": 66184331558,
+  "repository": "HanqinXie/ies_hospital_data",
+  "release_tag": "raw-data-20261110"
+}

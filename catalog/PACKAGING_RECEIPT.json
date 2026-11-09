@@ -1,0 +1,16 @@
+{
+  "schema": "hospital-ies.packaging-receipt.v1",
+  "status": "passed",
+  "created_utc": "2026-11-09T17:40:18.106851+00:00",
+  "source_count": 2236,
+  "original_total_bytes": 66184331558,
+  "asset_count": 245,
+  "asset_total_bytes": 14305125695,
+  "max_asset_bytes": 336928877,
+  "source_size_mtime_recheck": true,
+  "manifest_sha256": "62c793ab45e42b5c8e3143cdbf73d2cd6439c313f48523a9ffc43c1c2273d725",
+  "verification_report": "PACKAGING_VERIFICATION.json",
+  "base_receipt": "verifications/base_2115_PACKAGING_RECEIPT.json",
+  "supplement_receipt": "supplement_baseline_root/PACKAGING_RECEIPT.json",
+  "merge_receipt": "MERGE_RECEIPT.json"
+}

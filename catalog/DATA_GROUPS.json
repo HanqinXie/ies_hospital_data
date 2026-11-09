@@ -1,0 +1,215 @@
+{
+  "schema": "hospital_ies.valuable_raw_groups.v1",
+  "inventory_date": "2026-11-10",
+  "scope": "Eight-fault-case research raw simulation outputs and related experiments only. Excludes EnergyPlus, annual data, images and Markdown. No simulation or training resumed.",
+  "authoritative_final_campaign": "E:\\hospital_ies_source_partition_fix_20261105_run01\\campaign03",
+  "authoritative_final_detail": "D:/hospital_ies_value_audit_20261109/final_eight_case_repair_raw_outputs_20261110.json",
+  "groups": [
+    {
+      "id": "A",
+      "priority": "core",
+      "name": "Final eight-case raw N/U/R trajectory sources",
+      "count": "8 final new U + 8 reused R + 5 unique reused N = 21 sources, 24 logical references",
+      "paths": [
+        "E:\\hospital_ies_source_partition_fix_20261105_run01\\campaign03\\runs",
+        "E:/hospital_ies_fixed_branch_replot_20261105_run03/runs",
+        "E:/hospital_ies_cooling_dynamics_20261104_run01/runs"
+      ],
+      "selection_metadata": "E:\\hospital_ies_source_partition_fix_20261105_run01\\campaign03\\REGISTRATION.json",
+      "value": "Actual delivery, loads, shortfall, device output, stock, fuel, thermal state and physical cost over actual intervals. Use final registration to retain the correct referenced N/R; do not collect every old attempt as a final result.",
+      "path_checks": [
+        {
+          "path": "E:\\hospital_ies_source_partition_fix_20261105_run01\\campaign03\\runs",
+          "exists": true
+        },
+        {
+          "path": "E:/hospital_ies_fixed_branch_replot_20261105_run03/runs",
+          "exists": true
+        },
+        {
+          "path": "E:/hospital_ies_cooling_dynamics_20261104_run01/runs",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "id": "B",
+      "priority": "core_support",
+      "name": "Initial state, common preparation and fault case definitions",
+      "count": "8 topic common-preparation paths; not 8 additional independent fault trajectories",
+      "paths": [
+        "E:\\hospital_ies_source_partition_fix_20261105_run01\\campaign03\\inputs",
+        "E:\\hospital_ies_source_partition_fix_20261105_run01\\campaign03\\runs",
+        "E:\\hospital_ies_source_partition_fix_20261105_run01\\campaign03\\SOURCE_BINDING.json",
+        "E:\\hospital_ies_source_partition_fix_20261105_run01\\campaign03\\CODE_SNAPSHOT.zip"
+      ],
+      "value": "CASE, INITIAL_STATE, common SEGMENTS and COMMON_CHECKPOINT retain pre-fault state, frozen branch shares, pending commands and actual inventories.",
+      "path_checks": [
+        {
+          "path": "E:\\hospital_ies_source_partition_fix_20261105_run01\\campaign03\\inputs",
+          "exists": true
+        },
+        {
+          "path": "E:\\hospital_ies_source_partition_fix_20261105_run01\\campaign03\\runs",
+          "exists": true
+        },
+        {
+          "path": "E:\\hospital_ies_source_partition_fix_20261105_run01\\campaign03\\SOURCE_BINDING.json",
+          "exists": true
+        },
+        {
+          "path": "E:\\hospital_ies_source_partition_fix_20261105_run01\\campaign03\\CODE_SNAPSHOT.zip",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "priority": "extension_older_source",
+      "name": "Single tower and single pump mechanism comparisons",
+      "count": "6 complete new trajectories: TOWER U/U0/R and PUMP U/U0/R",
+      "paths": [
+        "E:/hospital_ies_single_unit_20261104_run01/runs"
+      ],
+      "value": "Equipment-level and execution-mode comparisons; preserve original source binding. Earlier than final U source-partition repair.",
+      "path_checks": [
+        {
+          "path": "E:/hospital_ies_single_unit_20261104_run01/runs",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "id": "D",
+      "priority": "extension_older_source",
+      "name": "Parameter/background raw attempts including repairs and failures",
+      "count": "96 attempts: 90 completed and 6 failed/stopped; complete outputs are 86 original + 3 r1 + 1 r3",
+      "paths": [
+        "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01",
+        "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\repair_20261106\\data\\run01",
+        "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\repair_20261106\\retry_C_r2\\data\\run01",
+        "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\repair_20261106\\retry_C_r3\\data\\run01"
+      ],
+      "value": "All raw archives, CASE and archive_index records for command delay, cooling time constants, initial stock, duration and load backgrounds; no pair-eligibility or benefit filtering. These do not include final 2026-11-05 U source-partition code.",
+      "path_checks": [
+        {
+          "path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\data\\run01",
+          "exists": true
+        },
+        {
+          "path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\repair_20261106\\data\\run01",
+          "exists": true
+        },
+        {
+          "path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\repair_20261106\\retry_C_r2\\data\\run01",
+          "exists": true
+        },
+        {
+          "path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\repair_20261106\\retry_C_r3\\data\\run01",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "id": "E",
+      "priority": "extension_older_source",
+      "name": "Recovery dispatch and steam-aware recovery experiments",
+      "count": "3 completed: T05_R1_attempt02, T06_R1_attempt01, T05_R2_attempt01; plus T05_R1_attempt01 failed at 93min",
+      "paths": [
+        "E:/hospital_ies_recovery_dispatch_20261104_run01/runs",
+        "E:/hospital_ies_recovery_steam_20261104_run01/runs"
+      ],
+      "value": "Recovery continuity and current-steam-aware strategy behavior. T06 wrapper process exited 1 while native run completed; WRAPPER_COMPLETION receipt must accompany the raw data. Earlier source, separate from final R references.",
+      "path_checks": [
+        {
+          "path": "E:/hospital_ies_recovery_dispatch_20261104_run01/runs",
+          "exists": true
+        },
+        {
+          "path": "E:/hospital_ies_recovery_steam_20261104_run01/runs",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "id": "F",
+      "priority": "repair_comparison",
+      "name": "Pre-final-repair complete paired trajectories",
+      "count": "8 U and 8 R before the source-partition correction; the 8 R are already reused in group A",
+      "paths": [
+        "E:/hospital_ies_fixed_branch_replot_20261105_run03/runs"
+      ],
+      "value": "Compare original and corrected U source allocation with original source/input identity; avoid counting shared R data twice.",
+      "path_checks": [
+        {
+          "path": "E:/hospital_ies_fixed_branch_replot_20261105_run03/runs",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "id": "G",
+      "priority": "diagnostic_only",
+      "name": "Time-step and model-consistency raw experiments",
+      "count": "Latest C7 has 6 completed T06 outputs; full qualification and production unfinished",
+      "paths": [
+        "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_resolution_20261107_v3",
+        "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\data"
+      ],
+      "value": "Step-size error, native/wrapper equivalence and event-transition diagnostics; retain original attempted runs, ledger and failures. Not qualified final eight-case production.",
+      "path_checks": [
+        {
+          "path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_resolution_20261107_v3",
+          "exists": true
+        },
+        {
+          "path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\literature_window_model_consistency_20261108_v4\\data",
+          "exists": true
+        }
+      ]
+    },
+    {
+      "id": "H",
+      "priority": "diagnostic_support",
+      "name": "Failures, stopped prefixes and solver/execution evidence",
+      "count": "Overlaps prior groups; not additional samples",
+      "paths": [
+        "E:\\hospital_ies_source_partition_fix_20261105_run01\\campaign",
+        "E:\\hospital_ies_source_partition_fix_20261105_run01\\campaign02",
+        "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\repair_20261106"
+      ],
+      "value": "Retain FAILURE, FAILURE_CONTEXT, solver/event/state prefixes and stop receipts without treating incomplete tails as zero service. These support numerical and model-boundary diagnosis.",
+      "path_checks": [
+        {
+          "path": "E:\\hospital_ies_source_partition_fix_20261105_run01\\campaign",
+          "exists": true
+        },
+        {
+          "path": "E:\\hospital_ies_source_partition_fix_20261105_run01\\campaign02",
+          "exists": true
+        },
+        {
+          "path": "D:\\云大文件\\论文\\医院ies\\code_4_2\\sensitivity_analysis\\repair_20261106",
+          "exists": true
+        }
+      ]
+    }
+  ],
+  "raw_file_roles": {
+    "SEGMENTS.jsonl": "Actual physical intervals and their operational variables; not plotting interpolation.",
+    "STATES.jsonl": "Device/state/stock and command-queue records.",
+    "DECISIONS.jsonl": "Observed inputs and requested actions.",
+    "EVENTS.jsonl": "Actual event timing and parameters.",
+    "SOLVER_LOG.jsonl": "Original retained solver records; empty logs can be intentional in no-optimization U, with preparation solver logs stored under common.",
+    "CASE_INITIAL_STATE_RESOLVED_CASE": "Parameters, original case semantics and state initialization.",
+    "SOURCE_BINDING_ARCHIVE_INDEX_RECEIPTS": "Version, input, archive and outcome provenance."
+  },
+  "notes": [
+    "Counts overlap, so do not sum all groups into an independent sample size.",
+    "Final T05 is a single tower adapter, T06 a single primary-pump adapter, and T08 has its own final U/R run sources. Old family aliases do not define the final package.",
+    "Older extensions keep their own model revision and have not all been rerun under the final U partition repair.",
+    "Raw data means simulation output, not hospital measurements.",
+    "Only metadata and file presence reviewed here; no full-payload hash audit performed."
+  ],
+  "missing_paths": []
+}

@@ -1,0 +1,19 @@
+test_asset_path_traversal_rejected (__main__.RawToolsTests) ... ok
+test_atomic_publish_refuses_existing_destination (__main__.RawToolsTests) ... ok
+test_binary_roundtrip_fragments_cross_volumes_and_duplicate_source_roles (__main__.RawToolsTests) ... ok
+test_empty_and_null_wlssecret_are_not_credentials (__main__.RawToolsTests) ... ok
+test_existing_inconsistent_file_not_overwritten (__main__.RawToolsTests) ... ok
+test_forbidden_source_and_nested_zip_member_rejected (__main__.RawToolsTests) ... ok
+test_fragment_hash_tamper_detected (__main__.RawToolsTests) ... ok
+test_manifest_path_traversal_rejected (__main__.RawToolsTests) ... ok
+test_original_zip_bytes_stored_and_jsonl_deflated (__main__.RawToolsTests) ... ok
+test_secret_refusal_does_not_print_secret (__main__.RawToolsTests) ... ok
+test_short_nonempty_wlssecret_is_refused (__main__.RawToolsTests) ... ok
+test_tampered_asset_rejected_before_restore (__main__.RawToolsTests) ... ok
+test_unicode_logical_path_roundtrip (__main__.RawToolsTests) ... ok
+test_zero_length_source_roundtrip (__main__.RawToolsTests) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 1.524s
+
+OK

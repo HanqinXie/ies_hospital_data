@@ -1,0 +1,19 @@
+{
+  "script": "E:\\ies_hospital_data_upload_20261110\\repo\\tools\\download_raw.py",
+  "test_command": [
+    "C:\\Users\\HanqinXie\\AppData\\Local\\Programs\\Python\\Python310\\python.exe",
+    "-B",
+    "E:\\ies_hospital_data_upload_20261110\\tests\\test_download_raw.py"
+  ],
+  "red_exit_code": 1,
+  "red_expected_missing_implementation_failures": 10,
+  "green_exit_code": 0,
+  "green_tests": 10,
+  "help_exit_code": 0,
+  "actual_local_HTTP_roundtrip": true,
+  "real_release_requests": 0,
+  "remote_actions": 0,
+  "credential_helpers_used": false,
+  "retry_policy": "3 retries after initial request; at most4 attempts; transient network/429/5xx only",
+  "green_log": "E:\\ies_hospital_data_upload_20261110\\logs\\download_raw_GREEN_FINAL.log"
+}

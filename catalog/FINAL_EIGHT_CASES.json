@@ -1,0 +1,672 @@
+{
+  "schema": "hospital_ies.final_eight_case_source_partition_outputs.v1",
+  "inventory_date": "2026-11-10",
+  "correction": "The prior inventory incorrectly treated the 2026-11-04 cooling-dynamic family as the final eight-case release. The final accepted display/model-source-partition release is 2026-11-05 campaign03. Prior data remain historical assets.",
+  "final_campaign": "E:\\hospital_ies_source_partition_fix_20261105_run01\\campaign03",
+  "model_source": "D:/hospital_ies_no_priority_20261105",
+  "source_binding": "E:\\hospital_ies_source_partition_fix_20261105_run01\\campaign03\\SOURCE_BINDING.json",
+  "U_contract": "hospital_ies.fixed_prefault_branches_arithmetic.v3",
+  "new_U_trajectories": 8,
+  "new_R_trajectories": 0,
+  "new_normal_trajectories": 0,
+  "publication_receipt": "E:\\hospital_ies_source_partition_fix_20261105_run01\\campaign03\\PUBLISH_RECEIPT.json",
+  "acceptance": "E:\\hospital_ies_source_partition_fix_20261105_run01\\campaign03\\ACCEPTANCE.json",
+  "scope_qualification": "Finite engineering ledger correction; full-suite limitations disclosed. No new scientific run, test, training, model change or Goal resumption in this inventory.",
+  "rows": [
+    {
+      "topic": "T01",
+      "title": "Gas turbine outage and steam supply continuity",
+      "single_unit_adapter": false,
+      "duration_minutes": 180.0,
+      "U_result_status": "completed",
+      "new_U_raw_directory": "E:\\hospital_ies_source_partition_fix_20261105_run01\\campaign03\\runs\\T01_attempt01\\U",
+      "new_U_files": {
+        "DECISIONS.jsonl": 22040,
+        "ENGINEERING_AUDIT.json": 12788,
+        "EVENTS.jsonl": 54621350,
+        "INITIAL_STATE.json": 3768,
+        "PROGRESS.json": 129,
+        "RESOLVED_CASE.json": 16642,
+        "RESULT.json": 3182,
+        "SEGMENTS.jsonl": 31789362,
+        "SOLVER_LOG.jsonl": 0,
+        "STATES.jsonl": 109257996
+      },
+      "R_reference": {
+        "role": "new_fixed_branch_pair_execution",
+        "segments": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T01_attempt01\\R\\SEGMENTS.jsonl",
+          "sha256": "8b3d4c2d108fe59688c61c730a204f4bfec952211e02c09bb6b745ad152535e7",
+          "bytes": 93321633
+        },
+        "result": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T01_attempt01\\R\\RESULT.json",
+          "sha256": "1ad808a30968c8aeab9acf4ce2c211627dcf93d6153183cea77cb27b05484174",
+          "bytes": 3049
+        },
+        "source_binding": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\SOURCE_BINDING.json",
+          "sha256": "f84eeb947b233a77c8b96c46ea10546bdef7c19854e5ef5247e0bb36c5ece616",
+          "bytes": 139285
+        }
+      },
+      "N_reference": {
+        "role": "unchanged_frozen_normal_reference",
+        "segments": {
+          "path": "E:\\hospital_ies_cooling_dynamics_20261104_run01\\runs\\T01_N_attempt05\\SEGMENTS.jsonl",
+          "sha256": "9df919f41604ad1ce2cb331a0cdce97aa84681738345f512d19f6a78512e694a",
+          "bytes": 105387715
+        },
+        "result": {
+          "path": "E:\\hospital_ies_cooling_dynamics_20261104_run01\\runs\\T01_N_attempt05\\RESULT.json",
+          "sha256": "f5bff0cbda4f7ed93ba1f9e550b1da784d23cf5e22969bea5a8c3895bffc1b54",
+          "bytes": 3376
+        },
+        "source_binding": {
+          "path": "E:\\hospital_ies_cooling_dynamics_20261104_run01\\SOURCE_BINDING.json",
+          "sha256": "aa8f5011438c952c22aac6606f086aa1b1895c8e83d4e5e72559aa8afb9ca7a2"
+        }
+      },
+      "baseline": {
+        "common_segments": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T01_attempt01\\common\\SEGMENTS.jsonl",
+          "sha256": "844009c688cdd91b1c678282f1e3bd48172a2a2f4704ba60ed429f81e59db479",
+          "bytes": 26544052
+        },
+        "checkpoint": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T01_attempt01\\COMMON_CHECKPOINT.json",
+          "sha256": "e3c254a68d4a34fab6ef82956cd0dad5ed04b5c2acb6e60a72040cd6d02ac9da",
+          "bytes": 2611397
+        },
+        "initial": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T01_attempt01\\common\\INITIAL_STATE.json",
+          "sha256": "20b8c5af08d951025597c41497967c6690823547071c065f0fd43810a72be513",
+          "bytes": 3768
+        },
+        "resolved": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T01_attempt01\\common\\RESOLVED_CASE.json",
+          "sha256": "ca4c1b544bd137f9c589bf5e6d881afb95c05ddea011bf7bfaa441dcd890a40c",
+          "bytes": 16642
+        }
+      }
+    },
+    {
+      "topic": "T02",
+      "title": "Boiler capacity-share outage",
+      "single_unit_adapter": false,
+      "duration_minutes": 180.0,
+      "U_result_status": "completed",
+      "new_U_raw_directory": "E:\\hospital_ies_source_partition_fix_20261105_run01\\campaign03\\runs\\T02_attempt01\\U",
+      "new_U_files": {
+        "DECISIONS.jsonl": 22040,
+        "ENGINEERING_AUDIT.json": 12707,
+        "EVENTS.jsonl": 54804943,
+        "INITIAL_STATE.json": 3617,
+        "PROGRESS.json": 129,
+        "RESOLVED_CASE.json": 16643,
+        "RESULT.json": 3181,
+        "SEGMENTS.jsonl": 15374280,
+        "SOLVER_LOG.jsonl": 0,
+        "STATES.jsonl": 101185169
+      },
+      "R_reference": {
+        "role": "new_fixed_branch_pair_execution",
+        "segments": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T02_attempt01\\R\\SEGMENTS.jsonl",
+          "sha256": "e2e3b8a6f17fbadc131800789f0a4b415c831dae9ca8baed52ebbdfca7e21975",
+          "bytes": 29915591
+        },
+        "result": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T02_attempt01\\R\\RESULT.json",
+          "sha256": "74c455c2a5f83e766552587b60f51b550e360f0e367d4f60daa824f53fc3279c",
+          "bytes": 3049
+        },
+        "source_binding": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\SOURCE_BINDING.json",
+          "sha256": "f84eeb947b233a77c8b96c46ea10546bdef7c19854e5ef5247e0bb36c5ece616",
+          "bytes": 139285
+        }
+      },
+      "N_reference": {
+        "role": "unchanged_frozen_normal_reference",
+        "segments": {
+          "path": "E:\\hospital_ies_cooling_dynamics_20261104_run01\\runs\\T02_N_attempt05\\SEGMENTS.jsonl",
+          "sha256": "1288283454a58190348356826a1999073fcb13a4626b7cb54af0159e83f37743",
+          "bytes": 30240791
+        },
+        "result": {
+          "path": "E:\\hospital_ies_cooling_dynamics_20261104_run01\\runs\\T02_N_attempt05\\RESULT.json",
+          "sha256": "85a8340921a13ead1c72e2f7a3b19d8d2c322d3be3807a76a6711ab634d66f60",
+          "bytes": 3375
+        },
+        "source_binding": {
+          "path": "E:\\hospital_ies_cooling_dynamics_20261104_run01\\SOURCE_BINDING.json",
+          "sha256": "aa8f5011438c952c22aac6606f086aa1b1895c8e83d4e5e72559aa8afb9ca7a2"
+        }
+      },
+      "baseline": {
+        "common_segments": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T02_attempt01\\common\\SEGMENTS.jsonl",
+          "sha256": "60bc0589731677ed6412265e4d092414ff707b2811f4d5221d8921d9c2d32e5b",
+          "bytes": 10192786
+        },
+        "checkpoint": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T02_attempt01\\COMMON_CHECKPOINT.json",
+          "sha256": "d0a11a79ff216912e07cc2690668acd180fa8d51f0d75d49b8286996299ffc6b",
+          "bytes": 2469192
+        },
+        "initial": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T02_attempt01\\common\\INITIAL_STATE.json",
+          "sha256": "3ff67aa6dd2e16aef867351a00bfb86c4b050e085f456232a4df02bda1e35988",
+          "bytes": 3617
+        },
+        "resolved": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T02_attempt01\\common\\RESOLVED_CASE.json",
+          "sha256": "f937706b49c4f3a0edbd4047f23910b3009fd12e3a3ce7ce4e1d13523d8cd732",
+          "bytes": 16643
+        }
+      }
+    },
+    {
+      "topic": "T03",
+      "title": "Absorption chiller outage",
+      "single_unit_adapter": false,
+      "duration_minutes": 180.0,
+      "U_result_status": "completed",
+      "new_U_raw_directory": "E:\\hospital_ies_source_partition_fix_20261105_run01\\campaign03\\runs\\T03_attempt01\\U",
+      "new_U_files": {
+        "DECISIONS.jsonl": 22040,
+        "ENGINEERING_AUDIT.json": 12798,
+        "EVENTS.jsonl": 54355924,
+        "INITIAL_STATE.json": 3872,
+        "PROGRESS.json": 129,
+        "RESOLVED_CASE.json": 16641,
+        "RESULT.json": 3181,
+        "SEGMENTS.jsonl": 58573950,
+        "SOLVER_LOG.jsonl": 0,
+        "STATES.jsonl": 103296890
+      },
+      "R_reference": {
+        "role": "new_fixed_branch_pair_execution",
+        "segments": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T03_attempt01\\R\\SEGMENTS.jsonl",
+          "sha256": "5c40d14d42a77c06a482d817d560241d5c3d946f34236e1e735632e65bafb97e",
+          "bytes": 143568065
+        },
+        "result": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T03_attempt01\\R\\RESULT.json",
+          "sha256": "70eee2ff70c2a5cf91dcedec7da6d9693193723627908a570677c5bd9f0eef43",
+          "bytes": 3050
+        },
+        "source_binding": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\SOURCE_BINDING.json",
+          "sha256": "f84eeb947b233a77c8b96c46ea10546bdef7c19854e5ef5247e0bb36c5ece616",
+          "bytes": 139285
+        }
+      },
+      "N_reference": {
+        "role": "unchanged_frozen_normal_reference",
+        "segments": {
+          "path": "E:\\hospital_ies_cooling_dynamics_20261104_run01\\runs\\T03_N_attempt02\\SEGMENTS.jsonl",
+          "sha256": "afedc96da72ad8724cce17b0458122006388989c686d8c94d6545341fb56d45a",
+          "bytes": 148654826
+        },
+        "result": {
+          "path": "E:\\hospital_ies_cooling_dynamics_20261104_run01\\runs\\T03_N_attempt02\\RESULT.json",
+          "sha256": "452eacf14692918bd3afe234ef50bdccabd2092273705f0f0e509bc21148eaff",
+          "bytes": 3377
+        },
+        "source_binding": {
+          "path": "E:\\hospital_ies_cooling_dynamics_20261104_run01\\SOURCE_BINDING.json",
+          "sha256": "aa8f5011438c952c22aac6606f086aa1b1895c8e83d4e5e72559aa8afb9ca7a2"
+        }
+      },
+      "baseline": {
+        "common_segments": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T03_attempt01\\common\\SEGMENTS.jsonl",
+          "sha256": "26e5a30bb45e4de56d8942f8af4d8767d04ee4fd559b8e1719cefc1258f1d0ea",
+          "bytes": 48006440
+        },
+        "checkpoint": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T03_attempt01\\COMMON_CHECKPOINT.json",
+          "sha256": "09b12d8ba79a22d065f71232738c4da6e7163c53a63615c9adfd6348668c652c",
+          "bytes": 2445451
+        },
+        "initial": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T03_attempt01\\common\\INITIAL_STATE.json",
+          "sha256": "32cca953674c6f5cef83e1b7695d311140e220d2f2b8d611f0685a02da5125ff",
+          "bytes": 3872
+        },
+        "resolved": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T03_attempt01\\common\\RESOLVED_CASE.json",
+          "sha256": "469d51dffc70eb6d6196d4c1163450cc7bf97a8d452aa8efef9d2a8edfefe903",
+          "bytes": 16641
+        }
+      }
+    },
+    {
+      "topic": "T04",
+      "title": "Electric chiller branch outage",
+      "single_unit_adapter": false,
+      "duration_minutes": 180.0,
+      "U_result_status": "completed",
+      "new_U_raw_directory": "E:\\hospital_ies_source_partition_fix_20261105_run01\\campaign03\\runs\\T04_attempt01\\U",
+      "new_U_files": {
+        "DECISIONS.jsonl": 22040,
+        "ENGINEERING_AUDIT.json": 12884,
+        "EVENTS.jsonl": 54355948,
+        "INITIAL_STATE.json": 3872,
+        "PROGRESS.json": 129,
+        "RESOLVED_CASE.json": 16641,
+        "RESULT.json": 3181,
+        "SEGMENTS.jsonl": 58614433,
+        "SOLVER_LOG.jsonl": 0,
+        "STATES.jsonl": 103295722
+      },
+      "R_reference": {
+        "role": "new_fixed_branch_pair_execution",
+        "segments": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T04_attempt01\\R\\SEGMENTS.jsonl",
+          "sha256": "c4b9c54f307ad34429bcf9dd2e51866f28176e6d9a1c39b2e8d4bc2bf7d3b0e6",
+          "bytes": 143686442
+        },
+        "result": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T04_attempt01\\R\\RESULT.json",
+          "sha256": "a6a35bc2144e730e2bf8cb56d5feaa82a11ad087dd7773ad24b72c621b873b59",
+          "bytes": 3050
+        },
+        "source_binding": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\SOURCE_BINDING.json",
+          "sha256": "f84eeb947b233a77c8b96c46ea10546bdef7c19854e5ef5247e0bb36c5ece616",
+          "bytes": 139285
+        }
+      },
+      "N_reference": {
+        "role": "unchanged_frozen_normal_reference",
+        "segments": {
+          "path": "E:\\hospital_ies_cooling_dynamics_20261104_run01\\runs\\T03_N_attempt02\\SEGMENTS.jsonl",
+          "sha256": "afedc96da72ad8724cce17b0458122006388989c686d8c94d6545341fb56d45a",
+          "bytes": 148654826
+        },
+        "result": {
+          "path": "E:\\hospital_ies_cooling_dynamics_20261104_run01\\runs\\T03_N_attempt02\\RESULT.json",
+          "sha256": "452eacf14692918bd3afe234ef50bdccabd2092273705f0f0e509bc21148eaff",
+          "bytes": 3377
+        },
+        "source_binding": {
+          "path": "E:\\hospital_ies_cooling_dynamics_20261104_run01\\SOURCE_BINDING.json",
+          "sha256": "aa8f5011438c952c22aac6606f086aa1b1895c8e83d4e5e72559aa8afb9ca7a2"
+        }
+      },
+      "baseline": {
+        "common_segments": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T04_attempt01\\common\\SEGMENTS.jsonl",
+          "sha256": "efe27dcd603f5e07c5d1a0b524429d856e5216ef796fee2a08835076c81a602e",
+          "bytes": 48006558
+        },
+        "checkpoint": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T04_attempt01\\COMMON_CHECKPOINT.json",
+          "sha256": "b4deb508f0906652731f5f7fa27eb9afd9638073e3a82f1948dcc431d63d67e1",
+          "bytes": 2445455
+        },
+        "initial": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T04_attempt01\\common\\INITIAL_STATE.json",
+          "sha256": "32cca953674c6f5cef83e1b7695d311140e220d2f2b8d611f0685a02da5125ff",
+          "bytes": 3872
+        },
+        "resolved": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T04_attempt01\\common\\RESOLVED_CASE.json",
+          "sha256": "469d51dffc70eb6d6196d4c1163450cc7bf97a8d452aa8efef9d2a8edfefe903",
+          "bytes": 16641
+        }
+      }
+    },
+    {
+      "topic": "T05",
+      "title": "Single tower-unit outage",
+      "single_unit_adapter": true,
+      "duration_minutes": 180.0,
+      "U_result_status": "completed",
+      "new_U_raw_directory": "E:\\hospital_ies_source_partition_fix_20261105_run01\\campaign03\\runs\\T05_attempt01\\U",
+      "new_U_files": {
+        "DECISIONS.jsonl": 22040,
+        "ENGINEERING_AUDIT.json": 12784,
+        "EVENTS.jsonl": 54358102,
+        "INITIAL_STATE.json": 3872,
+        "PROGRESS.json": 129,
+        "RESOLVED_CASE.json": 23185,
+        "RESULT.json": 3182,
+        "SEGMENTS.jsonl": 59435620,
+        "SOLVER_LOG.jsonl": 0,
+        "STATES.jsonl": 103299409
+      },
+      "R_reference": {
+        "role": "new_fixed_branch_pair_execution",
+        "segments": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T05_attempt01\\R\\SEGMENTS.jsonl",
+          "sha256": "2c38fa575eba404349cfe39de46e7f4695d56dddcfbe2e54ff67cbfeadb1c2e0",
+          "bytes": 144995895
+        },
+        "result": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T05_attempt01\\R\\RESULT.json",
+          "sha256": "b24102f50e18df5caf3222085feacec6fa38a5e5105fa5745a78f2f7efcd4f61",
+          "bytes": 3050
+        },
+        "source_binding": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\SOURCE_BINDING.json",
+          "sha256": "f84eeb947b233a77c8b96c46ea10546bdef7c19854e5ef5247e0bb36c5ece616",
+          "bytes": 139285
+        }
+      },
+      "N_reference": {
+        "role": "unchanged_frozen_normal_reference",
+        "segments": {
+          "path": "E:\\hospital_ies_cooling_dynamics_20261104_run01\\runs\\T03_N_attempt02\\SEGMENTS.jsonl",
+          "sha256": "afedc96da72ad8724cce17b0458122006388989c686d8c94d6545341fb56d45a",
+          "bytes": 148654826
+        },
+        "result": {
+          "path": "E:\\hospital_ies_cooling_dynamics_20261104_run01\\runs\\T03_N_attempt02\\RESULT.json",
+          "sha256": "452eacf14692918bd3afe234ef50bdccabd2092273705f0f0e509bc21148eaff",
+          "bytes": 3377
+        },
+        "source_binding": {
+          "path": "E:\\hospital_ies_cooling_dynamics_20261104_run01\\SOURCE_BINDING.json",
+          "sha256": "aa8f5011438c952c22aac6606f086aa1b1895c8e83d4e5e72559aa8afb9ca7a2"
+        }
+      },
+      "baseline": {
+        "common_segments": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T05_attempt01\\common\\SEGMENTS.jsonl",
+          "sha256": "5cc69bacd5b4016188191898e1f440ad54288f60035c901f49df48f6f102f445",
+          "bytes": 48457079
+        },
+        "checkpoint": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T05_attempt01\\COMMON_CHECKPOINT.json",
+          "sha256": "26d36093463489b9d6aa3bbd6bde36b1c1910097bd47b69f4efc71f36c1d8a17",
+          "bytes": 2445451
+        },
+        "initial": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T05_attempt01\\common\\INITIAL_STATE.json",
+          "sha256": "32cca953674c6f5cef83e1b7695d311140e220d2f2b8d611f0685a02da5125ff",
+          "bytes": 3872
+        },
+        "resolved": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T05_attempt01\\common\\RESOLVED_CASE.json",
+          "sha256": "b97da15f9993b65cc0777351d9884716d3c20eb2562da3783cf673d32a8e20b6",
+          "bytes": 23185
+        }
+      }
+    },
+    {
+      "topic": "T06",
+      "title": "Single primary-pump branch outage",
+      "single_unit_adapter": true,
+      "duration_minutes": 180.0,
+      "U_result_status": "completed",
+      "new_U_raw_directory": "E:\\hospital_ies_source_partition_fix_20261105_run01\\campaign03\\runs\\T06_attempt01\\U",
+      "new_U_files": {
+        "DECISIONS.jsonl": 22040,
+        "ENGINEERING_AUDIT.json": 13277,
+        "EVENTS.jsonl": 56169700,
+        "INITIAL_STATE.json": 3614,
+        "PROGRESS.json": 129,
+        "RESOLVED_CASE.json": 23286,
+        "RESULT.json": 3181,
+        "SEGMENTS.jsonl": 18880761,
+        "SOLVER_LOG.jsonl": 0,
+        "STATES.jsonl": 114335448
+      },
+      "R_reference": {
+        "role": "new_fixed_branch_pair_execution",
+        "segments": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T06_attempt01\\R\\SEGMENTS.jsonl",
+          "sha256": "02ac0eaf8bc47f2bb31552c61f81c3381baa9db6118a7a9e79ffab02f596cf34",
+          "bytes": 27537479
+        },
+        "result": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T06_attempt01\\R\\RESULT.json",
+          "sha256": "dfceeb0ae791025ccbd963ecc77f46393d64ea75957ae46acfea02cce8b0b255",
+          "bytes": 3049
+        },
+        "source_binding": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\SOURCE_BINDING.json",
+          "sha256": "f84eeb947b233a77c8b96c46ea10546bdef7c19854e5ef5247e0bb36c5ece616",
+          "bytes": 139285
+        }
+      },
+      "N_reference": {
+        "role": "unchanged_frozen_normal_reference",
+        "segments": {
+          "path": "E:\\hospital_ies_cooling_dynamics_20261104_run01\\runs\\T06_N_attempt01\\SEGMENTS.jsonl",
+          "sha256": "9f4ea4f374d9fe4ce9caf0239a776eed962920c291ad67ffb073d4c4f4d6402e",
+          "bytes": 27234864
+        },
+        "result": {
+          "path": "E:\\hospital_ies_cooling_dynamics_20261104_run01\\runs\\T06_N_attempt01\\RESULT.json",
+          "sha256": "b707440c54f5ab0187a4d38158826ec7ddcb3f64147aac69d592189079c08340",
+          "bytes": 3376
+        },
+        "source_binding": {
+          "path": "E:\\hospital_ies_cooling_dynamics_20261104_run01\\SOURCE_BINDING.json",
+          "sha256": "aa8f5011438c952c22aac6606f086aa1b1895c8e83d4e5e72559aa8afb9ca7a2"
+        }
+      },
+      "baseline": {
+        "common_segments": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T06_attempt01\\common\\SEGMENTS.jsonl",
+          "sha256": "e97de9adc6f16515fad5b4b3b928344de246b9a7880f9871734ff0c7f1241ec1",
+          "bytes": 9524718
+        },
+        "checkpoint": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T06_attempt01\\COMMON_CHECKPOINT.json",
+          "sha256": "bd685c2af299f83b47cde45d0dc582bb8862cec086d783922329fc16ef6db649",
+          "bytes": 2647471
+        },
+        "initial": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T06_attempt01\\common\\INITIAL_STATE.json",
+          "sha256": "e53cee6a9a435b71e3bd1948790fb317f5582f5187e99009977b796ad809cd3c",
+          "bytes": 3614
+        },
+        "resolved": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T06_attempt01\\common\\RESOLVED_CASE.json",
+          "sha256": "673e1ae08bc5b8165174953caa9cefcc1c33fb3669aa9fc0d9c97413dca47089",
+          "bytes": 23286
+        }
+      }
+    },
+    {
+      "topic": "T07",
+      "title": "Grid outage and reconnection",
+      "single_unit_adapter": false,
+      "duration_minutes": 240.0,
+      "U_result_status": "completed",
+      "new_U_raw_directory": "E:\\hospital_ies_source_partition_fix_20261105_run01\\campaign03\\runs\\T07_attempt01\\U",
+      "new_U_files": {
+        "DECISIONS.jsonl": 33080,
+        "ENGINEERING_AUDIT.json": 13109,
+        "EVENTS.jsonl": 55783639,
+        "INITIAL_STATE.json": 3839,
+        "PROGRESS.json": 129,
+        "RESOLVED_CASE.json": 16643,
+        "RESULT.json": 3182,
+        "SEGMENTS.jsonl": 54051023,
+        "SOLVER_LOG.jsonl": 0,
+        "STATES.jsonl": 180277414
+      },
+      "R_reference": {
+        "role": "new_fixed_branch_pair_execution",
+        "segments": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T07_attempt01\\R\\SEGMENTS.jsonl",
+          "sha256": "3bcef0fdd65391205fa48a40f869b1a76749a40b09e1660b8b4eae9d8f261736",
+          "bytes": 137449962
+        },
+        "result": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T07_attempt01\\R\\RESULT.json",
+          "sha256": "b5c0352eb675b624f29d697364bb073fd537f8053b7dee38830c4772e83b66d8",
+          "bytes": 3051
+        },
+        "source_binding": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\SOURCE_BINDING.json",
+          "sha256": "f84eeb947b233a77c8b96c46ea10546bdef7c19854e5ef5247e0bb36c5ece616",
+          "bytes": 139285
+        }
+      },
+      "N_reference": {
+        "role": "unchanged_frozen_normal_reference",
+        "segments": {
+          "path": "E:\\hospital_ies_cooling_dynamics_20261104_run01\\runs\\T07_N_attempt01\\SEGMENTS.jsonl",
+          "sha256": "3948b30451f0c048466e1de422ddfc237d5795beaf92e533ee3d297af05ce37a",
+          "bytes": 182065357
+        },
+        "result": {
+          "path": "E:\\hospital_ies_cooling_dynamics_20261104_run01\\runs\\T07_N_attempt01\\RESULT.json",
+          "sha256": "fe891d54c099ba0c82c9a1d6f0838f4fba2e93ea266fe63bf988a0c7f9f25902",
+          "bytes": 3379
+        },
+        "source_binding": {
+          "path": "E:\\hospital_ies_cooling_dynamics_20261104_run01\\SOURCE_BINDING.json",
+          "sha256": "aa8f5011438c952c22aac6606f086aa1b1895c8e83d4e5e72559aa8afb9ca7a2"
+        }
+      },
+      "baseline": {
+        "common_segments": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T07_attempt01\\common\\SEGMENTS.jsonl",
+          "sha256": "d8dcad1f0b82da9f3d4b3b46f5540aca11e69a119f9b38bc5225cae8f63fd8b9",
+          "bytes": 42505694
+        },
+        "checkpoint": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T07_attempt01\\COMMON_CHECKPOINT.json",
+          "sha256": "bdae009376b904e5a83fdb0c6cbc426208c05e7b6a73ce35322cf3e49155cfd3",
+          "bytes": 2726370
+        },
+        "initial": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T07_attempt01\\common\\INITIAL_STATE.json",
+          "sha256": "0dd46c032ec6ed89e243e1ee8e836fc16185f1e0eab3723f4787f6f84f4e7bcc",
+          "bytes": 3839
+        },
+        "resolved": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T07_attempt01\\common\\RESOLVED_CASE.json",
+          "sha256": "f937706b49c4f3a0edbd4047f23910b3009fd12e3a3ce7ce4e1d13523d8cd732",
+          "bytes": 16643
+        }
+      }
+    },
+    {
+      "topic": "T08",
+      "title": "Natural recovery after repair",
+      "single_unit_adapter": false,
+      "duration_minutes": 180.0,
+      "U_result_status": "completed",
+      "new_U_raw_directory": "E:\\hospital_ies_source_partition_fix_20261105_run01\\campaign03\\runs\\T08_attempt01\\U",
+      "new_U_files": {
+        "DECISIONS.jsonl": 22040,
+        "ENGINEERING_AUDIT.json": 13127,
+        "EVENTS.jsonl": 54358105,
+        "INITIAL_STATE.json": 3872,
+        "PROGRESS.json": 129,
+        "RESOLVED_CASE.json": 16641,
+        "RESULT.json": 3182,
+        "SEGMENTS.jsonl": 58637297,
+        "SOLVER_LOG.jsonl": 0,
+        "STATES.jsonl": 103291541
+      },
+      "R_reference": {
+        "role": "new_fixed_branch_pair_execution",
+        "segments": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T08_attempt01\\R\\SEGMENTS.jsonl",
+          "sha256": "4d86c2f5da7c055f78f9d038d02de18309701d5f28afa2d52fd00cdf40498488",
+          "bytes": 149815914
+        },
+        "result": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T08_attempt01\\R\\RESULT.json",
+          "sha256": "f7f86b919212a56f24ccf7e5661df049aa3fdf01060c43bda1e20e5432892954",
+          "bytes": 3050
+        },
+        "source_binding": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\SOURCE_BINDING.json",
+          "sha256": "f84eeb947b233a77c8b96c46ea10546bdef7c19854e5ef5247e0bb36c5ece616",
+          "bytes": 139285
+        }
+      },
+      "N_reference": {
+        "role": "unchanged_frozen_normal_reference",
+        "segments": {
+          "path": "E:\\hospital_ies_cooling_dynamics_20261104_run01\\runs\\T03_N_attempt02\\SEGMENTS.jsonl",
+          "sha256": "afedc96da72ad8724cce17b0458122006388989c686d8c94d6545341fb56d45a",
+          "bytes": 148654826
+        },
+        "result": {
+          "path": "E:\\hospital_ies_cooling_dynamics_20261104_run01\\runs\\T03_N_attempt02\\RESULT.json",
+          "sha256": "452eacf14692918bd3afe234ef50bdccabd2092273705f0f0e509bc21148eaff",
+          "bytes": 3377
+        },
+        "source_binding": {
+          "path": "E:\\hospital_ies_cooling_dynamics_20261104_run01\\SOURCE_BINDING.json",
+          "sha256": "aa8f5011438c952c22aac6606f086aa1b1895c8e83d4e5e72559aa8afb9ca7a2"
+        }
+      },
+      "baseline": {
+        "common_segments": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T08_attempt01\\common\\SEGMENTS.jsonl",
+          "sha256": "7bab7f1aa2920b09b5ba0ee444fc4006eb9a6ff4085ba3727cae8964a02de187",
+          "bytes": 48006501
+        },
+        "checkpoint": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T08_attempt01\\COMMON_CHECKPOINT.json",
+          "sha256": "15aab94a379f13f7f7e0fd310d8fe9fb5feb78ae225489aa3f054dc61bf91640",
+          "bytes": 2445466
+        },
+        "initial": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T08_attempt01\\common\\INITIAL_STATE.json",
+          "sha256": "32cca953674c6f5cef83e1b7695d311140e220d2f2b8d611f0685a02da5125ff",
+          "bytes": 3872
+        },
+        "resolved": {
+          "path": "E:\\hospital_ies_fixed_branch_replot_20261105_run03\\runs\\T08_attempt01\\common\\RESOLVED_CASE.json",
+          "sha256": "469d51dffc70eb6d6196d4c1163450cc7bf97a8d452aa8efef9d2a8edfefe903",
+          "bytes": 16641
+        }
+      }
+    }
+  ],
+  "final_package_unique_sources": {
+    "new_U": 8,
+    "reused_R": 8,
+    "unique_reused_N": 5,
+    "total": 21,
+    "logical_N_U_R_rows": 24
+  },
+  "final_source_four_file_live_checks": [
+    {
+      "file": "tools/noopt_unattended_20261104/environment.py",
+      "stored": "cef3417784c750e37bc0b78cdd962ad532ad09cef4bb1edef962d8047893ffd4",
+      "actual": "cef3417784c750e37bc0b78cdd962ad532ad09cef4bb1edef962d8047893ffd4",
+      "match": true
+    },
+    {
+      "file": "tools/noopt_unattended_20261104/fixed_branches.py",
+      "stored": "a5ce62cd3410dc2ab1b7569d287f17aa13e8ffdc95be27246db5c31bcb2666ff",
+      "actual": "a5ce62cd3410dc2ab1b7569d287f17aa13e8ffdc95be27246db5c31bcb2666ff",
+      "match": true
+    },
+    {
+      "file": "tools/noopt_unattended_20261104/forward.py",
+      "stored": "d4549b05b6c7d414662f8ef14a0cc24d3ee34a449aabd556b4ac84723b9d6cbb",
+      "actual": "d4549b05b6c7d414662f8ef14a0cc24d3ee34a449aabd556b4ac84723b9d6cbb",
+      "match": true
+    },
+    {
+      "file": "tools/noopt_unattended_20261104/runtime.py",
+      "stored": "b9185188befd3bbd767cdb7f3c1e92e8a8e7f020651241d326ff5e5dfc7718b0",
+      "actual": "b9185188befd3bbd767cdb7f3c1e92e8a8e7f020651241d326ff5e5dfc7718b0",
+      "match": true
+    }
+  ],
+  "excluded_from_final_repair_outputs": [
+    "The 2026-11-04 19-producer family predates the final repair.",
+    "The single-unit 6 runs and sensitivity 86+3r1+1r3 were bound to older noopt code, even where execution dates were later.",
+    "C7 is separate unfinished model-consistency research."
+  ],
+  "topic_semantics_correction": "Final T05/T06 are single-unit/branch adapters. Final T08 has its own U/R run directories; do not apply the old 19-producer family alias count."
+}

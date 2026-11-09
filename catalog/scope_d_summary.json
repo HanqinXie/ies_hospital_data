@@ -1,0 +1,14 @@
+{
+  "zip_count": 96,
+  "zip_bytes": 7547608372,
+  "file_count": 619,
+  "total_bytes": 7552647679,
+  "archive_members": 1541,
+  "member_extensions": {
+    ".json": 964,
+    ".jsonl": 480,
+    ".log": 96,
+    ".request": 1
+  },
+  "forbidden_archive_members": []
+}

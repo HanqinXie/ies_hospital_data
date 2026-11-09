@@ -1,0 +1,82 @@
+{
+  "schema": "hospital_ies.baseline_origins_scope_summary.v1",
+  "created_utc": "2026-11-09T17:18:43.037592+00:00",
+  "status": "closed_by_existing_plus_new_scope",
+  "file_manifest": "E:\\ies_hospital_data_upload_20261110\\scope_baseline_origins_files.json",
+  "alias_closure": "E:\\ies_hospital_data_upload_20261110\\baseline_alias_closure.json",
+  "new_file_count": 121,
+  "new_file_bytes": 10034520193,
+  "new_producer_dir_count": 10,
+  "new_producer_direct_bytes": 10034208755,
+  "producer_dirs": [
+    "E:\\hospital_ies_cooling_dynamics_20261104_u_fix01\\runs\\T01_U_attempt02",
+    "E:\\hospital_ies_cooling_dynamics_20261104_run01\\runs\\T01_R_attempt05",
+    "E:\\hospital_ies_cooling_dynamics_20261104_u_fix01\\runs\\T02_U_attempt02",
+    "E:\\hospital_ies_cooling_dynamics_20261104_run01\\runs\\T02_R_attempt02",
+    "E:\\hospital_ies_cooling_dynamics_20261104_u_fix01\\runs\\T03_U_attempt01",
+    "E:\\hospital_ies_cooling_dynamics_20261104_run01\\runs\\T03_R_attempt02",
+    "E:\\hospital_ies_cooling_dynamics_20261104_u_fix01\\runs\\T04_U_attempt01",
+    "E:\\hospital_ies_cooling_dynamics_20261104_run01\\runs\\T04_R_attempt01",
+    "E:\\hospital_ies_cooling_dynamics_20261104_u_fix01\\runs\\T07_U_attempt01",
+    "E:\\hospital_ies_cooling_dynamics_20261104_run01\\runs\\T07_R_attempt01"
+  ],
+  "existing_source_paths_duplicated": 0,
+  "new_archive_path_collisions": 0,
+  "existing_archive_path_collisions": 0,
+  "all_new_source_paths_exist": true,
+  "all12aliases_closed": true,
+  "excluded": "No EP, annual data, images, Markdown, source trees, temp, code snapshots or LP/MPS. Direct original JSON/JSONL/LOG and original registered CASE/source binding only.",
+  "data_copied": false,
+  "raw_data_hashed": false,
+  "models_or_tests_run": false,
+  "remote_operations": false,
+  "binding_sha256_only_small_metadata": true,
+  "existing_refs": [
+    {
+      "alias": "A_T05_U_27ba84f3f1",
+      "source_binding": {
+        "source_path": "E:\\hospital_ies_single_unit_20261104_run01\\SOURCE_BINDING.json",
+        "status": "existing_manifest_reference",
+        "archive_paths": [
+          "raw/hospital_ies_single_unit_20261104_run01/SOURCE_BINDING.json"
+        ],
+        "bytes": 143184,
+        "manifest_file_id": "f000441",
+        "sha256": "d0b3031250890aba17431ff716890817e24f4c89b54cc92103ea853a28f91029"
+      },
+      "registered_case": {
+        "source_path": "E:\\hospital_ies_single_unit_20261104_run01\\cases\\TOWER_U.json",
+        "status": "existing_manifest_reference",
+        "archive_paths": [
+          "raw/hospital_ies_single_unit_20261104_run01/cases/TOWER_U.json"
+        ],
+        "bytes": 42180,
+        "manifest_file_id": "f000455",
+        "sha256": "8611ea906c3a3111cc187c979f925ae3d1157819f2b5a9855f9d991b47a20b1e"
+      }
+    },
+    {
+      "alias": "A_T05_R_bb1c3943b8",
+      "source_binding": {
+        "source_path": "E:\\hospital_ies_single_unit_20261104_run01\\SOURCE_BINDING.json",
+        "status": "existing_manifest_reference",
+        "archive_paths": [
+          "raw/hospital_ies_single_unit_20261104_run01/SOURCE_BINDING.json"
+        ],
+        "bytes": 143184,
+        "manifest_file_id": "f000441",
+        "sha256": "d0b3031250890aba17431ff716890817e24f4c89b54cc92103ea853a28f91029"
+      },
+      "registered_case": {
+        "source_path": "E:\\hospital_ies_single_unit_20261104_run01\\cases\\TOWER_R.json",
+        "status": "existing_manifest_reference",
+        "archive_paths": [
+          "raw/hospital_ies_single_unit_20261104_run01/cases/TOWER_R.json"
+        ],
+        "bytes": 42160,
+        "manifest_file_id": "f000454",
+        "sha256": "ed1d191942377d7b9b1a1ec0733211e6dd7dda87afaa0562a251d0a7b52d9b29"
+      }
+    }
+  ]
+}

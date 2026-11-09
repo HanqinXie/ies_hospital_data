@@ -1,0 +1,16 @@
+{
+  "schema": "hospital-ies.final-packaging-receipt.v1",
+  "status": "passed",
+  "created_utc": "2026-11-09T17:38:44.204385+00:00",
+  "source_files": 2236,
+  "original_bytes": 66184331558,
+  "assets": 245,
+  "asset_bytes": 14305125695,
+  "max_asset_bytes": 336928877,
+  "fragments": 2325,
+  "original_files_and_assets_unchanged": true,
+  "scope_files": 4,
+  "manifest_sha256": "62c793ab45e42b5c8e3143cdbf73d2cd6439c313f48523a9ffc43c1c2273d725",
+  "verifier_tool_sha256": "98a53c5c20cf8be56d055b91d5fd0671600149393b7eaa20bfe8ed0b28b8d842",
+  "commands": "logs/supplement_commands.json"
+}

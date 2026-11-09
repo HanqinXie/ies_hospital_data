@@ -1,0 +1,27 @@
+{
+  "schema": "hospital_ies.upload_spec.v1",
+  "authorized_repository": "HanqinXie/ies_hospital_data",
+  "release_tag": "raw-data-20261110",
+  "scope_files": [
+    "scope_core_files.json",
+    "scope_d_files.json",
+    "scope_g_files.json",
+    "scope_baseline_origins_files.json"
+  ],
+  "source_files": 2236,
+  "source_bytes": 66184331558,
+  "maximum_asset_bytes": 400000000,
+  "mutation_scope": "New delivery workspace and explicitly authorized target GitHub repository only",
+  "source_directories_read_only": true,
+  "new_simulations": 0,
+  "new_training": 0,
+  "paused_goal_resumed": false,
+  "publication_gate": [
+    "complete immutable source inventory",
+    "lossless fragment archive and per-source SHA256",
+    "streaming roundtrip verification of all original files",
+    "all remote asset sizes and server SHA256 digests match",
+    "default branch reviewed commit and release tag verified"
+  ],
+  "archive_assets": 245
+}

@@ -1,0 +1,23 @@
+{
+  "schema": "hospital-ies.packaging-verification.v1",
+  "status": "passed",
+  "created_utc": "2026-11-09T17:38:44.138633+00:00",
+  "mode": "verify-only",
+  "manifest_sha256": "62c793ab45e42b5c8e3143cdbf73d2cd6439c313f48523a9ffc43c1c2273d725",
+  "verifier_tool_sha256": "98a53c5c20cf8be56d055b91d5fd0671600149393b7eaa20bfe8ed0b28b8d842",
+  "source_files": 2236,
+  "fragments": 2325,
+  "assets": 245,
+  "original_bytes": 66184331558,
+  "asset_bytes": 14305125695,
+  "restored_logical_files": 0,
+  "elapsed_seconds": 736.14,
+  "checks": {
+    "asset_sha256": true,
+    "fragment_sha256": true,
+    "reconstructed_file_sha256": true,
+    "plaintext_secret_scan": true,
+    "archive_paths_contained": true,
+    "asset_limit_bytes": 400000000
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "schema": "hospital_ies.transfer_dataset_summary.v1",
+  "date": "2026-11-10",
+  "source_files": 2236,
+  "raw_bytes": 66184331558,
+  "original_zero_byte_files": 38,
+  "fragments": 2325,
+  "assets": 245,
+  "compressed_bytes": 14305125695,
+  "largest_asset_bytes": 336928877,
+  "archive_limit_bytes": 400000000,
+  "raw_manifest_sha256": "62c793ab45e42b5c8e3143cdbf73d2cd6439c313f48523a9ffc43c1c2273d725",
+  "local_full_verification": "passed",
+  "historical_baseline_aliases_closed": 12,
+  "original_baseline_segment_result_sha_checks": 24,
+  "raw_generation_and_model_runs_started": 0,
+  "new_training_started": 0,
+  "resumed_previous_goal": false
+}

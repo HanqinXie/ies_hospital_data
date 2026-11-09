@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "pack_restore_tests": 14,
+  "merge_tests": 6,
+  "download_tests": 10,
+  "uploader_read_retry_tests": 4,
+  "model_tests_or_episodes_started": 0,
+  "local_verification_manifest_sha256": "62c793ab45e42b5c8e3143cdbf73d2cd6439c313f48523a9ffc43c1c2273d725"
+}
